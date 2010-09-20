@@ -1,0 +1,130 @@
+
+         TypeNats
+-========================-
+
+
+== What is it?
+
+This package defines type-level natural numbers and arithmetic operations on 
+them including addition, subtraction, multiplication, division and GCD. It also
+includes a test suite.
+
+Numbers are represented as a list of binary digits, terminated by a distinguished
+type Z. Least significant digits are outermost, which makes the numbers little-endian when read.
+
+Because a binary representation is used, reasonably large numbers can be represented and computed
+upon. I have performed tests with numbers at the order of 10^15 in GHCi.
+
+Typenats also includes a simple primality test based on the Sieve of Eratosthenes.
+
+== For the sake of all that is good, why?
+
+Good question.  After reading a number of the clever papers floating about
+which deal with type level programming, I decided to give it a whirl.  Several
+of the papers developed systems for doing type-level arithmetic, but only as
+a sideline to whatever cleverness what the true goal.  I decided to solve the
+type-level arethemtic problem once and for all.  This library is the result of
+that effort.  Let me know if you come up with a useful way to apply this library.
+
+== How is it licensed?
+
+The TypeNats library is available under a BSD3 license.  See the LICENSE file for
+details.
+
+== How do I build it?
+
+TypeNats uses a Cabal build system.  The following commands
+assume you have a Haskell interpreter in your system 
+path named 'runhaskell'.  All commands are run from
+this directory.
+
+To install for the whole system:
+
+runhaskell Setup.hs configure
+runhaskell Setup.hs build
+runhaskell Setup.hs install
+
+To install for a single user:
+
+runhaskell Setup.hs configure --prefix=/home/<username>
+runhaskell Setup.hs build
+runhaskell Setup.hs install --user
+
+To build the API docs:
+
+runhaskell Setup.hs haddock
+
+== How does this thing work?
+
+Here is an example GHCi session.
+
+
+
+$ ghci -package TypeNats -fcontext-stack64
+   ___         ___ _
+  / _ \ /\  /\/ __(_)
+ / /_\// /_/ / /  | |      GHC Interactive, version 6.4.1, for Haskell 98.
+/ /_\\/ __  / /___| |      http://www.haskell.org/ghc/
+\____/\/ /_/\____/|_|      Type :? for help.
+
+Loading package base-1.0 ... linking ... done.
+Loading package HUnit-1.1 ... linking ... done.
+Loading package QuickCheck-1.0 ... linking ... done.
+Loading package TypeNats-0.1 ... linking ... done.
+Prelude> :module TypeNats
+Prelude TypeNats> :t seven
+seven :: Seven
+Prelude TypeNats> :i Seven
+type Seven = I (I (I Z))        -- Imported from TypeNats
+Prelude TypeNats> :t (add six nine)
+(add six nine) :: I (I (I (I Z)))
+Prelude TypeNats> :t (sub eight three)
+(sub eight three) :: I (O (I (O Z)))
+Prelude TypeNats> let x = four `billion` seven `hundred` sixty four `million` eighty_ `thousand` eleven 
+Prelude TypeNats> :t x
+x :: I (I (O (I (O (O (O (I (I (I (I (O (I (O (O (O (O (I (I (O (I (I (I (I (I (I (O (I (I (O (O (O (I (O Z)))))))))))))))))))))))))))))))))
+Prelude TypeNats> :t (natDiv x nineteen)
+(natDiv x nineteen) :: I (O (I (I (I (I (O (O (I (O (O (O (O (O (O (O (O (I (O (O (I (I (I (I (O (I (I (I (O Z))))))))))))))))))))))))))))
+Prelude TypeNats> naturalToIntegral (natDiv x nineteen)
+250741053
+Prelude TypeNats> (naturalToIntegral (natDiv x nineteen)) * 19 + (naturalToIntegral (natMod x nineteen))
+4764080011
+Prelude TypeNats> naturalToIntegral x
+4764080011
+Prelude TypeNats> :t (sub six thirteen) 
+
+Top level:
+    Couldn't match `CantSubtract' against `()'
+      Expected type: CantSubtract
+      Inferred type: ()
+    When using functional dependencies to combine
+      DoSub Z (I b) () CantSubtract,
+        arising from the instance declaration at Imported from TypeNats
+      DoSub Z (I Z) c (), arising from use of `sub' at <interactive>:1:1-3
+Prelude TypeNats> :t (natDiv ten zero)
+
+Top level:
+    Couldn't match `DivideByZero' against `(q, r)'
+      Expected type: DivideByZero
+      Inferred type: (q, r)
+    When using functional dependencies to combine
+      PreDivMod a Z DivideByZero,
+        arising from the instance declaration at Imported from TypeNats
+      PreDivMod (I (O (I (O Z)))) Z (q, r),
+        arising from use of `natDiv' at <interactive>:1:1-6
+Prelude TypeNats> :quit
+Leaving GHCi.
+
+
+== Anything else I need to know?
+
+
+Be prepared for the test suite to take a LONG time to compile.  You can
+enable the test suite by editing 'TypeNats.cabal'.
+
+
+== Who is responsible for this mess?
+
+You can send bug reports, rants and comments to:
+
+  Robert Dockins <robdockins AT fastmail.fm>

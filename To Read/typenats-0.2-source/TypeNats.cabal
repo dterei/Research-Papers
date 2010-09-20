@@ -1,0 +1,34 @@
+Name:             TypeNats
+Version:          0.2
+License:          BSD3
+License-File:     LICENSE
+Author:           Robert Dockins
+Synopsis:         A library for arithemetic operations on type-level natural numbers
+Category:         Other
+Stability:        Alpha
+Hs-Source-Dirs:   src
+Build-Depends:
+     base >= 1.0,
+     HUnit >= 1.0,
+     QuickCheck >= 1.0,
+     template-haskell >= 1.0
+Extensions:
+     MultiParamTypeClasses
+     FunctionalDependencies
+     UndecidableInstances
+Exposed-modules:
+     TypeNats
+     TypeList
+     TypePrimes
+
+Executable:     testSuite
+Hs-Source-Dirs: test src
+Main-Is:        Test.hs
+Extensions:
+     MultiParamTypeClasses
+     FunctionalDependencies
+     UndecidableInstances
+     TemplateHaskell
+Ghc-Options: -fcontext-stack64 -no-recomp
+-- Comment out the following line to build the test suite
+Buildable: False
