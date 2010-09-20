@@ -1,0 +1,281 @@
+11:15		Joining chat room...
+		Started talking in maya on Friday 02/07/2010 11:15:51 AM
+		Started talking in maya on Friday 02/07/2010 11:15:51 AM
+		Room topic is: uniwide is the shits!
+11:16	davidt_	Hi all!
+	davidt_	rl: Hey, be you there?
+11:25	rl	hey davidt_ 
+11:27	davidt_	ahh cool
+11:28	davidt_	I've been working on improving the aliasing in the llvm backend
+11:29	rl	good!
+	davidt_	but, I don't think there is any improvement in the code you sent me
+	davidt_	sadly
+	rl	hmm
+11:30	davidt_	what was it that you were hoping to see changed? Simon and I thought you were hoping with more alias info LLVM could reorder some instructions and improve the register allocation to get rid of the spills and reloads
+	davidt_	is that right?
+	rl	lemme find the code
+	davidt_	k
+11:32	rl	ok got it
+	rl		davidt_: here is an example
+
+11:33	rl	hmm, sec
+11:36	rl	I ought to look at the entire loop actually
+	rl	but
+11:37	rl	mostly it's about spills and reloads, that's right
+	davidt_	ok sure
+	rl		davidt_: one thing where llvm is confused is this
+
+11:38	rl	aaargh damn x86 assembly
+11:39	davidt_	hehhe, yeah it really hurts the brain with all the addressing modes
+11:41	rl	but unless I'm mistaken it often does this: load [Sp + n] into a reg, use that reg, then spill that reg somewhere, then reload that reg, modify it and then store it in [Sp + n]
+11:42	rl	or rather load, mod, spill, reload, store
+11:43	rl	right, here's an example from the code
+	rl	movl (%ebp), %eax
+	rl	movl %eax, 28(%esp) ## 4-byte Spill
+	rl	...
+	rl	incl 28(%esp) ## 4-byte Folded Spill
+	rl	...
+	rl	movl 28(%esp), %ecx ## 4-byte Reload
+	rl	...
+	rl	movl %ecx, (%ebp)
+11:44	rl	this is not really optimal
+11:45	rl	I suspect it does that because it thinks that other stores can modify (%ebp) (which is [Sp + 0])
+	davidt_	ok, one sec, need to browse through a few assembly files to see if this has changed with my changes
+11:46	rl	although now I can't see why it should think that any more
+11:50	davidt_	yeah that behavior is still occurring
+	rl	hmmm
+11:51	davidt_	one thing i did though to test how much room I had to improve on in giving llvm more alias info
+	davidt_	was simply to modify llvm's alias anlysis pass to always return NoAlias
+	davidt_	and then see how that affected the generated code
+	rl	and?
+11:52	davidt_	still same behaviour
+	davidt_	code is very similar still, still has the spills and reloads
+11:53	rl	hmm
+	rl	well, let's forget about aliasing for a second
+	rl	this is the Cmm code:
+	rl	_sges::I32 = _sbe6::I32 - 1;
+	rl	_sget::I32 = I32[Sp + 76] + 1;
+	rl	_sgeu::I32 = I32[Sp + 72] + 1;
+	rl	_sgev::I32 = _sbdY::I32 - 1;
+	rl	_sgew::I32 = I32[Sp + 48] + 1;
+	rl	_sgex::I32 = _sbdT::I32 - 1;
+	rl	_sgey::I32 = I32[Sp + 24] + 1;
+	rl	_sgez::I32 = _sbdO::I32 - 1;
+	rl	_sgeA::I32 = I32[Sp + 0] + 1;
+	rl	I32[Sp + 96] = _sges::I32;
+	rl	I32[Sp + 76] = _sget::I32;
+	rl	I32[Sp + 72] = _sgeu::I32;
+	rl	I32[Sp + 52] = _sgev::I32;
+	rl	I32[Sp + 48] = _sgew::I32;
+	rl	I32[Sp + 28] = _sgex::I32;
+	rl	I32[Sp + 24] = _sgey::I32;
+	rl	I32[Sp + 4] = _sgez::I32;
+	rl	I32[Sp + 0] = _sgeA::I32;
+11:54	rl	this is what llvm generates:
+	rl	movl (%ebp), %eax
+	rl	movl %eax, 28(%esp) ## 4-byte Spill
+	rl	movl 24(%ebp), %ecx
+	rl	movl 76(%ebp), %ebx
+	rl	decl 40(%esp) ## 4-byte Folded Spill
+	rl	movl 72(%ebp), %edi
+	rl	movl 48(%ebp), %edx
+	rl	incl 28(%esp) ## 4-byte Folded Spill
+	rl	movl 40(%esp), %eax ## 4-byte Reload
+	rl	incl %ebx
+	rl	incl %edi
+	rl	incl %edx
+	rl	incl %ecx
+	rl	movl %eax, 96(%ebp)
+	rl	movl %ebx, 76(%ebp)
+	rl	movl 36(%esp), %ebx ## 4-byte Reload
+	rl	movl %edi, 72(%ebp)
+	rl	movl 16(%esp), %edi ## 4-byte Reload
+	rl	decl %ebx
+	rl	decl %edi
+	rl	movl %ebx, 52(%ebp)
+	rl	movl %edx, 48(%ebp)
+	rl	movl 32(%esp), %edx ## 4-byte Reload
+	rl	movl %edi, 28(%ebp)
+	rl	movl %ecx, 24(%ebp)
+	rl	movl 28(%esp), %ecx ## 4-byte Reload
+	rl	decl %edx
+	rl	movl %edx, 4(%ebp)
+	rl	movl %ecx, (%ebp)
+11:55	rl	I would have thought that this would improve if you just use getelemwhatever instead of explicit pointer arithmetic
+11:56	rl	I mean, it's a bit ridiculous for llvm to generate this for what should be a couple of inc/dec instructions
+11:57	davidt_	one sec, I'll send you an email with the llvm code I now generate and the assembly now generated
+	rl	ok
+12:01	rl		davidt_: btw, *ideally* i'd like llvm to notice that we're actually working with arrays and simply use pointers in the loop instead of base address + counter
+
+12:03	rl	but I guess we'll just have to fix that in the haskell code
+12:04		-> K_1 has joined maya
+12:09	davidt_	ok nearly done, just had to find the right loop again which took some time
+12:10	rl	
+12:16	davidt_	ok sent
+12:17	davidt_	i'm off to lunch now sorry, so if you feel like waiting around i'll be back in about 30 - 45 min
+	davidt_	or just send me an email
+	davidt_	the other thing is, the fabled new code generator for GHC Simon thinks should bring some good improvements to this code
+	rl		davidt_: ok, I'll look at it and I'll probably be here in an hour or so (food now!)
+
+12:18	davidt_	since it binds stack variables and free variables to local cmm variables at the start of a function instead of just loading them each time
+	davidt_	so itll have like x = I32[Sp + 20] at the start
+	davidt_	instead of pasting I32[Sp + 20] everywhere
+01:06	davidt_	ok im back
+01:22	rl		davidt_: in the code that you sent me, what is %sh8J?
+
+01:24	davidt_	%sh8J = alloca i32, i32 1
+	davidt_	the optimiser will remove the stack allocation though and convert it to SSA form
+01:25	rl	ic
+01:26	rl	this is the llvm code:
+	rl	store i32 %num6, i32* %sh8J
+	rl	...
+	rl	%numv = load i32* %sh8J
+	rl	%numw = load i32** %Sp_Var
+	rl	%numx = getelementptr i32* %numw, i32 0
+	rl	store i32 %numv, i32* %numx
+01:27	rl	anyway
+	rl	I completely fail to understand why llvm feels compelled to generate this:
+01:28	rl	movl (%ebp), %eax
+	rl	movl %eax, 16(%esp) # 4-byte Spill
+	rl	...
+	rl	incl 16(%esp) # 4-byte Folded Spill
+	rl	movl 16(%esp), %eax # 4-byte Reload
+	rl	movl %eax, (%ebp)
+	rl	this is awful
+01:29	rl	actually, it's even worse
+	rl	it starts off with this:
+	rl	movl (%ebp), %eax
+	rl	movsd %xmm2, 8(%ecx,%eax,8)
+	rl	movl (%ebp), %eax
+01:30	rl	barring an utterly broken optimiser, the only explanation is that it think that the store might alias (%ebp) and thus has to reload it
+01:31	rl		davidt_: this is actually exactly the kind of problem that alias annotation should solve
+
+01:32	rl	is it perhaps not running some pass necessary to make use of aliasing info?
+01:33	davidt_	i dont think so, I had a little look at the optimisation passes and it seems like it should
+	rl	hmm
+	davidt_	the code I sent you I simply used the -O3 class
+	davidt_	so I cant see how that wouldn't use alias analysis
+01:34	rl	this last bit of assembly is *very* weird then
+	davidt_	and you can add a flag to llvm to get it to print out the alias analysis information, when its accessed,
+	davidt_	and that prints out sane looking stuff
+01:35	rl	my nose tells me that if you can get rid of the second load here
+	rl	things ought to improve significantly
+01:36	davidt_	second load where sorry?
+	rl	movl (%ebp), %eax
+	rl	movsd %xmm2, 8(%ecx,%eax,8)
+	rl	movl (%ebp), %eax
+	davidt_	k sure, I'm not that sure what I can change in the code I generate to improve the situation though
+	rl	it loads (%ebp), stores something, then loads (%ebp) again
+01:37	rl	it must be thinking that the store might modify (%ebp)
+	rl	otherwise it would eliminate the second load (I hope)
+01:42	rl		davidt_: what does this mean: %nulE = bitcast i32* %nulD to i32*
+
+	davidt_	thats a redundant instruction
+	davidt_	i'll fix that up at some point but it shouldn't cause any problems
+01:43	davidt_	the optimiser will just drop it
+	rl	ok
+01:44	rl	anyway, there must be some way to find out why it isn't eliminating the second load in the assembly snippet
+	davidt_	sure but I think we may need to involve the llvm developers to figure out why
+	rl	imo it would be worthwhile to chase that because it seems to be a symptom of a deeper problem
+01:45	rl	and I suspect that we might get much better code if we solve that
+01:46	rl		davidt_: perhaps make the llvm code for the loop self-contained and ask?
+
+01:47	davidt_	yeah, i'll have to do something like that
+	davidt_	try to minimise it as much as possible as well
+	rl	yeah that would be cool
+	davidt_	i don't think it will go down that well if i just send them a 100 lines of assembly 
+	rl	wimps 
+01:48	davidt_	and it'll be much easier for us to play around with then anway
+01:49	davidt_	i'm wondering if this cmm line is the cause of all the troubles though:
+	davidt_	F64[I32[R1 + 4] + 8 + (I32[Sp + 0] << 3)] = _sger::F64;
+	rl	hmm looks ok to me
+01:51	davidt_	well, I don't really have anything more than that :), I guess I'll start on minimising the test case
+	rl		davidt_: you could try to move that store past all the loads in the llvm code and see what happens
+
+01:52	rl	or rather move all stores right to the end
+01:55	davidt_	will try, one sec...
+01:58	rl		davidt_: actually, just moving that one store might be enough
+
+02:00	davidt_	this is what the llvm code looks like after the optimiser has gotten through with it: http://gist.github.com/461320
+	davidt_	it does just leave that one store, I'll try moving it now
+02:03	rl	hmm
+02:05	rl	I'm beginning to wonder if llvm's reg allocator just sucks horribly
+02:10	davidt_	i've had that suspicion before as well
+02:11	davidt_	ok output when the store is moved: http://gist.github.com/461332
+02:12	davidt_	doesn't seem any better to me
+02:13	rl	well, at least it doesn't load (%ebp) twice
+02:14	rl	it's still doing weird things though
+02:15	rl	24(%ebp) -> eax -> 20(%esp) -> +1 -> edx -> 24(%ebp)
+02:16	rl	ok, then it's just the register allocator that sucks
+	davidt_	i'll try now quickly using the other allocator
+	davidt_	that bqpbqpp one
+02:17	rl	perhaps we could benl23 to contribute his allocator to llvm
+	rl	*get
+02:18	davidt_	hehe yeah that would be cool
+02:19	davidt_	i dont know much about allocators but it has always suprised me that LLVM's main allocator is a linear scan allocator, I know its good for JIT since its fast but the biggest llvm users are static compilers currently
+02:20	rl	well implementing allocators in C is hard work 
+02:21	rl	perhaps benl23 can rewrite the whole thing in Haskell while he's at it
+02:22	davidt_	well as long as benl23 is doing the work I'm happy to propose him for anything 
+02:24	rl	that's the right attitude!
+02:27	davidt_	the different allocator makes very little difference still, the movl (%ebp), %eax ->movsd %xmm2, 8(%ecx,%eax,8) -> movl (%ebp), %eax, code is still there for example
+02:28	rl		davidt_: are all your aliasing patches in the head now?
+
+	davidt_	yes
+02:30	rl	I'll try to look at a couple of small loops over the weekend, perhaps I can spot something
+	rl	4 eyes are better than 2
+	davidt_	indeed, thanks for the help. I'll try to reduce the example we have down to something more manageable and then we can get the llvm developers involved
+	rl	it's fairly clear that the assembly that llvm generates at least in this case is horrible
+02:31	rl	it's interesting that it seems to reorder instructions quite extensively and apparently that happens *before* the spills are introduces
+02:32	rl	perhaps it's doing instruction scheduling first, then reg allocation and then everything falls over because of the high register pressure
+02:33	rl	but that would be a bit stupid
+02:35	davidt_	http://llvm.org/docs/CodeGenerator.html#high-level-design
+02:36	rl	hah
+02:37	davidt_	
+	rl	it would explain a lot if it doesn't take care how many live registers it produces during insn scheduling
+02:40	rl	it picks a nice ordering for the insns and then it finds out that it doesn't have enough registers and then it has to spill/reload and then we get slow code
+02:41	rl	whereas if it moved loads to where the data is actually needed and then scheduled taking the number of available regs into account we'd get fast code
+02:42	davidt_	yeah I can see that happening, but you'd think that LLVM would be smarter about it
+02:44	rl	The code generator is based on the assumption that the instruction selector will use an optimal pattern matching selector to create high-quality sequences of native instructions. Alternative code generator designs based on pattern expansion and aggressive iterative peephole optimization are much slower. This design permits efficient compilation (important for JIT environments) and aggressive optimization (used when generating code offline) by allowing 
+	rl	components of varying levels of sophistication to be used for any step of compilation.
+02:47	rl	of course optimal scheduling in NP complete even without the reg stuff but still...
+02:48	davidt_	so.... can we mark this down as mystery solved perhaps?
+02:51	rl	well this still doesn't explain why it loads (%ebp) twice in that snippet
+	rl	there was a list of llvm passes somewhere...
+02:53	davidt_	http://llvm.org/docs/Passes.html
+	rl	cheers
+02:56	rl		davidt_: so GHC generates this
+
+02:57	rl	_sges::I32 = _sbe6::I32 - 1;
+	rl	_sget::I32 = I32[Sp + 76] + 1;
+	rl	_sgeu::I32 = I32[Sp + 72] + 1;
+	rl	_sgev::I32 = _sbdY::I32 - 1;
+	rl	_sgew::I32 = I32[Sp + 48] + 1;
+	rl	_sgex::I32 = _sbdT::I32 - 1;
+	rl	_sgey::I32 = I32[Sp + 24] + 1;
+	rl	_sgez::I32 = _sbdO::I32 - 1;
+	rl	_sgeA::I32 = I32[Sp + 0] + 1;
+	rl	I32[Sp + 96] = _sges::I32;
+	rl	I32[Sp + 76] = _sget::I32;
+	rl	I32[Sp + 72] = _sgeu::I32;
+	rl	I32[Sp + 52] = _sgev::I32;
+	rl	I32[Sp + 48] = _sgew::I32;
+	rl	I32[Sp + 28] = _sgex::I32;
+	rl	I32[Sp + 24] = _sgey::I32;
+	rl	I32[Sp + 4] = _sgez::I32;
+	rl	I32[Sp + 0] = _sgeA::I32;
+	rl	I suspect llvm might generate much better code if the loads and stores were adjacent
+	rl	ie
+02:58	rl	_sget::I32 = I32[Sp + 76] + 1;
+	rl	I32[Sp + 76] = _sget::I32;
+	rl	...
+	rl	you'd think it ought to do that on its own but apparently it doesn't
+02:59	rl	I'm not sure this is something we want to do, though
+	rl	I thought llvm might have a separate pass for lowering loads but it doesn't seem to 
+03:02	rl		davidt_: anyway, let me fiddle a bit over the weekend
+
+03:03	rl	football now 
+	davidt_	thanks, let me know how it goes
+	davidt_	yes indeed
+	davidt_	time to load up the internet tv next to my zsh shell 
+	rl	hehe
+03:04	rl	have fun
