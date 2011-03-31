@@ -1,0 +1,2491 @@
+%!PS-Adobe-2.0
+%%Creator: dvips(k) 5.86 Copyright 1999 Radical Eye Software
+%%Title: paper.dvi
+%%Pages: 12
+%%PageOrder: Ascend
+%%BoundingBox: 0 0 612 792
+%%DocumentFonts: Helvetica-Bold Helvetica Times-Bold Times-Roman
+%%+ Times-Italic CMSY10 Symbol Courier CMMI10 Courier-Bold
+%%EndComments
+%DVIPSWebPage: (www.radicaleye.com)
+%DVIPSCommandLine: dvips -P cmz -t letter paper.dvi -o
+%DVIPSParameters: dpi=600, compressed
+%DVIPSSource:  TeX output 2004.09.29:1432
+%%BeginProcSet: texc.pro
+%!
+/TeXDict 300 dict def TeXDict begin/N{def}def/B{bind def}N/S{exch}N/X{S
+N}B/A{dup}B/TR{translate}N/isls false N/vsize 11 72 mul N/hsize 8.5 72
+mul N/landplus90{false}def/@rigin{isls{[0 landplus90{1 -1}{-1 1}ifelse 0
+0 0]concat}if 72 Resolution div 72 VResolution div neg scale isls{
+landplus90{VResolution 72 div vsize mul 0 exch}{Resolution -72 div hsize
+mul 0}ifelse TR}if Resolution VResolution vsize -72 div 1 add mul TR[
+matrix currentmatrix{A A round sub abs 0.00001 lt{round}if}forall round
+exch round exch]setmatrix}N/@landscape{/isls true N}B/@manualfeed{
+statusdict/manualfeed true put}B/@copies{/#copies X}B/FMat[1 0 0 -1 0 0]
+N/FBB[0 0 0 0]N/nn 0 N/IEn 0 N/ctr 0 N/df-tail{/nn 8 dict N nn begin
+/FontType 3 N/FontMatrix fntrx N/FontBBox FBB N string/base X array
+/BitMaps X/BuildChar{CharBuilder}N/Encoding IEn N end A{/foo setfont}2
+array copy cvx N load 0 nn put/ctr 0 N[}B/sf 0 N/df{/sf 1 N/fntrx FMat N
+df-tail}B/dfs{div/sf X/fntrx[sf 0 0 sf neg 0 0]N df-tail}B/E{pop nn A
+definefont setfont}B/Cw{Cd A length 5 sub get}B/Ch{Cd A length 4 sub get
+}B/Cx{128 Cd A length 3 sub get sub}B/Cy{Cd A length 2 sub get 127 sub}
+B/Cdx{Cd A length 1 sub get}B/Ci{Cd A type/stringtype ne{ctr get/ctr ctr
+1 add N}if}B/id 0 N/rw 0 N/rc 0 N/gp 0 N/cp 0 N/G 0 N/CharBuilder{save 3
+1 roll S A/base get 2 index get S/BitMaps get S get/Cd X pop/ctr 0 N Cdx
+0 Cx Cy Ch sub Cx Cw add Cy setcachedevice Cw Ch true[1 0 0 -1 -.1 Cx
+sub Cy .1 sub]/id Ci N/rw Cw 7 add 8 idiv string N/rc 0 N/gp 0 N/cp 0 N{
+rc 0 ne{rc 1 sub/rc X rw}{G}ifelse}imagemask restore}B/G{{id gp get/gp
+gp 1 add N A 18 mod S 18 idiv pl S get exec}loop}B/adv{cp add/cp X}B
+/chg{rw cp id gp 4 index getinterval putinterval A gp add/gp X adv}B/nd{
+/cp 0 N rw exit}B/lsh{rw cp 2 copy get A 0 eq{pop 1}{A 255 eq{pop 254}{
+A A add 255 and S 1 and or}ifelse}ifelse put 1 adv}B/rsh{rw cp 2 copy
+get A 0 eq{pop 128}{A 255 eq{pop 127}{A 2 idiv S 128 and or}ifelse}
+ifelse put 1 adv}B/clr{rw cp 2 index string putinterval adv}B/set{rw cp
+fillstr 0 4 index getinterval putinterval adv}B/fillstr 18 string 0 1 17
+{2 copy 255 put pop}for N/pl[{adv 1 chg}{adv 1 chg nd}{1 add chg}{1 add
+chg nd}{adv lsh}{adv lsh nd}{adv rsh}{adv rsh nd}{1 add adv}{/rc X nd}{
+1 add set}{1 add clr}{adv 2 chg}{adv 2 chg nd}{pop nd}]A{bind pop}
+forall N/D{/cc X A type/stringtype ne{]}if nn/base get cc ctr put nn
+/BitMaps get S ctr S sf 1 ne{A A length 1 sub A 2 index S get sf div put
+}if put/ctr ctr 1 add N}B/I{cc 1 add D}B/bop{userdict/bop-hook known{
+bop-hook}if/SI save N @rigin 0 0 moveto/V matrix currentmatrix A 1 get A
+mul exch 0 get A mul add .99 lt{/QV}{/RV}ifelse load def pop pop}N/eop{
+SI restore userdict/eop-hook known{eop-hook}if showpage}N/@start{
+userdict/start-hook known{start-hook}if pop/VResolution X/Resolution X
+1000 div/DVImag X/IEn 256 array N 2 string 0 1 255{IEn S A 360 add 36 4
+index cvrs cvn put}for pop 65781.76 div/vsize X 65781.76 div/hsize X}N
+/p{show}N/RMat[1 0 0 -1 0 0]N/BDot 260 string N/Rx 0 N/Ry 0 N/V{}B/RV/v{
+/Ry X/Rx X V}B statusdict begin/product where{pop false[(Display)(NeXT)
+(LaserWriter 16/600)]{A length product length le{A length product exch 0
+exch getinterval eq{pop true exit}if}{pop}ifelse}forall}{false}ifelse
+end{{gsave TR -.1 .1 TR 1 1 scale Rx Ry false RMat{BDot}imagemask
+grestore}}{{gsave TR -.1 .1 TR Rx Ry scale 1 1 false RMat{BDot}
+imagemask grestore}}ifelse B/QV{gsave newpath transform round exch round
+exch itransform moveto Rx 0 rlineto 0 Ry neg rlineto Rx neg 0 rlineto
+fill grestore}B/a{moveto}B/delta 0 N/tail{A/delta X 0 rmoveto}B/M{S p
+delta add tail}B/b{S p tail}B/c{-4 M}B/d{-3 M}B/e{-2 M}B/f{-1 M}B/g{0 M}
+B/h{1 M}B/i{2 M}B/j{3 M}B/k{4 M}B/w{0 rmoveto}B/l{p -4 w}B/m{p -3 w}B/n{
+p -2 w}B/o{p -1 w}B/q{p 1 w}B/r{p 2 w}B/s{p 3 w}B/t{p 4 w}B/x{0 S
+rmoveto}B/y{3 2 roll p a}B/bos{/SS save N}B/eos{SS restore}B end
+
+%%EndProcSet
+%%BeginProcSet: 8r.enc
+% @@psencodingfile@{
+%   author = "S. Rahtz, P. MacKay, Alan Jeffrey, B. Horn, K. Berry",
+%   version = "0.6",
+%   date = "22 June 1996",
+%   filename = "8r.enc",
+%   email = "kb@@mail.tug.org",
+%   address = "135 Center Hill Rd. // Plymouth, MA 02360",
+%   codetable = "ISO/ASCII",
+%   checksum = "119     662    4424",
+%   docstring = "Encoding for TrueType or Type 1 fonts to be used with TeX."
+% @}
+% 
+% Idea is to have all the characters normally included in Type 1 fonts
+% available for typesetting. This is effectively the characters in Adobe
+% Standard Encoding + ISO Latin 1 + extra characters from Lucida.
+% 
+% Character code assignments were made as follows:
+% 
+% (1) the Windows ANSI characters are almost all in their Windows ANSI
+% positions, because some Windows users cannot easily reencode the
+% fonts, and it makes no difference on other systems. The only Windows
+% ANSI characters not available are those that make no sense for
+% typesetting -- rubout (127 decimal), nobreakspace (160), softhyphen
+% (173). quotesingle and grave are moved just because it's such an
+% irritation not having them in TeX positions.
+% 
+% (2) Remaining characters are assigned arbitrarily to the lower part
+% of the range, avoiding 0, 10 and 13 in case we meet dumb software.
+% 
+% (3) Y&Y Lucida Bright includes some extra text characters; in the
+% hopes that other PostScript fonts, perhaps created for public
+% consumption, will include them, they are included starting at 0x12.
+% 
+% (4) Remaining positions left undefined are for use in (hopefully)
+% upward-compatible revisions, if someday more characters are generally
+% available.
+% 
+% (5) hyphen appears twice for compatibility with both ASCII and Windows.
+% 
+/TeXBase1Encoding [
+% 0x00 (encoded characters from Adobe Standard not in Windows 3.1)
+  /.notdef /dotaccent /fi /fl
+  /fraction /hungarumlaut /Lslash /lslash
+  /ogonek /ring /.notdef
+  /breve /minus /.notdef 
+% These are the only two remaining unencoded characters, so may as
+% well include them.
+  /Zcaron /zcaron 
+% 0x10
+ /caron /dotlessi 
+% (unusual TeX characters available in, e.g., Lucida Bright)
+ /dotlessj /ff /ffi /ffl 
+ /.notdef /.notdef /.notdef /.notdef
+ /.notdef /.notdef /.notdef /.notdef
+ % very contentious; it's so painful not having quoteleft and quoteright
+ % at 96 and 145 that we move the things normally found there down to here.
+ /grave /quotesingle 
+% 0x20 (ASCII begins)
+ /space /exclam /quotedbl /numbersign
+ /dollar /percent /ampersand /quoteright
+ /parenleft /parenright /asterisk /plus /comma /hyphen /period /slash
+% 0x30
+ /zero /one /two /three /four /five /six /seven
+ /eight /nine /colon /semicolon /less /equal /greater /question
+% 0x40
+ /at /A /B /C /D /E /F /G /H /I /J /K /L /M /N /O
+% 0x50
+ /P /Q /R /S /T /U /V /W
+ /X /Y /Z /bracketleft /backslash /bracketright /asciicircum /underscore
+% 0x60
+ /quoteleft /a /b /c /d /e /f /g /h /i /j /k /l /m /n /o
+% 0x70
+ /p /q /r /s /t /u /v /w
+ /x /y /z /braceleft /bar /braceright /asciitilde
+ /.notdef % rubout; ASCII ends
+% 0x80
+ /.notdef /.notdef /quotesinglbase /florin
+ /quotedblbase /ellipsis /dagger /daggerdbl
+ /circumflex /perthousand /Scaron /guilsinglleft
+ /OE /.notdef /.notdef /.notdef
+% 0x90
+ /.notdef /.notdef /.notdef /quotedblleft
+ /quotedblright /bullet /endash /emdash
+ /tilde /trademark /scaron /guilsinglright
+ /oe /.notdef /.notdef /Ydieresis
+% 0xA0
+ /.notdef % nobreakspace
+ /exclamdown /cent /sterling
+ /currency /yen /brokenbar /section
+ /dieresis /copyright /ordfeminine /guillemotleft
+ /logicalnot
+ /hyphen % Y&Y (also at 45); Windows' softhyphen
+ /registered
+ /macron
+% 0xD0
+ /degree /plusminus /twosuperior /threesuperior
+ /acute /mu /paragraph /periodcentered
+ /cedilla /onesuperior /ordmasculine /guillemotright
+ /onequarter /onehalf /threequarters /questiondown
+% 0xC0
+ /Agrave /Aacute /Acircumflex /Atilde /Adieresis /Aring /AE /Ccedilla
+ /Egrave /Eacute /Ecircumflex /Edieresis
+ /Igrave /Iacute /Icircumflex /Idieresis
+% 0xD0
+ /Eth /Ntilde /Ograve /Oacute
+ /Ocircumflex /Otilde /Odieresis /multiply
+ /Oslash /Ugrave /Uacute /Ucircumflex
+ /Udieresis /Yacute /Thorn /germandbls
+% 0xE0
+ /agrave /aacute /acircumflex /atilde
+ /adieresis /aring /ae /ccedilla
+ /egrave /eacute /ecircumflex /edieresis
+ /igrave /iacute /icircumflex /idieresis
+% 0xF0
+ /eth /ntilde /ograve /oacute
+ /ocircumflex /otilde /odieresis /divide
+ /oslash /ugrave /uacute /ucircumflex
+ /udieresis /yacute /thorn /ydieresis
+] def
+
+%%EndProcSet
+%%BeginProcSet: texps.pro
+%!
+TeXDict begin/rf{findfont dup length 1 add dict begin{1 index/FID ne 2
+index/UniqueID ne and{def}{pop pop}ifelse}forall[1 index 0 6 -1 roll
+exec 0 exch 5 -1 roll VResolution Resolution div mul neg 0 0]/Metrics
+exch def dict begin Encoding{exch dup type/integertype ne{pop pop 1 sub
+dup 0 le{pop}{[}ifelse}{FontMatrix 0 get div Metrics 0 get div def}
+ifelse}forall Metrics/Metrics currentdict end def[2 index currentdict
+end definefont 3 -1 roll makefont/setfont cvx]cvx def}def/ObliqueSlant{
+dup sin S cos div neg}B/SlantFont{4 index mul add}def/ExtendFont{3 -1
+roll mul exch}def/ReEncodeFont{CharStrings rcheck{/Encoding false def
+dup[exch{dup CharStrings exch known not{pop/.notdef/Encoding true def}
+if}forall Encoding{]exch pop}{cleartomark}ifelse}if/Encoding exch def}
+def end
+
+%%EndProcSet
+%%BeginFont: CMMI10
+%!PS-AdobeFont-1.1: CMMI10 1.100
+%%CreationDate: 1996 Jul 23 07:53:57
+
+% Copyright (C) 1997 American Mathematical Society.  All Rights Reserved.
+
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.100) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMMI10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.04 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMMI10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 58 /period put
+dup 62 /greater put
+readonly def
+/FontBBox{-32 -250 1048 750}readonly def
+/UniqueXX 5087385 def
+currentdict end
+currentfile eexec
+80347982ab3942d930e069a70d0d48311d725e830d1c76fba12e12486e989c98
+74c2b527f0925722787027f44470d484262c360cdfdddf3657533a57bb16f730
+48bfbbfcb73a650484015441fdc837add94ac8fbd2022e3ec8f115d4b4bb7b7f
+15388f22cc6198efe768bd9fceb3446ee4a8dc27d6cd152485384ef5f59381ff
+da43f2d20c8fb08aa27ab2015b774db10dacfdcd33e60f178c461553146ab427
+bdd7da12534ba078ad3d780414930da4f8d58abefd45db119b10eb409dd89792
+3c6e705479464a4b310b58348c4b42393988fef4925cf984423aaf65fea9f0e6
+4629953bcf50b919d968d99bd185f83112b2759cc411764e9bde677f57c5ee5a
+c555448d5f81a16259ded1e11bf4119d53e8ab07a802df900d3a2d5ccc1c6876
+d29c5e9effb7af3ef83400b0910c07873a8c56fa7b1eb1ba426043b00cc95dbe
+dc6e136cbbbcb3f67509964f9f281ebf81fe5b018122eaf66c4a838487e82e18
+6e006093042848a903efb3469ab6b4049767aadb95c30408dfd58d8a10f4cb22
+168decd9f3ee100f07b49aa44c92139b669cc312ba20192454eb2375be6284b0
+26659d964b96ae82d4942e758027fcf23c25ed01115af27ce7f20efe2a822bb6
+84004f20243a49c9e93301fc21b80815c033c3e2ba58ef53da2157d524b395f2
+b37abca13bc6a2f42e824ab7e47106176b0d6db267fbb795ac7425582df2e3dc
+55863468a9200742bd7b552c48f8cf58bc21343bd3b95abfa140f33f37c6f3f7
+8b0d8a5154eb7c1f62ec598267f13e841a3e64172663935ac8b665d86540d316
+ddece329c008049c5e74b27d59022c5515059bc3b89370b1bc6a169c888bb325
+e0b74282d6f053a50da4024ed1e433271a32ab8c17d41c632b41cf9f3ecd5fe1
+24daf7aea7ce8a63047b245822930d517df7baaafa69d2d17f7d93cebd45416d
+f3459365434123a76ccf883a4973bab19807e1f0c4bab03a45f7ed69ff2660ff
+3963e4def11001eec4238c368a39d874fd30b3c14f4186ec7700fbce22abe468
+eb32baf7b0164f8f21a9b5e706b91411faaa44467cb2180ab03de375c1ab93e9
+76e11ab92fdd4a7280a6d1a8dc65c4c89d04c8ed6988045a2a3de9a4c7b1efd3
+75b6d05a48a30c24d13b30ca0bd0790ff38c7bf80a49c406aece637ba3dab713
+d2a0ab88194a6726ed116209a6dfbf8479f499cd1bb30f59da64f9d3b14d5882
+5469b1dec824e3c4f27c483f1bf4eef3c1d0180d13693ea1126ec3bbb6906e76
+31b851e5cd0b18677e6c61e9a68770af6cb3c060641ab7a179407b365b3332dc
+bd5462f757e3bf732a76224ecd21d33b76c422d20949c751526b9b82dc7cb976
+dff92436381fda4b39b5a9466c7ebff68ab3ea9728dd21109dab68f414eef5cb
+c8fe73a4836369c7a00b8efc6fdca3b4bd95c51d09f81d9f0b6672de805e7279
+bbc3d6c6ec722ba7c39e48fa86795ac23cec2fc410ad9059ea027df9e913dd3c
+8e94c5f9ae3c5e8323cff9f577572dea86be7649c93237e55650ea150b472b2e
+8020cd69b4891bbdf125ef2a55d96d0f3a9dc1af030d473a344b60fc16877a9f
+a348b49edd22f0fb37f9
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+
+%%EndFont 
+%%BeginFont: CMSY10
+%!PS-AdobeFont-1.1: CMSY10 1.0
+%%CreationDate: 1991 Aug 15 07:20:57
+
+% Copyright (C) 1997 American Mathematical Society.  All Rights Reserved.
+
+11 dict begin
+/FontInfo 7 dict dup begin
+/version (1.0) readonly def
+/Notice (Copyright (C) 1997 American Mathematical Society. All Rights Reserved) readonly def
+/FullName (CMSY10) readonly def
+/FamilyName (Computer Modern) readonly def
+/Weight (Medium) readonly def
+/ItalicAngle -14.035 def
+/isFixedPitch false def
+end readonly def
+/FontName /CMSY10 def
+/PaintType 0 def
+/FontType 1 def
+/FontMatrix [0.001 0 0 0.001 0 0] readonly def
+/Encoding 256 array
+0 1 255 {1 index exch /.notdef put} for
+dup 0 /minus put
+dup 15 /bullet put
+dup 17 /equivalence put
+dup 33 /arrowright put
+dup 50 /element put
+dup 54 /negationslash put
+dup 56 /universal put
+dup 63 /perpendicular put
+readonly def
+/FontBBox{-29 -960 1116 775}readonly def
+/UniqueXX 5000820 def
+currentdict end
+currentfile eexec
+9b9c1569015f2c1d2bf560f4c0d52257bac8ced9b09a275ab231194ecf829352
+05826f4e975dcecec72b2cf3a18899ccde1fd935d09d813b096cc6b83cdf4f23
+b9a60db41f9976ac333263c908dcefcdbd4c8402ed00a36e7487634d089fd45a
+f4a38a56a4412c3b0baffaeb717bf0de9ffb7a8460bf475a6718b0c73c571145
+d026957276530530a2fbefc6c8f67052788e6703bb5ee49533870bca1f113ad8
+3750d597b842d8d96c423ba1273ddd32f3a54a912a443fcd44f7c3a6fe3956b0
+aa1e784aaec6fce08dae0c76da9d0a3eba57b98a6233d9e9f0c3f00fcc6b2c6a
+9ba23af389e6dfff4efec3de05d6276c6be417703ce508377f25960ef4ed83b4
+9b01b873f3a639ce00f356229b6477a081933fef3bb80e2b9dffa7f75567b1fa
+4d739b772f8d674e567534c6c5bbf1cf615372be20b18472f7aa58be8c216dbd
+df81cc0a86b6d8318ca68fe22c8af13b54d7576fe4ca5a7af9005ea5cc4edb79
+c0ab668e4fec4b7f5a9eb5f0e4c088cd818ecc4feb4b40ec8bd2981bf2336074
+b64c430a05cba0221dbc83ae38c6183e5a3f9e0ccbf759ac8f40cdb9f13f7eb3
+a56ad056cfa40871040ebe5c48a004edcfcf29fb97fbe18b510c26d5c7898c33
+c93d32407873f8395b4422303b169c415abaa3ce27a0e00da667faab34c56f8d
+485a372a695ec116790c474bb7953851c5f2f72d15d8bbff5410814a76b7c7ec
+3853f04b1e64102e7e6fab5f3733e70df6cee8bd47ae7ee05f551e3f6a02f2e1
+875950d5615698962a94362f8766080e03ca6c5dc99a1043efd373c4bfa1eccc
+c0f019c27b93ec32a02f805cf578b89dbc88852f86aac0b2658b85e6ff5336af
+3b08ff3fe8d27f31c04a6530b5d396387950b8f3799cf53346c2ef846d8e8851
+ca6ab16b93a6216ffdb2c1e851ef75b698d12b09baa96425d934f047a0a9aae6
+b299fdf56e267c163d4345d8ae57f43c49cd25df5e37ee1df178178501752492
+7466166a77d88f77c562a4701e54fb0031c4c7644d7ec9e18b79857342401752
+9df824ced4baf4a18ead19155abd6fd149d0cded40025ba94966ed0d5e67639f
+0acad1144a12f8c1cac784ba51a709e00779ed56ac3285242891a2d85070234d
+d6503f41c62df21f750926ad6e4b8d822ce924f3fad2be5ccccc90f8d1030c7d
+ea17e092747b633352b99433658933ebe9045941704bba3b9e15b7ccb9716896
+3ea42720f9f50e5d363d33eb7bcf95adf941801c8b76a268b5938014fb7835bc
+dbdd3bbc6f281be5860fd6c257d974c7f941c7c11226ad67da69bf4d2ba76805
+bdeeefaa035c1a521ec5559737fac37caf8ab67ee7779ba2567fcdc2fc7e145c
+31ffd3110cd4600b224a72dc0f01a2f21ce04b9db861c95b45c74d6dd7a17e2c
+f1c1372709018e198a59c5eca30f1360971a1ffe7fb21e5af892c1daf0fbc7f8
+454c27685affa9dbc19452f5a82604923ab29690dde44397456cf7fc506dce4a
+bf124eb373d4a225e64f780f19bdc0ecb2d4cc6a9c21cdd5ba42be2db69be8d9
+b000162b66e92bfa231dca08b8bff0c0c58ac6fdb72eb14a405b8147f2b81fc4
+efae71b2301a3cba4a8bc1fa9da297e34863fe8cac275134c21c05305c0543d8
+202534bc0e9780556370412d85a4c1845f06f1e1965d751e37bc0a790dc055f4
+249c6e8185f7c9046d4ea327f58d77124af833ff6116c6ad85e1347a5ae197ef
+5ba8fe08ed7d1b189cfd419f0b3210367cd7ba1663240418c4a00a8c6afc8e6d
+4d412221e8f6db8e6616cea1aec1e23c24f904501ec157843345b09c4bc213f9
+0ad79cf3906edf1d161e7a842fcbf47e0545db7f98c70cf451fc1b4f14072fbc
+404d4ede09a20b69e54f05733bf47e711798546b2ba8fbca4edcd201b948c955
+07ff0cf2746c4315ef19780620170b3901550f3b748f43a0fc2b3c77ca7a7485
+fa69d4ece5e9e3abb89b3b0f60a7cacc425c9e8dca9d9fe22e47
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+cleartomark
+
+%%EndFont 
+TeXDict begin 40258431 52099146 1000 600 600 (paper.dvi)
+@start /Fa 134[29 1[44 29 33 18 26 26 1[33 33 33 48 18
+29 1[18 33 33 18 29 33 29 33 33 8[41 55 1[48 37 33 41
+1[41 1[44 55 37 1[29 22 48 48 41 41 48 44 1[41 6[22 33
+33 1[33 1[33 33 33 33 33 1[17 22 17 2[22 22 22 39[{
+TeXBase1Encoding ReEncodeFont}56 66.4176 /Times-Italic
+rf /Fb 87[22 16[66 33 1[29 29 24[29 33 33 48 33 33 18
+26 22 1[33 33 33 52 18 33 18 18 33 33 22 29 33 29 33
+29 3[22 1[22 1[48 48 63 48 48 41 37 44 48 37 48 48 59
+41 48 26 22 48 48 37 41 48 44 44 48 6[18 33 33 33 33
+33 33 33 33 33 33 1[17 22 17 2[22 22 22 36[37 2[{
+TeXBase1Encoding ReEncodeFont}75 66.4176 /Times-Roman
+rf /Fd 133[55 5[55 55 55 1[55 55 55 55 3[55 55 55 55
+1[55 55 1[55 9[55 5[55 3[55 9[55 17[55 49[{
+TeXBase1Encoding ReEncodeFont}20 91.3242 /Courier-Bold
+rf /Fe 193[58 3[21 58[{}2 74.7198 /CMMI10 rf /Ff 104[91
+28[41 46 46 1[46 51 30 36 41 51 51 46 51 76 25 2[25 51
+46 30 41 51 41 51 46 12[61 3[56 1[66 86 3[36 1[71 56
+1[66 66 61 66 6[30 2[46 46 46 46 46 46 46 2[23 30 42[51
+2[{TeXBase1Encoding ReEncodeFont}46 91.3242 /Times-Bold
+rf /Fg 103[34 26[34 34 34 34 34 34 34 34 34 34 34 34
+34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34 34
+34 1[34 34 34 34 2[34 1[34 34 34 34 34 34 34 34 34 34
+1[34 34 34 34 34 34 34 34 34 34 1[34 34 34 34 34 34 6[34
+34 34 34 34 34 34 34 34 1[34 34 34 4[34 34 33[{
+.85 ExtendFont TeXBase1Encoding ReEncodeFont}77 66.4176
+/Courier rf /Fi 130[38 38 38 38 38 38 38 38 38 38 38
+38 38 38 38 38 38 38 38 1[38 38 38 38 38 38 38 38 38
+38 38 1[38 38 38 38 2[38 1[38 38 38 38 38 38 38 38 38
+38 1[38 38 1[38 38 38 38 38 38 38 1[38 38 38 38 38 38
+1[38 1[38 2[38 38 38 38 1[38 38 38 38 38 38 38 38 38
+3[38 38 33[{.85 ExtendFont TeXBase1Encoding ReEncodeFont}77
+74.7198 /Courier rf /Fj 140[45 38[51 76[{}2 74.7198 /Symbol
+rf /Fk 192[58 6[42 1[0 3[50 16[75 15[58 1[37 14[58{}8
+74.7198 /CMSY10 rf /Fl 138[29 16 1[19 2[29 29 45 16 2[16
+1[29 19 26 1[26 1[26 16[32 2[52 3[19 2[32 2[39 1[42 12[29
+3[29 3[15 2[19 19 19 39[{.167 SlantFont TeXBase1Encoding ReEncodeFont}
+25 58.1154 /Times-Roman rf /Fm 134[29 29 42 29 29 16
+23 19 29 29 29 29 45 16 29 1[16 29 29 19 26 29 26 29
+26 11[42 36 32 2[32 2[52 9[39 1[42 7[29 29 2[29 29 29
+29 29 29 16 15 19 15 2[19 19 3[29 33[32 2[{
+TeXBase1Encoding ReEncodeFont}47 58.1154 /Times-Roman
+rf /Fn 134[33 33 50 33 37 21 29 29 37 37 37 37 54 21
+33 1[21 37 37 21 33 37 33 37 37 13[37 17[46 18[19 25
+41[37 37 2[{TeXBase1Encoding ReEncodeFont}30 74.7198
+/Times-Italic rf /Fo 136[54 1[42 25 29 33 42 42 37 42
+62 21 2[21 42 37 25 33 42 33 1[37 9[75 54 1[50 42 2[46
+3[50 4[58 1[50 54 9[25 7[37 37 49[{TeXBase1Encoding ReEncodeFont}31
+74.7198 /Times-Bold rf /Fp 87[25 16[75 37 1[33 33 24[33
+37 37 54 37 37 21 29 25 37 37 37 37 58 21 37 21 21 37
+37 25 33 37 33 37 33 25 2[25 1[25 46 1[54 71 54 54 46
+42 50 54 42 54 54 66 46 1[29 25 54 54 42 46 54 50 50
+54 1[33 3[21 21 37 37 37 37 37 37 37 37 37 37 1[19 25
+19 2[25 25 25 5[25 29[42 42 2[{TeXBase1Encoding ReEncodeFont}80
+74.7198 /Times-Roman rf /Fq 104[100 2[50 50 24[44 50
+50 72 1[55 33 39 44 1[55 50 55 83 28 55 33 28 55 50 33
+44 55 44 55 50 12[66 55 72 6[78 1[39 1[78 2[72 72 66
+72 7[50 50 50 50 50 50 50 50 50 50 44[55 3[{
+TeXBase1Encoding ReEncodeFont}48 99.6264 /Times-Bold
+rf /Fr 87[30 46[45 2[45 1[25 45 30 2[50 50 75 20 1[20
+20 50 50 25 50 50 45 50 50 9[85 60 65 1[60 65 1[60 2[75
+50 1[45 25 5[65 1[60 20[25 5[60 38[{TeXBase1Encoding ReEncodeFont}34
+89.6632 /Helvetica rf /Fs 139[45 75 52 1[82 82 82 1[37
+2[37 3[75 82 75 1[75 6[82 6[90 97 4[112 5[105 3[97 97
+7[45 13[37 40[82 3[{TeXBase1Encoding ReEncodeFont}22
+134.495 /Helvetica-Bold rf end
+%%EndProlog
+%%BeginSetup
+%%Feature: *Resolution 600dpi
+TeXDict begin
+%%BeginPaperSize: Letter
+letter
+%%EndPaperSize
+
+%%EndSetup
+%%Page: 1 1
+1 0 bop 653 247 a Fs(Scrap)37 b(More)g(Boilerplate:)48
+b(Re\003ection,)37 b(Zips,)1225 396 y(and)g(Generalised)h(Casts)925
+702 y Fr(Ralf)25 b(L)1170 700 y(\250)1160 702 y(ammel)458
+801 y(Vr)q(ije)f(Univ)n(ersiteit)f(&)i(CWI,)f(Amsterdam)2403
+702 y(Simon)h(P)l(e)n(yton)e(Jones)2181 801 y(Microsoft)g(Research,)h
+(Cambr)q(idge)-150 1353 y Fq(Abstract)-150 1470 y Fp(Writing)31
+b(boilerplate)h(code)g(is)g(a)f(ro)o(yal)i(pain.)61 b(Generic)32
+b(programming)-150 1553 y(promises)19 b(to)f(alle)n(viate)g(this)g
+(pain)g(by)h(allo)n(wing)f(the)g(programmer)h(to)f(write)-150
+1636 y(a)h(generic)h(\223recipe\224)g(for)f(boilerplate)g(code,)h(and)f
+(use)h(that)f(recipe)g(in)g(man)o(y)-150 1719 y(places.)31
+b(In)21 b(earlier)g(w)o(ork)h(we)f(introduced)i(the)e(\223Scrap)g(your)
+h(boilerplate\224)-150 1802 y(approach)j(to)e(generic)h(programming,)i
+(which)e(e)o(xploits)g(Hask)o(ell')l(s)f(e)o(xist-)-150
+1885 y(ing)k(type-class)h(mechanism)g(to)f(support)h(generic)f
+(transformations)h(and)-150 1968 y(queries.)-150 2085
+y(This)c(paper)g(completes)h(the)f(picture.)39 b(W)-6
+b(e)23 b(add)i(a)f(fe)n(w)g(e)o(xtra)g(\223introspec-)-150
+2168 y(ti)n(v)o(e\224)j(or)g(\223re\003ecti)n(v)o(e\224)g(f)o
+(acilities,)i(that)e(together)g(support)h(a)f(rich)g(v)n(ariety)-150
+2251 y(of)21 b(serialisation)g(and)g(de-serialisation.)30
+b(W)-6 b(e)20 b(also)h(sho)n(w)h(ho)n(w)f(to)g(perform)-150
+2334 y(generic)k(\223zips\224,)g(which)g(at)e(\002rst)g(appear)i(to)f
+(be)h(some)n(what)f(trick)o(y)g(in)g(our)-150 2417 y(frame)n(w)o(ork.)
+32 b(Lastly)-5 b(,)22 b(we)f(generalise)i(the)e(ability)h(to)f(o)o(v)o
+(er)o(-ride)h(a)f(generic)-150 2500 y(function)f(with)e(a)h
+(type-speci\002c)h(one.)-150 2616 y(All)k(of)g(this)g(can)h(be)g
+(supported)g(in)g(Hask)o(ell)f(with)g(independently-useful)-150
+2699 y(e)o(xtensions:)j(higher)o(-rank)22 b(types)f(and)g(type-safe)g
+(cast.)28 b(The)20 b(GHC)g(imple-)-150 2782 y(mentation)26
+b(of)g(Hask)o(ell)g(readily)g(deri)n(v)o(es)g(the)g(required)g(type)g
+(classes)g(for)-150 2865 y(user)o(-de\002ned)20 b(data)f(types.)-150
+3064 y Fq(Categories)25 b(and)g(Subject)i(Descriptors)-150
+3181 y Fp(D.2.13)54 b([)p Fo(Softwar)o(e)f(Engineering)p
+Fp(]:)91 b(Reusable)54 b(Softw)o(are;)70 b(D.1.1)-150
+3264 y([)p Fo(Pr)o(ogramming)43 b(T)-7 b(echniques)p
+Fp(]:)68 b(Functional)43 b(Programming;)54 b(D.3.1)-150
+3347 y([)p Fo(Pr)o(ogramming)19 b(Languages)p Fp(]:)24
+b(F)o(ormal)18 b(De\002nitions)h(and)h(Theory)-150 3546
+y Fq(General)25 b(T)-9 b(erms)-150 3663 y Fp(Design,)19
+b(Languages)-150 3862 y Fq(K)n(eyw)o(ords)-150 3979 y
+Fp(Generic)g(programming,)h(re\003ection,)f(zippers,)g(type)g(cast)-150
+4179 y Fq(1)99 b(Intr)n(oduction)-150 4296 y Fp(It)20
+b(is)h(common)h(to)e(\002nd)h(that)g(lar)o(ge)f(slabs)h(of)g(a)g
+(program)h(consist)f(of)g(\223boil-)-150 4379 y(erplate\224)h(code,)g
+(which)g(conceals)g(by)g(its)f(b)o(ulk)g(a)g(smaller)g(amount)h(of)g
+(\223in-)-150 4462 y(teresting\224)i(code.)39 b(So-called)23
+b Fn(g)o(eneric)i(pr)m(o)o(gr)o(amming)h Fp(techniques)f(allo)n(w)-149
+4937 y Fm(Permission)20 b(to)f(mak)o(e)h(digital)f(or)h(hard)f(copies)g
+(of)g(all)g(or)h(part)f(of)h(this)f(w)o(ork)h(for)g(personal)f(or)-149
+5004 y(classroom)d(use)g(is)g(granted)g(without)h(fee)f(pro)o(vided)h
+(that)f(copies)g(are)g(not)g(made)g(or)h(distrib)o(uted)-149
+5070 y(for)e(pro\002t)f(or)g(commercial)f(adv)o(antage)g(and)g(that)g
+(copies)g(bear)g(this)h(notice)f(and)g(the)h(full)g(citation)-149
+5136 y(on)i(the)g(\002rst)g(page.)k(T)-5 b(o)15 b(cop)o(y)h(otherwise,)
+f(to)h(republish,)g(to)g(post)f(on)h(serv)o(ers)f(or)h(to)f(redistrib)o
+(ute)-149 5203 y(to)g(lists,)f(requires)h(prior)g(speci\002c)f
+(permission)h(and/or)g(a)f(fee.)-149 5269 y Fl(Proc)21
+b(A)n(CM)e(International)i(Conference)e(on)h(Functional)h(Programming)g
+(\(ICFP'04\),)j Fm(Sno)o(w-)-149 5336 y(bird,)15 b(Utah,)f(Sept)h
+(2004,)f(pp244-255)i(\(with)f(typos)f(\002x)o(ed\).)-149
+5402 y(Cop)o(yright)i(2004)f(A)n(CM)f(1-58113-905-5/04/0009)i(...$5.00)
+2049 1353 y Fp(programmers)27 b(to)f(automate)g(this)f
+(\223boilerplate\224,)j(allo)n(wing)e(ef)n(fort)g(to)f(be)2049
+1436 y(focused)20 b(on)f(the)g(interesting)h(parts)f(of)f(the)h
+(program.)2049 1553 y(In)27 b(our)h(earlier)e(paper)m(,)k(\223)p
+Fn(Scr)o(ap)e(your)g(boilerplate)p Fp(\224)g([16],)h(we)e(described)
+2049 1636 y(a)h(ne)n(w)h(technique)h(for)e(generic)h(programming,)j(b)o
+(uilding)c(on)h(the)f(type-)2049 1719 y(class)f(f)o(acilities)f(in)h
+(Hask)o(ell,)i(together)f(with)f(tw)o(o)g(f)o(airly)g(modest)g(e)o
+(xten-)2049 1802 y(sions)f(\(Section)g(2\).)44 b(Our)26
+b(approach)i(has)e(se)n(v)o(eral)h(attracti)n(v)o(e)e(properties:)2049
+1885 y(it)d(allo)n(ws)h(the)g(programmer)h(to)f(o)o(v)o(er)o(-ride)g
+(the)g(generic)h(algorithm)f(at)g(e)o(x-)2049 1968 y(actly)30
+b(the)f(desired)i(places;)k(it)29 b(supports)h(arbitrary)-5
+b(,)33 b(mutually-recursi)n(v)o(e)2049 2051 y(data)26
+b(types;)j(it)c(is)h(an)g(\223open-w)o(orld\224)h(approach,)i(in)c
+(which)h(it)f(is)h(easy)g(to)2049 2134 y(add)18 b(ne)n(w)g(data)g
+(types;)h(it)e(w)o(orks)h(without)g(inef)n(\002cient)f(con)m(v)o
+(ersion)j(to)d(some)2049 2217 y(intermediate)25 b(uni)n(v)o(ersal)g
+(data)g(type;)j(and)e(it)e(does)h(not)g(require)g(compile-)2049
+2300 y(time)19 b(specialisation)g(of)g(boilerplate)g(code.)2049
+2416 y(The)e(main)g(application)g(in)g(our)g(earlier)g(paper)g(w)o(as)g
+(tra)o(v)o(ersals)g(and)g(queries)2049 2499 y(o)o(v)o(er)f(rich)g(data)
+g(structures,)g(such)g(as)g(syntax)h(trees)e(or)h(terms)g(that)f
+(represent)2049 2582 y(XML)20 b(documents.)27 b(Ho)n(we)n(v)o(er)m(,)21
+b(that)e(paper)i(did)f(not)g(sho)n(w)h(ho)n(w)f(to)g(imple-)2049
+2665 y(ment)c(some)g(of)g(the)g(best-kno)n(wn)h(applications)g(of)f
+(generic)h(programming,)2049 2748 y(such)k(as)g(printing)f(and)i
+(serialisation,)e(reading)h(and)g(de-serialisation,)g(and)2049
+2831 y(generic)j(equality)-5 b(.)38 b(These)24 b(functions)h(all)e
+(require)h(a)g(certain)f(sort)h(of)g Fn(type)2049 2914
+y(intr)m(ospection)p Fp(,)19 b(or)g Fn(r)m(e\003ection)p
+Fp(.)2049 3030 y(In)f(this)f(paper)h(we)g(e)o(xtend)g(our)g(earlier)f
+(w)o(ork,)h(making)h(the)e(follo)n(wing)h(ne)n(w)2049
+3113 y(contrib)o(utions:)2136 3211 y Fk(\017)42 b Fp(W)-6
+b(e)28 b(sho)n(w)h(ho)n(w)g(to)f(support)i(a)e(general)h(form)g(of)f
+(type)h(re\003ection,)2215 3294 y(which)15 b(allo)n(ws)g(us)f(to)h
+(de\002ne)g(generic)g(\223sho)n(w\224)g(and)h(\223read\224)f(functions)
+2215 3377 y(as)k(well)f(as)h(similar)f(functions)i(\(Sections)f(3)g
+(and)h(4\).)2136 3485 y Fk(\017)42 b Fp(These)16 b(classical)f(generic)
+h(functions)h(rely)e(on)h(a)g(ne)n(w)f(re\003ection)h(API,)2215
+3568 y(supported)21 b(on)f(a)f(per)o(-data-type)i(basis)e(\(Section)h
+(5\).)k(Once)c(de\002ned,)2215 3651 y(this)29 b(API)g(allo)n(ws)g
+(other)h(generic)g(re\003ecti)n(v)o(e)f(functions)i(to)e(be)h(de-)2215
+3734 y(\002ned,)19 b(such)g(as)g(test-data)g(generators)h(\(Section)f
+(5.4\).)2136 3842 y Fk(\017)42 b Fp(Functions)30 b(lik)o(e)f(generic)g
+(equality)h(require)f(us)g(to)g(\223zip)g(together\224)2215
+3925 y Fn(two)e Fp(data)h(structures,)i(rather)e(than)g(simply)g(to)f
+(tra)o(v)o(erse)g(one.)50 b(W)-6 b(e)2215 4008 y(describe)29
+b(ho)n(w)g(zipping)g(can)f(be)h(accommodated)h(in)e(the)g(e)o(xisting)
+2215 4091 y(frame)n(w)o(ork)20 b(\(Section)f(6\).)2136
+4199 y Fk(\017)42 b Fp(A)27 b(strength)h(of)f(the)h Fn(Scr)o(ap)g(your)
+g(boilerplate)g Fp(approach)h(is)e(that)g(it)2215 4282
+y(it)d(easy)i(to)f(e)o(xtend)g(a)g(generic)h(function)g(to)e(beha)o(v)o
+(e)i(dif)n(ferently)f(on)2215 4365 y(particular)m(,)20
+b(speci\002ed)g(types.)26 b(So)20 b(f)o(ar)g(it)f(has)h(not)g(been)h
+(clear)e(ho)n(w)i(to)2215 4448 y(e)o(xtend)h(a)g(generic)g(function)g
+(for)f(particular)h(type)g Fn(constructor)o(s)p Fp(.)32
+b(In)2215 4531 y(Section)18 b(7)g(we)f(e)o(xplain)i(why)f(this)f
+(ability)h(is)f(v)o(ery)i(useful,)f(and)g(sho)n(w)2215
+4614 y(ho)n(w)g(to)g(generalise)h(our)f(e)o(xisting)g(type-safe)g
+Fi(cast)g Fp(operator)h(so)f(that)2215 4697 y(we)h(can)g(indeed)h(e)o
+(xpress)g(such)f(generic)h(function)g(e)o(xtension.)2049
+4795 y(Ev)o(erything)j(we)f(describe)g(has)h(been)f(implemented)h(in)f
+(GHC,)f(and)i(man)o(y)2049 4878 y(e)o(xamples)h(are)g(a)o(v)n(ailable)g
+(online)g(at)f(the)h(boilerplate)g(web)g(site)f([17)q(].)37
+b(No)2049 4961 y(ne)n(w)21 b(e)o(xtensions)h(to)e(Hask)o(ell)h(98)g
+(are)f(required,)i(be)o(yond)g(the)e(tw)o(o)h(already)2049
+5044 y(described)k(in)f Fn(Scr)o(ap)h(your)g(boilerplate)p
+Fp(,)h(namely)f(\(a\))f(rank-2)h(types,)g(and)2049 5127
+y(\(b\))16 b(type-safe)g(cast.)22 b(The)16 b(latter)f(is)h
+(generalised,)h(ho)n(we)n(v)o(er)m(,)g(in)f(Section)g(7.2.)p
+eop
+%%Page: 2 2
+2 1 bop -150 83 a Fq(2)99 b(Backgr)n(ound)-150 200 y
+Fp(T)-6 b(o)24 b(set)g(the)g(scene)h(for)f(this)g(paper)m(,)h(we)f(be)o
+(gin)h(with)f(a)g(brief)g(o)o(v)o(ervie)n(w)h(of)-150
+283 y(the)19 b Fn(Scr)o(ap)h(your)f(boilerplate)h Fp(approach)g(to)f
+(generic)g(programming.)25 b(Sup-)-150 366 y(pose)e(that)f(we)h(w)o
+(ant)f(to)g(write)g(a)g(function)i(that)e(computes)h(the)g(size)f(of)g
+(an)-150 449 y(arbitrary)e(data)g(structure.)25 b(The)20
+b(basic)f(algorithm)h(is)g(\223for)f(each)i(node,)f(add)-150
+532 y(the)g(sizes)f(of)h(the)g(children,)g(and)h(add)f(1)g(for)f(the)h
+(node)h(itself)t(\224.)k(Here)19 b(is)h(the)-150 615
+y(entire)f(code)h(for)e Fi(gsize)p Fp(:)-74 713 y Fi(gsize)39
+b(::)f(Data)h(a)f(=>)g(a)g(->)h(Int)-74 796 y(gsize)g(t)f(=)g(1)g(+)h
+(sum)f(\(gmapQ)h(gsize)g(t\))-150 893 y Fp(The)22 b(type)h(for)f
+Fi(gsize)h Fp(says)g(that)f(it)g(w)o(orks)h(o)o(v)o(er)g(an)o(y)g(type)
+f Fi(a)p Fp(,)h(pro)o(vided)h Fi(a)-150 976 y Fp(is)i(a)h
+Fn(data)g Fp(type)g(\227)f(that)h(is,)h(that)e(it)g(is)g(an)h(instance)
+g(of)g(the)g(class)f Fi(Data)1817 949 y Fm(1)-150 1059
+y Fp(The)f(de\002nition)g(of)f Fi(gsize)h Fp(refers)g(to)f(the)h
+(operation)h Fi(gmapQ)p Fp(,)e(which)i(is)e(a)-150 1142
+y(method)c(of)f(the)g Fi(Data)g Fp(class:)-74 1240 y
+Fi(class)39 b(Typeable)g(a)f(=>)g(Data)h(a)f(where)2
+1323 y(...other)h(methods)g(of)g(class)f(Data...)2 1406
+y(gmapQ)h(::)f(\(forall)h(b.)g(Data)f(b)g(=>)h(b)f(->)g(r\))g(->)h(a)f
+(->)g([r])-150 1504 y Fp(\(The)29 b(class)g Fi(Typeable)g
+Fp(serv)o(es)g(for)g(nominal)h(type)f(cast)g(as)g(needed)h(for)-150
+1587 y(the)19 b(accommodation)j(of)d(type-speci\002c)h(cases)g(in)f
+(generic)h(functions.)25 b(W)-6 b(e)-150 1670 y(will)21
+b(discuss)i(this)f(class)g(in)g(Section)h(7,)f(b)o(ut)g(it)g(can)h(be)f
+(ignored)h(for)f(no)n(w)-5 b(.\))-150 1753 y(The)23 b(idea)h(is)f(that)
+g Fi(\(gmapQ)38 b(f)h(t\))23 b Fp(applies)h(the)f(polymorphic)i
+(function)f Fi(f)-150 1836 y Fp(to)f(each)g(of)g(the)g(immediate)g
+(children)h(of)f(the)g(data)g(structure)g Fi(t)p Fp(.)35
+b(Each)23 b(of)-150 1919 y(these)d(applications)g(yields)g(a)f(result)g
+(of)h(type)g Fi(r)p Fp(,)f(and)h Fi(gmapQ)g Fp(returns)f(a)h(list)-150
+2002 y(of)25 b(all)g(these)h(results.)42 b(Here)25 b(are)h(the)f
+(concrete)h(de\002nitions)g(of)f Fi(gmapQ)h Fp(at)-150
+2085 y(types)19 b Fi(Maybe)p Fp(,)g(list,)f(and)i Fi(Int)f
+Fp(respecti)n(v)o(ely:)-82 2196 y Fg(instance)33 b(Data)g(a)h(=>)f
+(Data)h(\(Maybe)f(a\))g(where)-15 2270 y(gmapQ)h(f)f(Nothing)67
+b(=)34 b([])-15 2345 y(gmapQ)g(f)f(\(Just)h(v\))f(=)h([f)g(v])-82
+2456 y(instance)f(Data)g(a)h(=>)f(Data)h([a])f(where)-15
+2531 y(gmapQ)h(f)f([])170 b(=)33 b([])-15 2606 y(gmapQ)h(f)f(\(x:xs\))h
+(=)f([f)h(x,)g(f)f(xs])-82 2717 y(instance)g(Data)g(Int)g(where)-15
+2792 y(gmapQ)h(f)f(i)h(=)g([])67 b(--)34 b(An)g(Int)f(has)h(no)f
+(children!)-150 2911 y Fp(Notice)25 b(that)h Fi(gmapQ)g
+Fp(applies)g Fi(f)f Fp(only)h(to)g(the)f Fn(immediate)h
+Fp(children)g(of)f(its)-150 2994 y(ar)o(gument.)h(In)20
+b(the)g(second)h(instance)g(declaration)f(abo)o(v)o(e,)h
+Fi(f)f Fp(is)f(applied)i(to)-150 3077 y Fi(x)i Fp(and)h
+Fi(xs)p Fp(,)g(resulting)g(in)f(a)h(list)e(of)h(e)o(xactly)h(tw)o(o)g
+(elements,)g(re)o(gardless)g(of)-150 3160 y(ho)n(w)d(long)h(the)f(tail)
+f Fi(xs)g Fp(is.)29 b(Notice)20 b(too)h(that,)g(in)g(this)f(same)h
+(declaration,)h Fi(f)-150 3243 y Fp(is)f(applied)g(to)g(ar)o(guments)h
+(of)f(dif)n(ferent)g(types)h(\()p Fi(x)f Fp(has)g(a)g(dif)n(ferent)g
+(type)h(to)-150 3326 y Fi(xs)p Fp(\),)e(and)g(that)g(is)f(why)h(the)g
+(ar)o(gument)h(to)e Fi(gmapQ)h Fp(must)g(be)h(a)e Fn(polymorphic)-150
+3409 y Fp(function.)k(So)18 b Fi(gmapQ)f Fp(must)h(ha)o(v)o(e)g(a)f
+(higher)o(-rank)h(type)g(\226)g(that)f(is,)g(one)h(with)-150
+3492 y(a)g Fi(forall)h Fp(to)f(the)g(left)f(of)i(a)f(function)h(arro)n
+(w)f(\227)g(an)g(independently-useful)-150 3575 y(e)o(xtension)i(to)f
+(Hask)o(ell)g([20)q(].)-150 3691 y(It)i(should)i(no)n(w)g(be)f(clear)g
+(ho)n(w)h Fi(gsize)f Fp(w)o(orks)h(for)f(term)f Fi(t)h
+Fp(whose)h(type)f(is)-150 3774 y(an)g(instance)h(of)f(the)h(class)f
+Fi(Data)p Fp(.)33 b(The)22 b(call)g Fi(\(gmapQ)39 b(gsize)f(t\))22
+b Fp(applies)-150 3857 y Fi(gsize)27 b Fp(to)f(each)h(of)g
+Fi(t)p Fp(')l(s)f(immediate)h(children,)h(yielding)g(a)e(list)g(of)g
+(sizes.)-150 3940 y(The)g(standard)g(function)g Fi(sum)39
+b(::)f([Int])h(->)f(Int)26 b Fp(sums)g(this)f(list,)h(and)-150
+4023 y(then)19 b(we)g(add)h(1.)-150 4140 y(The)h(class)g
+Fi(Data)g Fp(plays)g(a)g(central)g(role)g(in)g(this)g(paper)l(.)30
+b(Our)21 b(earlier)f(paper)-150 4223 y(placed)j(three)f(generic)h
+(mapping)h(operations)f(in)f(class)g Fi(Data)p Fp(:)30
+b(the)22 b(opera-)-150 4306 y(tion)f Fi(gmapQ)g Fp(for)g(generic)g
+(queries,)h(as)e(illustrated)h(abo)o(v)o(e,)h(and)f(the)g(opera-)-150
+4389 y(tions)j Fi(gmapT)g Fp(for)g(transformations,)i(and)f
+Fi(gmapM)f Fp(for)g(monadic)h(transfor)o(-)-150 4472
+y(mations.)45 b(In)26 b(f)o(act,)h(all)e(such)i(forms)f(of)g(mapping)h
+(can)g(be)f(deri)n(v)o(ed)h(from)-150 4555 y(a)22 b(single)f(operator)i
+Fi(gfoldl)f Fp(for)f(generic)h(folding,)h(as)e(we)h(also)g(described)
+-150 4638 y(in)k(the)g(earlier)g(paper)l(.)45 b(The)26
+b(instances)g(of)g Fi(Data)g Fp(are)g(easy)h(to)f(de\002ne,)i(as)-150
+4721 y(we)19 b(sa)o(w)f(for)h(the)g(operation)h Fi(gmapQ)f
+Fp(abo)o(v)o(e.)24 b(The)19 b(de\002nition)g(of)g Fi(gfoldl)g
+Fp(is)-150 4804 y(equally)i(simple.)28 b(In)21 b(f)o(act,)f(the)h
+(instances)g(are)g Fn(so)f Fp(easy)h(and)h(re)o(gular)e(that)h(a)-150
+4887 y(compiler)f(can)f(do)h(the)f(job,)g(and)h(GHC)f(indeed)h(does)g
+(so,)f(when)g(instructed)-150 4970 y(by)g(a)g(so-called)h(\223)p
+Fi(deriving)p Fp(\224)g(clause.)j(F)o(or)18 b(e)o(xample)-74
+5067 y Fi(data)39 b(Tree)f(a)g(=)h(Leaf)f(a)g(|)h(Node)f(\(Tree)h(a\))f
+(\(Tree)h(a\))460 5150 y(deriving\()g(Eq,)f(Typeable,)h(Data)g(\))p
+-150 5229 801 4 v -49 5290 a Fm(1)-16 5317 y Fp(Note:)23
+b(in)16 b(our)h(earlier)f(paper)h([16)q(])f(the)h(class)g(no)n(w)g
+(called)f(\223)p Fi(Data)p Fp(\224)i(w)o(as)-150 5400
+y(called)h(\223)p Fi(Term)p Fp(\224.)2049 83 y(The)44
+b(\223)p Fi(deriving\()39 b(Eq)f(\))p Fp(\224)44 b(part)g(is)f
+(standard)i(Hask)o(ell)f(98,)50 b(and)44 b(in-)2049 166
+y(structs)51 b(the)f(compiler)h(to)g(generate)g(an)g(instance)g
+(declaration)h(for)2049 249 y Fi(instance)39 b(Eq)f(a)g(=>)h(Eq)f
+(\(Tree)h(a\))p Fp(.)23 b(GHC)c(e)o(xtends)h(this)e(by)i(support-)2049
+332 y(ing)f Fi(deriving)h Fp(for)f(the)f(classes)i Fi(Typeable)f
+Fp(and)h Fi(Data)f Fp(as)g(well.)2049 448 y(While)28
+b(the)g(operation)i Fi(gfoldl)f Fp(is)f(suf)n(\002cient)g(for)h
+(transformations)g(and)2049 531 y(queries,)20 b(it)g(is)f(not)i(enough)
+g(for)f(other)g(applications)h(of)f(generic)h(program-)2049
+614 y(ming,)d(as)g(we)g(shall)g(shortly)g(see.)23 b(Much)c(of)f(the)g
+(rest)g(of)g(the)g(paper)h(\002lls)e(out)2049 697 y(the)i
+Fi(Data)g Fp(class)g(with)g(a)f(fe)n(w)h(further)m(,)g
+(carefully-chosen)i(operations.)2049 880 y Fq(3)99 b(Generic)26
+b(\223sho)o(w\224)e(and)i(friends)2049 997 y Fp(W)-6
+b(e)28 b(will)f(no)n(w)i(consider)h(generic)f(functions)g(that)f(tak)o
+(e)h(an)o(y)g(data)g(v)n(alue)2049 1080 y(whatsoe)n(v)o(er)m(,)17
+b(and)g(render)f(it)f(in)h(some)g(w)o(ay)-5 b(.)23 b(F)o(or)15
+b(instance,)i(a)f(generic)g(sho)n(w)2049 1163 y(operation)j(is)e(a)h
+(generic)h(function)g(that)e(renders)i(terms)f(as)g(te)o(xt,)f(and)i
+(hence)2049 1246 y(it)f(is)h(of)g(the)g(follo)n(wing)g(type:)2125
+1344 y Fi(gshow)39 b(::)f(Data)h(a)f(=>)g(a)g(->)h(String)2049
+1441 y Fp(That)19 b(is,)g Fi(gshow)h Fp(is)f(supposed)i(to)e(tak)o(e)h
+(an)o(y)g(data)g(v)n(alue)g(\(i.e.)k(an)o(y)c(instance)2049
+1524 y(of)k(class)h Fi(Data)p Fp(\),)g(and)g(to)f(display)h(it)e(as)i
+(a)f(string.)39 b(The)24 b(generic)h(function)2049 1607
+y Fi(gshow)c Fp(has)g(man)o(y)h(v)n(ariants.)29 b(F)o(or)20
+b(e)o(xample,)i(we)f(might)g(w)o(ant)g(to)f(perform)2049
+1690 y(binary)26 b(serialisation)f(with)g Fi(data2bits)p
+Fp(,)j(where)e(we)f(turn)g(a)h(datum)g(into)2049 1773
+y(a)e(string)f(of)h Fi(Zero)p Fp(s)f(and)i Fi(One)p Fp(s)e(\(Sections)h
+(3.2)g(and)g(3.3\).)37 b(W)-6 b(e)23 b(might)h(also)2049
+1856 y(w)o(ant)g(to)g(translate)g(a)g(datum)g(into)g(a)g(rose)h(tree)e
+(with)h Fi(data2tree)p Fp(,)h(where)2049 1939 y(the)19
+b(nodes)h(store)f(constructor)h(names)f(\(Section)g(3.4\).)2125
+2037 y Fi(data2bits)154 b(::)38 b(Data)g(a)h(=>)f(a)g(->)h([Bit])2125
+2120 y(data2tree)154 b(::)38 b(Data)g(a)h(=>)f(a)g(->)h(Tree)f(String)
+2049 2218 y Fp(A)18 b(generalisation)h(of)f Fi(data2tree)h
+Fp(can)g(perform)g(type)f(erasure)h(for)f(XML.)2049 2342
+y Ff(3.1)90 b(Data)23 b(to)g(text)2049 2459 y Fp(W)-6
+b(e)18 b(can)i(almost)f(do)g Fi(gshow)g Fp(already)-5
+b(,)20 b(because)g(it)e(is)h(v)o(ery)g(lik)o(e)g Fi(gsize)3915
+2432 y Fm(2)3949 2459 y Fp(:)2117 2558 y Fg(gshow)33
+b(t)h(=)67 b("\(")2388 2633 y(++)33 b(concat)g(\(intersperse)g(")h(")f
+(\(gmapQ)g(gshow)h(t\))2388 2708 y(++)f("\)")2049 2815
+y Fp(Of)19 b(course,)g(this)g(function)g(only)h(outputs)g(parentheses!)
+2125 2913 y Fi(gshow)39 b([True,False])g(=)f("\(\(\))h(\(\(\))f
+(\(\)\)\)")2049 3010 y Fp(W)-6 b(e)22 b(need)i(to)e(pro)o(vide)i(a)e(w)
+o(ay)h(to)g(get)f(the)h(name)g(of)g(the)g(constructor)g(used)2049
+3093 y(to)c(b)o(uild)g(a)g(data)h(v)n(alue.)k(It)19 b(is)g(natural)g
+(to)g(mak)o(e)h(this)f(into)g(a)g(ne)n(w)h(operation)2049
+3176 y(of)f(the)g(class)g Fi(Data)p Fp(:)2125 3274 y
+Fi(class)39 b(Typeable)g(a)f(=>)g(Data)h(a)f(where)2201
+3357 y(...)2201 3440 y(toConstr)h(::)g(a)f(->)g(Constr)2049
+3537 y Fp(Rather)22 b(than)g(deli)n(v)o(ering)h(the)e(constructor)i
+(name)f(as)g(a)g(string,)g Fi(toConstr)2049 3620 y Fp(returns)27
+b(a)f(v)n(alue)h(of)f(an)h(abstract)f(data)h(type)f Fi(Constr)p
+Fp(,)j(which)d(of)n(fers)h(the)2049 3703 y(function)20
+b Fi(showConstr)f Fp(\(among)h(others)g(\226)f(Section)g(5\):)2125
+3801 y Fi(showConstr)39 b(::)g(Constr)f(->)h(String)2049
+3899 y Fp(Gi)n(v)o(en)19 b(this)f(e)o(xtra)g(function)h(we)f(can)h
+(write)e(a)h(w)o(orking)i(v)o(ersion)e(of)h Fi(gshow)p
+Fp(:)2117 3998 y Fg(gshow)33 b(::)h(Data)f(a)h(=>)f(a)h(->)g(String)
+2117 4072 y(gshow)f(t)2184 4147 y(=)h("\(")g(++)f(showConstr)g
+(\(toConstr)g(t\))2388 4222 y(++)g(concat)g(\(intersperse)g(")h(")f
+(\(gmapQ)g(gshow)h(t\)\))2388 4297 y(++)f("\)")2049 4404
+y Fp(W)-6 b(e)21 b(ha)o(v)o(e)h(made)g(use)g(of)f(an)h(intermediate)g
+(data)g(type)f Fi(Constr)h Fp(so)g(that,)g(as)2049 4487
+y(well)g(as)g(supporting)h Fi(showConstr)p Fp(,)h(we)e(can)h(also)f(of)
+n(fer)g(straightforw)o(ard)2049 4570 y(e)o(xtensions)e(such)g(as)f
+(\002xity:)2125 4668 y Fi(constrFixity)40 b(::)e(Constr)h(->)f(Fixity)
+2049 4765 y Fp(The)16 b(type)h Fi(Fixity)g Fp(encodes)h(the)f(\002xity)
+f(and)h(precedence)h(of)e(the)h(construc-)2049 4848 y(tor)m(,)28
+b(and)g(we)f(can)g(use)g(that)g(to)g(write)f(a)h(more)g(sophisticated)h
+(v)o(ersion)g(of)2049 4931 y Fi(gshow)f Fp(that)f(displays)h
+(constructors)g(in)f(in\002x)g(position,)i(with)e(minimum)2049
+5014 y(parenthesisation.)p 2049 5063 V 2150 5124 a Fm(2)2183
+5151 y Fp(The)40 b(standard)g(function)g Fi(concat)f(::)f([[a]])h(->)f
+([a])i Fp(concate-)2049 5234 y(nates)24 b(the)g(elements)g(of)g(a)f
+(list)g(of)h(lists,)f(while)h Fi(intersperse)39 b(::)g(a)f(->)2049
+5317 y([a])g(->)h([a])31 b Fp(inserts)h(its)e(\002rst)h(ar)o(gument)h
+(between)g(each)g(pair)g(of)f(ele-)2049 5400 y(ments)19
+b(in)g(its)f(second)i(ar)o(gument.)p eop
+%%Page: 3 3
+3 2 bop -150 83 a Fp(Built-in)14 b(data)i(types,)g(such)g(as)f
+Fi(Int)p Fp(,)g(are)g(also)h(instances)f(of)h(the)f Fi(Data)g
+Fp(class,)-150 166 y(so)28 b Fi(\(toConstr)39 b(\(3::Int\)\))29
+b Fp(is)f(a)g(v)n(alue)h(of)g(type)f Fi(Constr)p Fp(.)52
+b(Applying)-150 249 y Fi(showConstr)20 b Fp(to)g(this)f(v)n(alue)i
+(yields)f(the)f(string)h(representation)h(of)e(the)h(in-)-150
+332 y(te)o(ger)f(v)n(alue)h Fi(3)p Fp(.)-150 463 y Ff(3.2)90
+b(Binary)22 b(serialisation)-150 580 y Fp(Our)27 b(ne)o(xt)h
+(application)g(is)f(binary)i(serialisation,)g(in)e(which)h(we)f(w)o
+(ant)h(to)-150 663 y(encode)20 b(a)f(data)g(v)n(alue)h(as)f(a)g
+(bit-string)f(of)h(minimum)h(length:)-74 761 y Fi(data)39
+b(Bit)f(=)g(Zero)h(|)f(One)-74 844 y(data2bits)h(::)g(Data)f(a)g(=>)h
+(a)f(->)g([Bit])-150 941 y Fp(Rather)27 b(than)g(outputting)h(the)f
+(constructor)h(name)f(as)g(a)g(w)o(asteful)g(string,)-150
+1024 y(the)f(ob)o(vious)h(thing)g(to)e(do)i(is)e(to)h(output)h(a)f
+(binary)g(representation)h(of)f(its)-150 1107 y Fn(constructor)20
+b(inde)o(x)p Fp(,)f(so)g(we)g(need)h(another)f(function)h(o)o(v)o(er)f
+Fi(Constr)p Fp(:)-74 1205 y Fi(constrIndex)39 b(::)g(Constr)g(->)f
+(ConIndex)-74 1288 y(type)h(ConIndex)g(=)f(Int)g(--)h(Starts)f(at)h(1;)
+f(0)g(for)h(undefined)-150 1386 y Fp(But)26 b(ho)n(w)g(man)o(y)h(bits)e
+(should)i(be)f(output,)j(to)c(distinguish)i(the)f(construc-)-150
+1469 y(tor)d(from)g(other)g(constructors)h(of)f(the)h(same)f(data)g
+(type?)37 b(T)-6 b(o)23 b(answer)g(this)-150 1552 y(question)d
+(requires)g(information)g(about)h(the)e(entire)g(data)h(type,)g(and)g
+(hence)-150 1635 y(a)f(ne)n(w)g(function,)h Fi(dataTypeOf)p
+Fp(:)-74 1732 y Fi(class)39 b(Typeable)g(a)f(=>)g(Data)h(a)f(where)2
+1815 y(...)2 1898 y(toConstr)116 b(::)38 b(a)g(->)g(Constr)2
+1981 y(dataTypeOf)i(::)e(a)g(->)g(DataType)-150 2079
+y Fp(W)-6 b(e)32 b(note)h(that)g Fi(dataTypeOf)g Fp(ne)n(v)o(er)g(e)n
+(v)o(er)g(e)o(xamines)h(its)e(ar)o(gument;)39 b(it)-150
+2162 y(only)23 b(uses)f(its)f(ar)o(gument)i(as)f(a)f(proxy)i(to)f
+(look-up)h(information)g(about)f(its)-150 2245 y(data)k(type.)147
+2218 y Fm(3)223 2245 y Fp(The)f(abstract)g(data)h(type)g
+Fi(DataType)g Fp(of)n(fers)f(the)h(operation)-150 2328
+y Fi(maxConstrIndex)20 b Fp(\(among)g(others\):)-74 2425
+y Fi(maxConstrIndex)40 b(::)e(DataType)h(->)f(ConIndex)-150
+2523 y Fp(Using)19 b(these)g(functions,)h(we)f(are)g(in)f(a)h(position)
+h(to)f(write)f Fi(data2bits)p Fp(:)-82 2632 y Fg(data2bits)32
+b(::)i(Data)f(a)h(=>)g(a)g(->)f([Bit])-82 2707 y(data2bits)f(t)i(=)g
+(encodeCon)f(\(dataTypeOf)f(t\))i(\(toConstr)f(t\))392
+2782 y(++)h(concat)f(\(gmapQ)g(data2bits)g(t\))-82 2891
+y(--)g(The)h(encoder)f(for)g(constructors)-82 2966 y(encodeCon)f(::)i
+(DataType)f(->)h(Constr)f(->)g([Bit])-82 3040 y(encodeCon)f(ty)i(con)g
+(=)f(natToBin)g(\(max-1\))g(\(idx-1\))460 3115 y(where)527
+3190 y(max)h(=)g(maxConstrIndex)e(ty)527 3264 y(idx)i(=)g(constrIndex)e
+(con)-150 3382 y Fp(Here)39 b(we)h(ha)o(v)o(e)f(assumed)i(a)e(simple)g
+(encoder)i(for)e(natural)h(numbers)-150 3465 y Fi(natToBin)f(::)f(Int)h
+(->)f(Int)g(->)h([Bit])52 b Fp(where)h Fi(\(natToBin)39
+b(m)f(x\))-150 3548 y Fp(returns)24 b(a)f(binary)h(representation)h(of)
+e Fi(x)g Fp(in)h(the)f(narro)n(west)h(\002eld)f(that)g(can)-150
+3631 y(represent)d Fi(m)p Fp(.)-150 3762 y Ff(3.3)90
+b(F)n(ancy)21 b(serialisation)-150 3879 y Fp(One)31 b(could)g(easily)f
+(imagine)h(more)g(sophisticated)g(serialisers)f(for)h(data)-150
+3962 y(v)n(alues.)53 b(F)o(or)28 b(e)o(xample,)k(one)d(might)g(w)o(ant)
+g(to)f(use)h(adapti)n(v)o(e)h(arithmetic)-150 4045 y(coding)19
+b(to)f(reduce)g(the)g(number)h(of)e(bits)h(required)g(for)g(common)h
+(construc-)-150 4128 y(tors)25 b([23)q(,)g(18)q(].)43
+b(T)-6 b(o)25 b(do)h(this)f(requires)h(the)g(serialiser)f(to)g(carry)h
+(along)h(the)-150 4211 y Fn(encoder)k(state)p Fp(,)h(and)f(to)e(update)
+i(this)f(state)f(whene)n(v)o(er)i(emitting)f(a)f(ne)n(w)-150
+4294 y(constructor)l(.)42 b(So)25 b(the)g(f)o(anc)o(y)h(encoder)g(will)
+e(ha)o(v)o(e)i(this)e(signature,)j(which)-150 4377 y(simply)19
+b(adds)h(a)f(state)f(to)h Fi(encodeCon)p Fp(')l(s)h(signature:)-74
+4475 y Fi(data)39 b(State)115 b(--)38 b(Abstract)-74
+4558 y(initState)h(::)g(State)-74 4641 y(encodeCon)g(::)g(DataType)g
+(->)f(Constr)307 4724 y(->)h(State)f(->)h(\(State,)f([Bit]\))-150
+4821 y Fp(No)n(w)23 b(we)f(just)h(need)g(to)g(modify)g(the)g(plumbing)h
+(in)e Fi(data2bits)p Fp(.)36 b(At)22 b(\002rst)-150 4904
+y(blush,)k(doing)g(so)e(looks)h(trick)o(y)-5 b(,)26 b(because)f
+Fi(gmapQ)g Fp(kno)n(ws)g(nothing)h(about)-150 4987 y(passing)f(a)g
+(state,)g(b)o(ut)f(we)g(can)h(use)g(a)f(standard)h(trick)f(by)h(making)
+g Fi(gmapQ)p -150 5063 801 4 v -49 5124 a Fm(3)-16 5151
+y Fp(One)g(could)h(instead)f(use)g(a)g(`phantom)h(type')f(for)g
+(proxies,)h(to)f(mak)o(e)-150 5234 y(e)o(xplicit)19 b(that)f
+Fi(dataTypeOf)i Fp(does)g(not)f(care)g(about)h(v)n(alues)g(of)e(type)i
+Fi(a)p Fp(,)e(i.e.:)-74 5317 y Fi(data)39 b(Proxy)f(a)h(=)f(Proxy)-74
+5400 y(dataTypeOf)h(::)77 b(Proxy)38 b(a)h Fk(\000)p
+Fe(>)f Fi(DataType)2049 83 y Fp(return)19 b(a)g(list)f(of)h(functions)h
+(of)f(type)g Fi([State)39 b(->)f(\(State,[Bit]\)])p Fp(:)2117
+216 y Fg(data2bits)32 b(::)i(Data)f(a)h(=>)g(a)g(->)f([Bit])2117
+291 y(data2bits)f(t)i(=)g(snd)f(\(show_bin)g(t)h(initState\))2117
+424 y(show_bin)f(::)g(Data)h(a)f(=>)h(a)g(->)f(State)h(->)f(\(State,)g
+([Bit]\))2117 498 y(show_bin)g(t)g(st)h(=)g(\(st2,)f(con_bits)g(++)g
+(args_bits\))2151 573 y(where)2184 648 y(\(st1,)h(con_bits\))66
+b(=)34 b(encodeCon)f(\(dataTypeOf)f(t\))3167 722 y(\(toConstr)h(t\))g
+(st)2184 797 y(\(st2,)h(args_bits\))e(=)i(foldr)f(do_arg)g(\(st1,[]\))
+3031 872 y(enc_args)2184 1005 y(enc_args)g(::)h([State)f(->)h
+(\(State,[Bit]\)])2184 1080 y(enc_args)f(=)h(gmapQ)f(show_bin)g(t)2184
+1212 y(do_arg)h(fn)f(\(st,bits\))g(=)h(\(st',)f(bits')g(++)h(bits\))
+2252 1287 y(where)2320 1362 y(\(st',)f(bits'\))g(=)h(fn)g(st)2049
+1503 y Fp(Notice)17 b(that)h(the)f(call)h(to)f Fi(gmapQ)h
+Fp(partially)f(applies)h Fi(show_bin)g Fp(to)f(the)h(chil-)2049
+1586 y(dren)h(of)g(the)g(constructor)m(,)h(returning)f(a)g(list)f(of)h
+(state)f(transformers.)24 b(These)2049 1669 y(are)h(composed)i
+(together)e(by)h(the)f Fi(foldr)38 b(do_arg)p Fp(.)k(Of)25
+b(course,)i(the)e(ap-)2049 1752 y(pending)f(of)f(bit-strings)g(is)f
+(not)h(ef)n(\002cient,)h(b)o(ut)e(that)h(is)f(easily)h(a)o(v)o(oided)g
+(by)2049 1835 y(using)d(an)o(y)f(O\(1\)-append)h(representation)g(of)f
+(bit-strings)g(\(see)g(e.g.)k([9]\).)2049 1951 y(A)k(more)h(ele)o(gant)
+g(approach)h(w)o(ould)f(instead)g(present)g(the)g(encoder)g(in)g(a)2049
+2034 y(monadic)20 b(w)o(ay:)2125 2132 y Fi(data)39 b(EncM)f(a)115
+b(--)38 b(The)g(encoder)h(monad)2125 2215 y(instance)g(Monad)g(EncM)f
+(where)h(...)2125 2298 y(runEnc)77 b(::)38 b(EncM)h(\(\))f(->)h([Bit])
+2125 2381 y(emitCon)g(::)f(DataType)h(->)g(Constr)f(->)h(EncM)f(\(\))
+2049 2479 y Fp(The)26 b(monad)h Fi(EncM)g Fp(carries)f(\(a\))g(the)g
+(sequence)i(of)e(bits)g(produced)h(so)g(f)o(ar)2049 2562
+y(and)f(\(b\))f(an)o(y)h(accumulating)h(state)e(required)h(by)g(the)f
+(encoding)i(technol-)2049 2645 y(ogy)-5 b(,)26 b(such)f(as)f
+Fi(State)h Fp(abo)o(v)o(e.)40 b(The)24 b(function)h Fi(emitCon)g
+Fp(adds)f(a)h(suitable)2049 2728 y(encoding)17 b(of)f(the)g
+(constructor)g(to)g(the)g(accumulating)h(output,)f(and)h(updates)2049
+2811 y(the)g(state.)22 b(The)16 b(function)h Fi(runEnc)g
+Fp(runs)g(its)f(ar)o(gument)i(computation)f(start-)2049
+2894 y(ing)k(with)f(a)g(suitable)g(initial)g(state,)g(and)h(returns)g
+(the)f(accumulated)i(output)2049 2977 y(at)28 b(the)g(end.)51
+b(All)28 b(the)g(plumbing)h(is)f(no)n(w)h(abstracted,)h(lea)o(ving)f(a)
+f(rather)2049 3060 y(compact)20 b(de\002nition:)2125
+3157 y Fi(data2bits)39 b(::)g(Data)f(a)g(=>)h(a)f(->)g([Bit])2125
+3240 y(data2bits)h(t)f(=)h(runEnc)f(\(emit)h(t\))2125
+3382 y(emit)g(::)f(Data)h(a)f(=>)g(a)g(->)h(EncM)f(\(\))2125
+3465 y(emit)h(t)f(=)g(do)g({)h(emitCon)g(\(dataTypeOf)g(t\))f
+(\(toConstr)h(t\))2582 3548 y(;)g(sequence_)g(\(gmapQ)g(emit)f(t\))g(})
+2049 3689 y Fp(Here,)19 b(the)g(standard)g(monad)h(function)2125
+3786 y Fi(sequence_)39 b(::)g(Monad)f(m)g(=>)h([m)f(a])g(->)h(m)f(\(\))
+2049 3884 y Fp(is)17 b(used)h(to)f(compose)h(the)g(list)e(computations)
+j(produced)g(by)e Fi(gmapQ)39 b(emit)p Fp(.)2049 4063
+y Ff(3.4)90 b(T)-7 b(ype)22 b(erasur)n(e)2049 4180 y
+Fp(The)i(rendering)i(operations)g(so)e(f)o(ar)h(are)f(all)g(forms)h(of)
+f(serialisation.)40 b(W)-6 b(e)2049 4263 y(can)20 b(also)f(render)h
+(terms)f(as)g Fn(tr)m(ees)p Fp(,)g(where)g(we)h(preserv)o(e)f(the)h(o)o
+(v)o(erall)f(shape)2049 4346 y(of)25 b(the)f(terms,)i(b)o(ut)e(erase)h
+(the)g(heterogeneous)i(types.)40 b(F)o(or)25 b(instance,)h(we)2049
+4429 y(can)19 b(easily)g(turn)g(a)g(datum)h(into)f(a)g(rose)g(tree)f
+(of)h(the)g(follo)n(wing)h(kind:)2125 4526 y Fi(data)39
+b(Tree)f(a)g(=)h(Tree)f(a)g([Tree)h(a])2049 4624 y Fp(The)19
+b(rendering)h(operation)g(is)e(easily)h(de\002ned)h(as)f(follo)n(ws:)
+2125 4721 y Fi(data2tree)39 b(::)g(Data)f(a)g(=>)h(a)f(->)g(Tree)h
+(String)2125 4804 y(data2tree)g(x)f(=)h(Tree)f(\(showConstr)i
+(\(toConstr)f(x\)\))2849 4887 y(\(gmapQ)g(data2tree)g(x\))2049
+4985 y Fp(Rendering)17 b(data)f(v)n(alues)g(as)g(rose)g(trees)f(is)h
+(the)f(essence)i(of)f(type)g(erasure)g(for)2049 5068
+y(XML.)k(Dually)-5 b(,)21 b(producing)h(data)f(v)n(alues)g(from)f(rose)
+h(trees)f(is)g(the)h(essence)2049 5151 y(of)i(type)h(v)n(alidation)g
+(for)f(XML.)f(Generic)h(functions)h(for)f(XML)g(type)h(era-)2049
+5234 y(sure)16 b(and)h(type)f(v)n(alidation)h(w)o(ould)g(necessarily)f
+(re\003ect)g(v)n(arious)g(technical-)2049 5317 y(ities)g(of)i(an)f(XML)
+g(binding)h(for)f(Hask)o(ell)h([21,)f(2].)22 b(So)17
+b(we)g(omit)g(the)g(tedious)2049 5400 y(XML-line)i(of)g(scenarios)g
+(here.)p eop
+%%Page: 4 4
+4 3 bop -150 83 a Fq(4)99 b(Generic)26 b(\223r)n(ead\224)f(and)h
+(friends)-150 200 y Fp(Our)e(rendering)i(functions)f(are)f(all)g
+(generic)g Fn(consumer)o(s)p Fp(:)36 b(the)o(y)24 b(consume)-150
+283 y(a)38 b(data)f(structure)h(and)g(produce)h(a)f(\002x)o(ed)f(type)h
+(\()p Fi(String)g Fp(or)g Fi([Bit])p Fp(\).)-150 366
+y(\(Generic)30 b(tra)o(v)o(ersals)f(that)h(query)g(a)g(term,)i(are)d
+(also)h(consumers.\))57 b(The)-150 449 y(in)m(v)o(erse)18
+b(task,)f(of)g(parsing)h(or)g(de-serialisation,)f(requires)h(generic)g
+Fn(pr)m(oduc-)-150 532 y(er)o(s)p Fp(,)g(that)h(consume)g(a)g(\002x)o
+(ed)f(type)h(and)g(produce)g(a)g(data)f(structure.)23
+b(It)18 b(is)g(f)o(ar)-150 615 y(from)h(ob)o(vious)h(ho)n(w)g(to)e
+(achie)n(v)o(e)i(this)f(goal.)-150 731 y(The)24 b(nub)h(of)f(the)h
+(problem)g(is)f(this.)38 b(W)-6 b(e)24 b(are)g(sure)h(to)f(need)h(a)f
+(ne)n(w)h(mem-)-150 814 y(ber)31 b(of)g(the)f Fi(Data)h
+Fp(class,)j Fi(fromConstr)p Fp(,)g(that)d(is)f(a)h(kind)g(of)g(in)m(v)o
+(erse)g(of)-150 897 y Fi(toConstr)p Fp(.)53 b(But)28
+b(what)h(is)f(its)g(type?)53 b(The)28 b(ob)o(vious)i(thing)f(to)f(try)h
+(is)f(to)-150 980 y(re)n(v)o(erse)19 b(the)g(ar)o(gument)h(and)g
+(result)e(of)h Fi(toConstr)p Fp(:)-74 1078 y Fi(class)39
+b(Typeable)g(a)f(=>)g(Data)h(a)f(where)-36 1161 y(...)-36
+1244 y(toConstr)115 b(::)39 b(a)f(->)g(Constr)-36 1327
+y(fromConstr)h(::)g(Constr)g(->)f(a)76 b(--)39 b(NB:)f(not)g(yet)h
+(correct!)-150 1425 y Fp(But)28 b(simply)h(kno)n(wing)g(the)g
+Fn(constructor)i Fp(alone)e(does)g(not)f(gi)n(v)o(e)h(enough)-150
+1508 y(information)20 b(to)f(b)o(uild)f(a)h(v)n(alue:)24
+b(we)19 b(need)h(to)f(kno)n(w)h(what)f(the)g(children)h(of)-150
+1591 y(the)15 b(constructor)h(are,)f(too.)22 b(But)15
+b(we)g(can')o(t)f(pass)i(the)f(children)g(as)g(ar)o(guments)-150
+1674 y(to)21 b Fi(fromConstr)p Fp(,)g(because)h(then)f(the)g(type)g(of)
+f Fi(fromConstr)i Fp(w)o(ould)f(v)n(ary)-5 b(,)-150 1757
+y(just)19 b(as)g(constructor)g(types)h(v)n(ary)-5 b(.)-150
+1873 y(W)f(e)42 b(note)h(that)f(the)g(type)h Fi(Constr)c(->)f(a)k
+Fp(could)i(be)e(used)h Fn(as)g(is)p Fp(,)k(if)-150 1956
+y Fi(fromConstr)26 b Fp(returned)h(a)e(term)g(constructor)i(\002lled)e
+(by)h(bottoms)g(\(\223)p Fk(?)p Fp(\224\).)-150 2039
+y(A)c(subsequent)j(application)e(of)g Fi(gmapT)g Fp(could)h(still)d
+(\002ll)h(in)h(the)f(sub-terms)-150 2122 y(properly)-5
+b(.)47 b(Ho)n(we)n(v)o(er)m(,)28 b(this)e(is)g(something)i(of)e(a)h
+(hack.)46 b(Firstly)-5 b(,)27 b(the)g(bot-)-150 2205
+y(toms)e(imply)g(dependence)i(on)e(laziness.)41 b(Secondly)-5
+b(,)27 b(the)e(approach)h(f)o(ails)-150 2288 y(completely)20
+b(for)f(strict)f(data)h(types.)k(So)c(we)g(seek)g(another)h(solution.)
+-150 2404 y(The)g(solution)g(we)f(adopt)i(is)e(to)g(pass)h(a)g(generic)
+g(function)g(to)g Fi(fromConstr)-150 2487 y Fp(that)28
+b(generates)h(the)g(children.)52 b(T)-6 b(o)28 b(this)g(end,)j(we)e
+(emplo)o(y)g(a)f(monad)i(to)-150 2570 y(pro)o(vide)20
+b(input)f(for)g(generation)h(of)f(children:)-74 2668
+y Fi(fromConstrM)39 b(::)g(\(Monad)g(m,)f(Data)g(a\))383
+2751 y(=>)h(\(forall)g(b.)f(Data)h(b)f(=>)g(m)g(b\))383
+2834 y(->)h(Constr)g(->)f(m)g(a)-150 2932 y Fp(W)-6 b(e)18
+b(will)g(\002rst)g(demonstrate)i Fi(fromConstrM)p Fp(,)g(and)f(then)h
+(de\002ne)f(it.)-150 3109 y Ff(4.1)90 b(T)-8 b(ext)22
+b(to)h(data)-150 3226 y Fp(Here)j(is)f(the)h(code)h(for)f(a)g(generic)g
+(read,)i(where)e(we)g(ignore)g(the)g(need)h(to)-150 3309
+y(consume)20 b(spaces)g(and)g(match)f(parentheses:)-74
+3407 y Fi(gread)39 b(::)f(Data)h(a)f(=>)g(String)h(->)f(Maybe)h(a)-74
+3490 y(gread)g(input)f(=)h(runDec)f(input)h(readM)-74
+3630 y(readM)g(::)f(Data)h(a)f(=>)g(DecM)h(a)-74 3713
+y(readM)g(=)2 3796 y(do)g({)f(constr)h(<-)f(parseConstr)h(???)g(--)f
+(to)g(be)h(completed)117 3879 y(;)f(fromConstrM)h(readM)g(constr)g(})
+-150 4020 y Fp(The)19 b(tw)o(o)g(lines)g(of)g Fi(readM)g
+Fp(carry)g(out)g(the)g(follo)n(wing)h(steps:)-82 4117
+y(1.)42 b(P)o(arse)29 b(a)h Fi(Constr)g Fp(from)g(the)g(front)g(of)g
+(the)g(input.)56 b(This)29 b(time)h(we)16 4200 y(emplo)o(y)20
+b(a)f(parser)g(monad,)h Fi(DecM)p Fp(,)f(with)f(the)h(follo)n(wing)h
+(signature:)92 4290 y Fi(data)39 b(DecM)f(a)115 b(--)38
+b(The)h(decoder)f(monad)92 4373 y(instance)h(Monad)g(DecM)f(where)h
+(...)92 4456 y(runDec)230 b(::)38 b(String)h(->)f(DecM)g(a)h(->)f(a)92
+4539 y(parseConstr)i(::)e(DataType)h(->)f(DecM)h(Constr)16
+4628 y Fp(The)24 b(monad)i(carries)e(\(a\))g(the)g(as-yet-unconsumed)j
+(input,)f(and)f(\(b\))16 4711 y(an)o(y)i(state)f(needed)i(by)f(the)f
+(decoding)i(technology)-5 b(.)48 b(The)26 b(function)16
+4794 y Fi(parseConstr)18 b Fp(parses)g(a)f(constructor)h(from)f(the)g
+(front)g(of)g(the)h(input,)16 4877 y(updates)k(the)e(state,)h(and)g
+(returns)g(the)g(parsed)g(constructor)l(.)29 b(It)20
+b(needs)16 4960 y(the)29 b Fi(DataType)h Fp(ar)o(gument)f(so)g(that)g
+(it)f(kno)n(ws)i(ho)n(w)g(man)o(y)f(bits)g(to)16 5043
+y(parse,)16 b(or)e(what)h(the)f(v)n(alid)h(constructor)g(names)h(are.)
+21 b(\(This)14 b(ar)o(gument)16 5126 y(still)k(needs)i(to)f(be)g
+(\002lled)f(in)h(for)g(\223???\224)24 b(abo)o(v)o(e.\))-82
+5234 y(2.)42 b(Use)28 b Fi(fromConstrM)g Fp(to)g(call)f
+Fi(readM)h Fp(successi)n(v)o(ely)h(to)f(parse)g(each)16
+5317 y(child)21 b(of)f(the)h(constructor)m(,)g(and)g(construct)g(the)g
+(results)f(into)h(a)f(v)n(alue)16 5400 y(b)o(uilt)e(with)h(the)g
+(constructor)h(identi\002ed)f(in)f(step)h(1.)2049 83
+y(The)14 b(function)i Fi(runDec)f Fp(runs)g(the)f(decoder)i(on)f(a)f
+(particular)h(input,)g(discard-)2049 166 y(ing)23 b(the)g(\002nal)g
+(state)g(and)g(unconsumed)j(input,)e(and)g(returning)f(the)g(result.)
+2049 249 y(In)g(case)g(the)h(monadic)g(presentation)g(seems)f(rather)g
+(abstract,)h(we)f(brie\003y)2049 332 y(sk)o(etch)i(one)f(possible)g
+(implementation)h(of)e(the)h Fi(DecM)g Fp(monad.)38 b(A)23
+b(parser)2049 415 y(of)e(type)h Fi(DecM)39 b(a)21 b Fp(is)g
+(represented)i(by)f(a)f(function)h(that)f(tak)o(es)h(a)g(string)f(and)
+2049 498 y(returns)d(a)g(depleted)h(string)g(together)f(with)g(the)g
+(parsed)h(v)n(alue,)g(wrapped)g(in)2049 581 y(a)g Fi(Maybe)g
+Fp(to)g(e)o(xpress)h(the)f(possibility)g(of)g(a)f(parse)i(error:)2125
+679 y Fi(newtype)39 b(DecM)g(a)f(=)g(D)g(\(String)h(->)f(Maybe)h
+(\(String,)g(a\)\))2049 776 y Fp(The)25 b(type)g Fi(DecM)g
+Fp(can)h(be)f(made)h(an)f(instance)h(of)f Fi(Monad)g
+Fp(in)g(the)g(standard)2049 859 y(w)o(ay)30 b(\(see)f([10)q(],)i(for)e
+(e)o(xample\).)55 b(It)29 b(remains)g(to)g(de\002ne)h(the)f(parser)h
+(for)2049 942 y(constructors.)35 b(W)-6 b(e)22 b(emplo)o(y)i(a)e(ne)n
+(w)h(function,)h Fi(dataTypeConstrs)p Fp(,)h(that)2049
+1025 y(returns)20 b(a)h(list)e(of)h(all)g(the)g(constructors)h(of)g(a)f
+(data)g(type.)28 b(W)-6 b(e)19 b(try)h(to)g(match)2049
+1108 y(each)j(constructor)g(with)f(the)g(be)o(ginning)h(of)f(the)h
+(input,)g(where)f(we)g(ignore)2049 1191 y(the)d(issue)g(of)g
+(constructors)h(with)e(o)o(v)o(erlapping)j(pre\002x)o(es:)2117
+1301 y Fg(parseConstr)32 b(::)i(DataType)f(->)g(DecM)h(Constr)2117
+1376 y(parseConstr)e(ty)i(=)g(D)f(\(\\s)h(->)f(match)h(s)f
+(\(dataTypeConstrs)f(ty\)\))2151 1450 y(where)2184 1525
+y(match)i(::)f(String)g(->)h([Constr])f(->)h(Maybe)f(\(String,)g
+(Constr\))2184 1600 y(match)h(_)f([])h(=)g(Nothing)2184
+1674 y(match)g(input)f(\(con:cons\))2252 1749 y(|)h(take)f(\(length)g
+(s\))h(input)f(==)h(s)2388 1824 y(=)f(Just)h(\(drop)f(\(length)g(s\))h
+(input,)f(con\))2252 1899 y(|)h(otherwise)2388 1973 y(=)f(match)h
+(input)f(cons)2252 2048 y(where)2320 2123 y(s)h(=)f(showConstr)g(con)
+2049 2240 y Fp(The)19 b(same)g(code)h(for)f Fi(gread)p
+Fp(,)h(with)e(a)h(dif)n(ferent)h(implementation)f(of)h
+Fi(DecM)2049 2323 y Fp(and)25 b(a)f(dif)n(ferent)g(type)g(for)g
+Fi(runDec)p Fp(,)i(w)o(ould)f(serv)o(e)f(equally)h(well)e(to)h(read)
+2049 2406 y(the)19 b(binary)h(structures)f(produced)h(by)g
+Fi(data2bits)p Fp(.)2049 2538 y Ff(4.2)90 b(De\002ning)22
+b Fd(fromConstrM)2049 2655 y Fp(The)k(function)g Fi(fromConstrM)h
+Fp(can)f(be)h(easily)e(de\002ned)i(as)f(a)f(ne)n(w)i(mem-)2049
+2738 y(ber)c(of)g(the)g Fi(Data)g Fp(class,)h(with)e(the)h(type)g(gi)n
+(v)o(en)h(abo)o(v)o(e.)36 b(Its)22 b(instances)i(are)2049
+2821 y(e)o(xtremely)19 b(simple;)g(for)g(e)o(xample:)2125
+2919 y Fi(instance)39 b(Data)g(a)f(=>)g(Data)h([a])f(where)2201
+3002 y(fromConstrM)i(f)e(con)2278 3085 y(=)g(case)g(constrIndex)i(con)e
+(of)2430 3168 y(1)g(->)h(return)f([])2430 3251 y(2)g(->)h(do)f({)g(a)g
+(<-)h(f;)f(as)g(<-)h(f;)f(return)h(\(a:as\))f(})2049
+3348 y Fp(Ho)n(we)n(v)o(er)m(,)52 b(just)44 b(as)h Fi(gmapQ)p
+Fp(,)g Fi(gmapT)g Fp(and)h Fi(gmapM)f Fp(are)g(all)f(instances)2049
+3431 y(of)c(the)h(highly)g(parametric)g Fi(gfoldl)g Fp(operation,)46
+b(so)41 b(we)f(can)h(de\002ne)2049 3514 y Fi(fromConstrM)16
+b Fp(as)f(an)h(instance)f(of)h(the)f(dual)g(of)g Fi(gfoldl)h
+Fp(\227)f(a)g(highly)h(para-)2049 3598 y(metric)23 b(operation)i(for)f
+(unfolding.)38 b(This)24 b(operation,)h Fi(gunfold)f
+Fp(needs)h(to)2049 3681 y(be)19 b(added)h(to)f(the)g
+Fi(Data)g Fp(class:)2117 3790 y Fg(class)33 b(Typeable)g(a)h(=>)f(Data)
+h(a)f(where)2184 3865 y(...)2184 3939 y(gunfold)g(::)h(\(forall)f(b)h
+(r.)f(Data)h(b)2896 4014 y(=>)f(c)h(\(b)g(->)f(r\))h(->)g(c)f(r\))2455
+4089 y(->)h(\(forall)f(r.)h(r)f(->)h(c)g(r\))2455 4164
+y(->)g(Constr)2455 4238 y(->)g(c)g(a)2049 4356 y Fp(The)22
+b(tw)o(o)g(polymorphically)i(typed)f(ar)o(guments)g(serv)o(e)f(for)h(b)
+o(uilding)f(non-)2049 4439 y(empty)d(vs.)f(empty)h(constructor)g
+(applications.)24 b(In)18 b(this)g(manner)m(,)h Fi(gunfold)2049
+4522 y Fp(really)j(dualises)h Fi(gfoldl)p Fp(,)g(which)g(tak)o(es)g(tw)
+o(o)g(similar)e(ar)o(guments)i(for)g(the)2049 4605 y(tra)o(v)o(ersal)f
+(of)g(constructor)h(applications.)35 b(The)22 b(operations)h
+Fi(gunfold)g Fp(and)2049 4688 y Fi(gfoldl)18 b Fp(also)g(share)g(the)g
+(use)h(of)e(a)h(type)g(constructor)h(parameter)g Fi(c)e
+Fp(in)h(their)2049 4771 y(result)h(types,)g(which)g(is)g(k)o(e)o(y)g
+(to)g(their)g(highly)g(parametric)h(quality)-5 b(.)2049
+4887 y(The)51 b(instances)g(of)g Fi(gunfold)g Fp(are)g(e)n(v)o(en)h
+(simpler)e(than)i(those)f(for)2049 4970 y Fi(fromConstrM)p
+Fp(,)39 b(as)f(we)g(shall)g(see)g(in)h(Section)f(5.1.)81
+b(The)38 b(operation)2049 5053 y Fi(fromConstrM)20 b
+Fp(is)e(easily)h(deri)n(v)o(ed)h(as)f(follo)n(ws:)2125
+5151 y Fi(fromConstrM)39 b(f)g(=)f(gunfold)h(k)f(z)2163
+5234 y(where)2201 5317 y(k)h(c)f(=)g(do)g({)h(c')f(<-)g(c;)h(b)f(<-)g
+(f;)g(return)h(\(c')g(b\))f(})2201 5400 y(z)h(=)f(return)p
+eop
+%%Page: 5 5
+5 4 bop -150 83 a Fp(Here,)19 b(the)f(ar)o(gument)i Fi(z)f
+Fp(in)f Fi(\(gunfold)39 b(k)g(z\))19 b Fp(turns)g(the)g(empty)g
+(construc-)-150 166 y(tor)28 b(application)g(into)g(a)g(monadic)h
+(computation,)i(while)d Fi(k)f Fp(unfolds)i(one)-150
+249 y(child,)19 b(and)g(combines)h(it)f(with)f(the)h(rest.)-150
+380 y Ff(4.3)90 b(Getting)24 b(hold)e(of)h(the)f(data)h(type)-150
+497 y Fp(In)16 b(the)g(generic)h(parser)f(we)g(ha)o(v)o(e)h(thus-f)o
+(ar)f(sho)n(wn,)h(we)f(left)g(open)h(the)f(ques-)-150
+580 y(tion)24 b(of)g(ho)n(w)g(to)g(get)g(the)g Fi(DataType)g
+Fp(corresponding)i(to)e(the)g(result)g(type,)-150 663
+y(to)d(pass)g(to)g Fi(parseConstr)p Fp(,)h(the)f(\223)p
+Fi(???)p Fp(\224)h(in)f Fi(readM)p Fp(.)g(The)f(dif)n(\002culty)h(is)g
+(that)-150 746 y Fi(dataTypeOf)g Fp(needs)g(an)f(ar)o(gument)g(of)g
+(the)g(result)g(type,)g(b)o(ut)g(we)f(ha)o(v)o(e)i(not)-150
+829 y(yet)e(b)o(uilt)f(the)h(result)g(v)n(alue.)-150
+945 y(This)27 b(problem)i(is)e(easily)h(solv)o(ed,)j(by)d(a)g
+(technique)h(that)e(we)h(frequently)-150 1028 y(encounter)i(in)f
+(type-class-based)h(generic)f(programming.)54 b(Here)28
+b(is)h(the)-150 1111 y(code)20 b(for)f Fi(readM)g Fp(without)g(\223)p
+Fi(???)p Fp(\224:)-82 1220 y Fg(readM)33 b(::)h(Data)f(a)h(=>)f(DecM)h
+(a)-82 1295 y(readM)f(=)h(read_help)-15 1369 y(where)53
+1444 y(read_help)121 1519 y(=)g(do)f({)h(let)g(ty)67
+b(=)34 b(dataTypeOf)e(\(unDec)i(read_help\))290 1593
+y(;)g(constr)f(<-)h(parseConstr)e(ty)290 1668 y(;)i(fromConstrM)f
+(readM)g(constr)g(})-82 1777 y(unDec)g(::)h(DecM)f(a)h(->)f(a)-82
+1852 y(unDec)g(=)h(undefined)-150 1969 y Fp(Here,)f Fi(unDec)p
+Fp(')l(s)d(type)h(signature)g(maps)g(the)f(type)h Fi(DecM)39
+b(a)30 b Fp(to)g Fi(a)g Fp(as)h(de-)-150 2052 y(sired.)45
+b(Notice)26 b(the)g(recursion)h(here,)h(where)f Fi(read_help)g
+Fp(is)e(used)i(in)f(its)-150 2135 y(o)n(wn)e(right-hand)g(side.)37
+b(But)23 b(recall)g(that)g Fi(dataTypeOf)h Fp(is)f(not)g(interested)
+-150 2218 y(in)d(the)g Fn(value)h Fp(of)f(its)g(ar)o(gument,)g(b)o(ut)g
+(only)h(in)f(its)g Fn(type)p Fp(;)h(the)f(lazy)g(ar)o(gument)-150
+2301 y Fi(\(unDec)39 b(read_help\))28 b Fp(simply)f(e)o(xplains)h(to)f
+(the)h(compiler)f(what)h Fi(Data)-150 2384 y Fp(dictionary)20
+b(to)e(pass)i(to)f Fi(dataTypeOf)p Fp(.)-150 2500 y(Rather)c(than)g
+(using)g(an)g(auxiliary)h Fi(unDec)f Fp(function,)h(there)f(is)f(a)h
+(more)g(direct)-150 2583 y(w)o(ay)28 b(to)e(e)o(xpress)i(the)f(type)h
+(of)f Fi(dataTypeOf)p Fp(')l(s)h(ar)o(gument.)48 b(That)27
+b(is,)h(we)-150 2666 y(can)22 b(use)f(le)o(xically-scoped)i(type)e(v)n
+(ariables,)h(which)g(is)e(an)i(independently)-150 2749
+y(useful)d(Hask)o(ell)g(e)o(xtension.)25 b(W)-6 b(e)18
+b(re)n(write)g Fi(readM)i Fp(as)f(follo)n(ws:)-82 2858
+y Fg(readM)33 b(::)h(Data)f(a)h(=>)f(DecM)h(a)-82 2933
+y(readM)f(=)h(read_help)-15 3008 y(where)53 3082 y(read_help)f(::)h
+(DecM)f(a)121 3157 y(=)h(do)f({)h(let)g(ty)f(=)h(dataTypeOf)f
+(\(undefined::a\))290 3232 y(;)h(constr)f(<-)h(parseConstr)e(ty)290
+3307 y(;)i(fromConstrM)f(readM)g(constr)g(})-150 3424
+y Fp(The)19 b(de\002nition)-74 3521 y Fi(read_help)39
+b(::)g(DecM)f(a)g(=)h(...)-150 3619 y Fp(states)50 b(that)h
+Fi(read_help)g Fp(should)h(ha)o(v)o(e)f(the)g(\(monomorphic\))h(type)
+-150 3702 y Fi(DecM)39 b(a)p Fp(,)21 b(for)g(some)h(type)g
+Fi(a)p Fp(,)g(and)g(furthermore)g(brings)g(the)f(type)h(v)n(ariable)
+-150 3785 y Fi(a)h Fp(into)g(scope,)i(with)d(the)h(same)h(scope)f(as)g
+Fi(read_help)h Fp(itself.)35 b(The)23 b(ar)o(gu-)-150
+3868 y(ment)h(to)g Fi(dataTypeOf)p Fp(,)i(namely)f Fi(\(undefined::a\))
+p Fp(,)h(is)e(constrained)h(to)-150 3951 y(ha)o(v)o(e)h(the)f(same)h
+(type)g Fi(a)p Fp(,)h(because)g(the)e(type)h(v)n(ariable)g
+Fi(a)g Fp(is)f(in)g(scope.)44 b(A)-150 4034 y(scoped)20
+b(type)f(v)n(ariable)g(is)g(only)g(introduced)h(by)f(a)g(type)g
+(signature)h(directly)-150 4117 y(attached)i(to)g(a)g(pattern)g
+(\(e.g.,)f Fi(read_help)39 b(::)g(DecM)f(a)p Fp(\).)32
+b(In)21 b(contrast,)i(a)-150 4200 y(separate)c(type)h(signature,)f
+(such)h(as)-74 4297 y Fi(read_help)39 b(::)g(Data)f(a)g(=>)h(DecM)f(a)
+-150 4395 y Fp(is)19 b(short)g(for)-74 4493 y Fi(read_help)39
+b(::)g(forall)f(a.)h(Data)f(a)g(=>)h(DecM)f(a)-150 4590
+y Fp(and)29 b(does)g(not)g(introduce)g(an)o(y)g(scoping)h(of)e(type)h
+(v)n(ariables.)52 b(Ho)n(we)n(v)o(er)m(,)-150 4673 y(we)18
+b(stress)h(that,)f(although)i(con)m(v)o(enient,)f(le)o(xically-scoped)h
+(type)f(v)n(ariables)-150 4756 y(are)j(not)h(required)g(to)f(support)i
+(the)e Fn(Scr)o(ap)i(your)f(boilerplate)g Fp(approach)h(to)-150
+4839 y(generic)19 b(programming,)g(as)f(we)g(illustrated)g(with)f(the)h
+(initial)g(de\002nition)g(of)-150 4922 y Fi(read_help)p
+Fp(.)-150 5117 y Fq(5)99 b(T)-7 b(ype)26 b(r)n(e\003ection)g(\227)f
+(the)h(full)e(story)-150 5234 y Fp(The)19 b(pre)n(vious)h(tw)o(o)f
+(sections)h(ha)o(v)o(e)f(introduced,)h(in)f(a)f(piecemeal)i(f)o
+(ashion,)-150 5317 y(three)29 b(ne)n(w)f(operations)i(in)e(the)h
+Fi(Data)f Fp(class.)52 b(In)28 b(this)g(section)h(we)g(sum-)-150
+5400 y(marise)19 b(these)g(e)o(xtensions.)24 b(The)19
+b(three)g(ne)n(w)g(operations)h(are)f(these:)2117 83
+y Fg(class)33 b(Typeable)g(a)h(=>)f(Data)h(a)f(where)2184
+158 y(...)2184 232 y(dataTypeOf)g(::)h(a)f(->)h(DataType)2184
+307 y(toConstr)101 b(::)34 b(a)f(->)h(Constr)2184 382
+y(gunfold)135 b(::)34 b(\(forall)f(b)g(r.)h(Data)f(b)h(=>)g(c)g(\(b)f
+(->)h(r\))f(->)h(c)g(r\))2557 457 y(->)g(\(forall)f(r.)g(r)h(->)g(c)f
+(r\))2557 531 y(->)h(Constr)2557 606 y(->)g(c)f(a)2049
+727 y Fp(Ev)o(ery)24 b(instance)h(of)f Fi(dataTypeOf)i
+Fp(is)d(e)o(xpected)j(to)e(be)h(non-strict)f(\227)g(i.e.)2049
+810 y(does)30 b(not)g(e)n(v)n(aluate)g(its)f(ar)o(gument.)55
+b(By)29 b(contrast,)j Fi(toConstr)e Fp(must)f(be)2049
+893 y(strict)16 b(\227)g(at)h(least)f(for)h(multi-constructor)g(types)h
+(\227)e(since)h(it)f(gi)n(v)o(es)h(a)g(result)2049 976
+y(that)i(depends)h(on)g(the)f(constructor)h(with)e(which)h(the)g(ar)o
+(gument)h(is)e(b)o(uilt.)2049 1092 y(The)e(function)g
+Fi(dataTypeOf)h Fp(of)n(fers)e(a)h(f)o(acility)f(commonly)i(kno)n(wn)g
+(as)f(\223re-)2049 1175 y(\003ection\224.)59 b(Gi)n(v)o(en)31
+b(a)g(type)g(\227)f(or)h(rather)g(a)f(lazy)h(v)n(alue)h(that)f(serv)o
+(es)g(as)2049 1258 y(a)d(proxy)h(for)f(a)g(type)h(\227)f(it)f(returns)i
+(a)f(data)g(structure)g(\()p Fi(DataType)p Fp(\))h(that)2049
+1341 y(describes)c(the)g(structure)g(of)f(the)h(type.)40
+b(The)24 b(data)h(types)g Fi(DataType)g Fp(and)2049 1424
+y Fi(Constr)19 b Fp(are)g(abstract:)2125 1521 y Fi(data)39
+b(DataType)g(--)f(Abstract,)h(instance)g(of)f(Eq)2125
+1605 y(data)h(Constr)115 b(--)38 b(Abstract,)h(instance)g(of)f(Eq)2049
+1702 y Fp(The)f(follo)n(wing)g(sections)g(gi)n(v)o(e)h(the)f(observ)o
+(ers)h(and)f(constructors)h(for)2049 1785 y Fi(DataType)20
+b Fp(and)f Fi(Constr)p Fp(.)2049 1922 y Ff(5.1)90 b(Algebraic)22
+b(data)g(types)2049 2039 y Fp(W)-6 b(e)20 b(will)g(\002rst)f(consider)j
+(algebraic)f(data)g(types,)g(although)h(the)f(API)e(is)i(de-)2049
+2122 y(\002ned)h(such)g(that)g(it)e(readily)i(co)o(v)o(ers)g(primiti)n
+(v)o(e)g(types)g(as)f(well,)h(as)f(we)h(will)2049 2205
+y(e)o(xplain)e(in)e(the)h(ne)o(xt)h(section.)j(These)c(are)g(the)g
+(observ)o(ers)h(for)f Fi(DataType)p Fp(:)2117 2318 y
+Fg(dataTypeName)134 b(::)33 b(DataType)g(->)h(String)2117
+2392 y(dataTypeConstrs)e(::)h(DataType)g(->)h([Constr])2117
+2467 y(maxConstrIndex)66 b(::)33 b(DataType)g(->)h(ConIndex)2117
+2542 y(indexConstr)168 b(::)33 b(DataType)g(->)h(ConIndex)f(->)g
+(Constr)2117 2616 y(type)g(ConIndex)101 b(=)67 b(Int)203
+b(--)34 b(Starts)f(at)h(1)2049 2737 y Fp(These)i(functions)h(should)g
+(be)f(suggesti)n(v)o(e,)41 b(just)36 b(by)g(their)g(names)g(and)2049
+2820 y(types.)48 b(F)o(or)26 b(e)o(xample,)k Fi(indexConstr)e
+Fp(tak)o(es)f(a)g(constructor)h(inde)o(x)g(and)2049 2903
+y(a)21 b Fi(DataType)p Fp(,)i(and)f(returns)g(the)f(corresponding)j
+Fi(Constr)p Fp(.)31 b(These)22 b(are)g(the)2049 2986
+y(observ)o(ers)e(for)f Fi(Constr)p Fp(:)2117 3098 y Fg(constrType)100
+b(::)34 b(Constr)f(->)g(DataType)2117 3173 y(showConstr)100
+b(::)34 b(Constr)f(->)g(String)2117 3248 y(constrIndex)66
+b(::)34 b(Constr)f(->)g(ConIndex)2117 3322 y(constrFixity)f(::)i
+(Constr)f(->)g(Fixity)2117 3397 y(constrFields)f(::)i(Constr)f(->)g
+([String])2117 3472 y(data)g(Fixity)67 b(=)h(...)135
+b(--)33 b(Details)g(omitted)2049 3592 y Fp(\(The)27 b(name)g(of)g
+Fi(showConstr)h Fp(is)f(chosen)h(for)f(its)f(allusion)i(to)f(Hask)o
+(ell')l(s)2049 3675 y(well-kno)n(wn)16 b Fi(show)f Fp(function.\))22
+b(W)-6 b(e)15 b(ha)o(v)o(e)g(already)g(mentioned)h(all)f(of)f(these)
+2049 3758 y(observ)o(ers)20 b(in)f(earlier)g(sections,)g(e)o(xcept)h
+Fi(constrType)g Fp(which)f(returns)h(the)2049 3841 y(constructor')l(s)j
+Fi(DataType)p Fp(,)g(and)g Fi(constrFields)g Fp(which)f(returns)g(the)h
+(list)2049 3924 y(of)28 b(the)g(constructor')l(s)g(\002eld)g(labels)g
+(\(or)g Fi([])f Fp(if)h(it)f(has)h(none\).)51 b(V)-8
+b(alues)28 b(of)2049 4007 y(types)19 b Fi(DataType)h
+Fp(and)g Fi(Constr)f Fp(are)g(constructed)h(as)f(follo)n(ws:)2125
+4105 y Fi(mkDataType)39 b(::)g(String)f(->)h([Constr])g(->)f(DataType)
+2125 4188 y(mkConstr)115 b(::)39 b(DataType)g(->)f(String)h(->)f
+([String])2544 4271 y(->)h(Fixity)f(->)h(Constr)2049
+4368 y Fp(The)22 b(function)h Fi(readConstr)f Fp(parses)h(a)f(gi)n(v)o
+(en)g(string)g(into)g(a)g(constructor;)2049 4452 y(it)17
+b(returns)h Fi(Nothing)g Fp(if)f(the)h(string)f(does)i(not)f(refer)f
+(to)h(a)f(v)n(alid)h(constructor:)2125 4549 y Fi(readConstr)39
+b(::)g(DataType)g(->)f(String)h(->)f(Maybe)h(Constr)2049
+4647 y Fp(When)21 b(the)f(programmer)h(de\002nes)g(a)g(ne)n(w)f(data)h
+(type,)g(and)g(w)o(ants)f(to)h(use)f(it)2049 4730 y(in)25
+b(generic)h(programs,)i(it)d(must)g(be)h(made)g(an)g(instance)g(of)f
+Fi(Data)p Fp(.)43 b(GHC)2049 4813 y(will)25 b(deri)n(v)o(e)h(these)g
+(instance)h(if)e(a)h Fi(deriving)g Fp(clause)h(is)e(used,)j(b)o(ut)e
+(there)2049 4896 y(is)i(no)h(magic)f(here)h(\227)f(the)g(instances)h
+(are)f(easy)h(to)f(de\002ne)h(manually)g(if)2049 4979
+y(desired.)24 b(F)o(or)18 b(e)o(xample,)h(here)h(is)e(the)h(instance)h
+(for)e Fi(Maybe)p Fp(:)2117 5091 y Fg(instance)33 b(Data)g(a)h(=>)f
+(Data)h(\(Maybe)f(a\))g(where)2184 5166 y(...)h(--)g(gfoldl)f(as)g
+(before)2184 5240 y(dataTypeOf)g(_)203 b(=)34 b(maybeType)2184
+5315 y(toConstr)f(\(Just)h(_\))f(=)h(justCon)2184 5390
+y(toConstr)f(Nothing)67 b(=)34 b(nothingCon)p eop
+%%Page: 6 6
+6 5 bop -15 83 a Fg(gunfold)33 b(k)h(z)g(con)101 b(=)53
+158 y(case)34 b(constrIndex)e(con)i(of)121 232 y(1)g(->)f(z)h(Nothing)
+67 b(--)34 b(no)f(children)121 307 y(2)h(->)f(k)h(\(z)g(Just\))f(--)h
+(one)f(child,)g(hence)g(one)h(k)-82 414 y(justCon,)f(nothingCon)f(::)i
+(Constr)-82 489 y(nothingCon)e(=)i(mkConstr)f(maybeType)g("Nothing")f
+([])i(NoFixity)-82 563 y(justCon)134 b(=)34 b(mkConstr)f(maybeType)g
+("Just")134 b([])34 b(NoFixity)-82 670 y(maybeType)e(::)i(DataType)-82
+745 y(maybeType)e(=)68 b(mkDataType)33 b("Prelude.Maybe")731
+819 y([nothingCon,)f(justCon])-150 935 y Fp(Notice)16
+b(that)f(the)h(constructors)g(mention)h(the)e(data)h(type)g(and)g(vice)
+g(v)o(ersa,)h(so)-150 1018 y(that)j(starting)g(from)h(either)f(one)h
+(can)g(get)f(to)g(the)h(other)l(.)27 b(Furthermore,)21
+b(this)-150 1101 y(mutual)f(recursion)g(allo)n(ws)f Fi(mkDataType)h
+Fp(to)f(perform)h(the)f(assignment)i(of)-150 1184 y(constructor)j
+(indices:)31 b(the)23 b(f)o(act)g(that)f Fi(Nothing)i
+Fp(has)f(inde)o(x)g(1)g(is)f(speci\002ed)-150 1267 y(by)d(its)g
+(position)g(in)g(the)g(list)f(passed)i(to)f Fi(mkDataType)p
+Fp(.)-150 1393 y Ff(5.2)90 b(Primiti)o(v)o(e)24 b(types)-150
+1510 y Fp(Some)33 b(of)f(Hask)o(ell')l(s)h(b)o(uilt-in)f(types)i(need)f
+(special)g(treatment.)65 b(Man)o(y)-150 1593 y(b)o(uilt-in)27
+b(types)h(are)f(e)o(xplicitly)h(speci\002ed)g(by)g(the)f(language)i(to)
+f(be)g(alge-)-150 1676 y(braic)h(data)g(types,)j(and)d(these)h(cause)f
+(no)h(problem.)53 b(F)o(or)29 b(e)o(xample,)j(the)-150
+1759 y(boolean)20 b(type)g(is)e(speci\002ed)h(lik)o(e)g(this:)-74
+1857 y Fi(data)39 b(Bool)f(=)g(False)h(|)f(True)-150
+1954 y Fp(There)32 b(are)f(a)h(fe)n(w)g(types,)j(ho)n(we)n(v)o(er)m(,)g
+Fn(primitive)c(types)p Fp(,)k(that)d(cannot)g(be)-150
+2037 y(described)27 b(in)f(this)g(w)o(ay:)37 b Fi(Int)p
+Fp(,)28 b Fi(Integer)p Fp(,)g Fi(Float)p Fp(,)f Fi(Double)p
+Fp(,)h(and)f Fi(Char)p Fp(.)-150 2120 y(\(GHC)19 b(happens)i(to)e
+Fn(implement)i Fp(some)f(of)g(these)f(as)h(algebraic)g(data)g(types,)
+-150 2203 y(some)g(with)g(unbox)o(ed)h(components,)h(b)o(ut)d(that)h
+(should)g(not)g(be)g(re)n(v)o(ealed)h(to)-150 2286 y(the)j(programmer)l
+(.\))38 b(Furthermore,)25 b(GHC)f(adds)g(se)n(v)o(eral)g(others,)h
+(such)g(as)-150 2369 y Fi(Word8)p Fp(,)19 b Fi(Word16)p
+Fp(,)g(and)g(so)h(on.)-150 2485 y(Ho)n(w)32 b(should)i(the)e
+(\223re\003ection\224)g(functions,)k Fi(dataTypeOf)p
+Fp(,)g Fi(toConstr)p Fp(,)-150 2568 y(and)28 b(so)g(on,)h(beha)o(v)o(e)
+f(on)g(primiti)n(v)o(e)g(types?)49 b(One)28 b(possibility)f(w)o(ould)h
+(be)-150 2651 y(to)22 b(support)i Fi(dataTypeOf)f Fp(for)f(primiti)n(v)
+o(e)h(types,)g(b)o(ut)f(not)h Fi(toConstr)g Fp(and)-150
+2734 y Fi(fromConstr)p Fp(.)g(That)17 b(has)h(the)f(disadv)n(antage)i
+(that)e(e)n(v)o(ery)h(generic)g(function)-150 2818 y(w)o(ould)27
+b(need)g(to)f(de\002ne)g(special)g(cases)h(for)e(all)h(primiti)n(v)o(e)
+g(types.)44 b(While)-150 2901 y(there)24 b(are)g(only)g(a)g(\002x)o(ed)
+g(number)h(of)e(such)i(types,)g(it)e(w)o(ould)i(still)d(be)j(tire-)-150
+2984 y(some,)19 b(so)g(we)g(of)n(fer)g(a)g(little)f(additional)h
+(support.)-150 3100 y(W)-6 b(e)25 b(elaborate)h Fi(Constr)g
+Fp(so)f(that)h(it)e(can)i(represent)g(a)f(v)n(alue)i(of)e(primiti)n(v)o
+(e)-150 3183 y(types.)57 b(Then,)33 b Fi(toConstr)d Fp(constructs)h
+(such)g(speci\002c)f(representations.)-150 3266 y(While)17
+b Fi(Constr)h Fp(is)f(opaque,)i(we)e(pro)o(vide)h(an)g(observ)o(er)g
+Fi(constrRep)g Fp(to)g(get)-150 3349 y(access)i(to)e(constructor)i
+(representations:)-82 3456 y Fg(constrRep)32 b(::)i(Constr)f(->)h
+(ConstrRep)-82 3530 y(data)f(ConstrRep)-15 3605 y(=)h(AlgConstr)67
+b(ConIndex)33 b(--)g(Algebraic)g(data)g(type)-15 3680
+y(|)h(IntConstr)101 b(Integer)33 b(--)g(Primitive)g(type)g(\(ints\))-15
+3754 y(|)h(FloatConstr)67 b(Double)33 b(--)g(Primitive)g(type)g
+(\(floats\))-15 3829 y(|)h(StringConstr)f(String)g(--)g(Primitive)g
+(type)g(\(strings\))-150 3944 y Fp(The)25 b(constructors)h(from)g(an)f
+(algebraic)h(data)f(type)h(ha)o(v)o(e)g(an)f Fi(AlgConstr)-150
+4027 y Fp(representation,)j(whose)e Fi(ConIndex)h Fp(distinguishes)f
+(the)g(constructors)h(of)-150 4110 y(the)e(type.)40 b(A)24
+b Fi(Constr)h Fp(resulting)g(from)f(an)h Fi(Int)g Fp(or)f
+Fi(Integer)h Fp(v)n(alue)h(will)-150 4193 y(ha)o(v)o(e)19
+b(an)g Fi(IntConstr)h Fp(representation,)g(e.g.:)-36
+4291 y Fi(constrRep)39 b(\(toConstr)g(\(1::Int\)\))78
+b(==)e(IntConstr)39 b(1)-150 4388 y Fp(The)23 b(same)f
+Fi(IntConstr)i Fp(representation)f(is)g(used)g(for)f(GHC')l(s)g(data)h
+(types)-150 4471 y Fi(Word8)p Fp(,)h Fi(Int8)p Fp(,)g
+Fi(Word16)p Fp(,)g Fi(Int16)p Fp(,)g(and)g(others.)36
+b(The)23 b Fi(FloatConstr)h Fp(rep-)-150 4554 y(resentation)d(is)f
+(used)h(for)f Fi(Float)g Fp(and)h Fi(Double)p Fp(,)g(while)f
+Fi(StringConstr)h Fp(is)-150 4637 y(used)j(for)f(an)o(ything)h(else)f
+(that)g(does)g(not)h(\002t)e(one)h(of)g(these)h(more)f(ef)n(\002cient)
+-150 4720 y(representations.)37 b(W)-6 b(e)23 b(note)h(that)f
+Fi(Char)p Fp(s)g(are)h(represented)g(as)g Fi(Integer)p
+Fp(s,)-150 4803 y(and)c Fi(String)p Fp(s)f(are)g(represented)h(as)f
+(lists)f(of)h Fi(Integer)p Fp(s.)-150 4920 y(There)g(is)f(a)h(parallel)
+g(re\002nement)g(of)g Fi(DataType)p Fp(:)-82 5026 y Fg(dataTypeRep)32
+b(::)i(DataType)f(->)g(DataRep)-82 5101 y(data)g(DataRep)-15
+5176 y(=)h(AlgRep)f([Constr])169 b(--)33 b(Algebraic)g(data)g(type)-15
+5251 y(|)h(IntRep)474 b(--)33 b(Primitive)g(type)g(\(ints\))-15
+5325 y(|)h(FloatRep)406 b(--)33 b(Primitive)g(type)g(\(floats\))-15
+5400 y(|)h(StringRep)372 b(--)33 b(Primitive)g(type)g(\(strings\))2049
+83 y Fp(There)19 b(are)g(dedicated)h(constructors)g(as)f(well:)2117
+192 y Fg(mkIntType)202 b(::)33 b(String)h(->)f(DataType)2117
+267 y(mkFloatType)134 b(::)33 b(String)h(->)f(DataType)2117
+342 y(mkStringType)100 b(::)33 b(String)h(->)f(DataType)2117
+417 y(mkIntConstr)134 b(::)33 b(DataType)g(->)h(Integer)f(->)h(Constr)
+2117 491 y(mkFloatConstr)66 b(::)33 b(DataType)g(->)h(Double)67
+b(->)34 b(Constr)2117 566 y(mkStringConstr)e(::)h(DataType)g(->)h
+(String)67 b(->)34 b(Constr)2049 684 y Fp(The)15 b(observ)o(ers)g
+Fi(constrType)p Fp(,)h Fi(showConstr)g Fp(and)f Fi(readConstr)h
+Fp(all)e(w)o(ork)2049 767 y(for)24 b(primiti)n(v)o(e-type)h
+Fi(Constr)p Fp(s.)40 b(All)23 b(that)h(said,)i(the)e
+Fi(Data)h Fp(instance)g(for)f(a)2049 850 y(primiti)n(v)o(e)19
+b(type,)g(such)g(as)g Fi(Int)p Fp(,)g(looks)h(lik)o(e)f(this:)2117
+959 y Fg(instance)33 b(Data)g(Int)g(where)2184 1034 y(gfoldl)h(k)f(z)h
+(c)g(=)g(z)f(c)2184 1109 y(gunfold)g(k)h(z)g(c)g(=)f(case)h(constrRep)f
+(c)g(of)2794 1184 y(IntConstr)g(x)h(->)f(z)h(\(fromIntegral)e(x\))2794
+1258 y(_)373 b(->)33 b(error)h("gunfold")2184 1333 y(toConstr)f(x)h(=)g
+(mkIntConstr)e(intType)h(\(fromIntegral)g(x\))2117 1482
+y(intType)g(=)g(mkIntType)g("Prelude.Int")2049 1614 y
+Ff(5.3)90 b(Non-r)n(epr)n(esentable)20 b(data)j(types)2049
+1731 y Fp(Lastly)-5 b(,)16 b(it)f(is)h(con)m(v)o(enient)h(to)f(gi)n(v)o
+(e)g Fi(Data)g Fp(instances)h(e)n(v)o(en)g(for)f(types)g(that)g(are)
+2049 1814 y(not)k(strictly)e Fn(data)i Fp(types,)g(such)g(as)f
+(function)i(types)e(or)h(monadic)g Fi(IO)g Fp(types.)2049
+1897 y(Otherwise)f Fi(deriving)39 b(\()f(Data)g(\))19
+b Fp(w)o(ould)h(f)o(ail)e(for)h(a)g(data)g(type)g(that)g(had)2049
+1980 y(e)n(v)o(en)25 b(one)g(constructor)g(with)e(a)h(functional)h(ar)o
+(gument)g(type,)g(so)f(the)h(user)2049 2063 y(w)o(ould)j(instead)g(ha)o
+(v)o(e)f(to)g(write)g(the)g Fi(Data)h Fp(instance)g(by)f(hand.)50
+b(Instead,)2049 2146 y(we)23 b(mak)o(e)h(all)e(such)i(types)f(into)g(v)
+n(acuous)i(instances)f(of)f Fi(Data)p Fp(.)35 b(T)m(ra)o(v)o(ersal)2049
+2229 y(will)17 b(safely)i(cease)g(for)f(v)n(alues)h(of)f(such)h(types.)
+k(Ho)n(we)n(v)o(er)m(,)c(v)n(alues)g(of)f(these)2049
+2312 y(types)h(can)h(not)f(be)g(read)g(and)h(sho)n(wn.)2049
+2429 y(F)o(or)e(e)o(xample,)i(the)f(instance)g(for)g
+Fi(\(->\))g Fp(is)g(de\002ned)g(as)g(follo)n(ws:)2049
+2538 y Fg(instance)33 b(\(Data)g(a,)h(Data)f(b\))h(=>)f(Data)h(\(a)f
+(->)h(b\))g(where)2117 2613 y(gfoldl)f(k)h(z)f(c)68 b(=)34
+b(z)f(c)2117 2688 y(gunfold)g(_)g(_)h(_)g(=)g(error)f("gunfold")2117
+2762 y(toConstr)g(_)135 b(=)34 b(error)f("toConstr")2117
+2837 y(dataTypeOf)f(_)68 b(=)34 b(mkNoRepType)e("Prelude.\(->\)")2049
+2955 y Fp(Here)19 b(we)g(assume)g(a)g(tri)n(vial)f(constructor)i(for)f
+(non-representable)i(types:)2125 3052 y Fi(mkNoRepType)39
+b(::)g(String)g(->)f(DataType)2049 3150 y Fp(T)-6 b(o)17
+b(this)g(end,)h(the)f(data)g(type)h Fi(DataRep)f Fp(pro)o(vides)i(a)e
+(dedicated)h(alternati)n(v)o(e:)2125 3247 y Fi(data)39
+b(DataRep)g(=)f(...)191 b(--)38 b(As)g(before)2621 3330
+y(|)g(NoRep)115 b(--)38 b(Non-representable)i(types)2049
+3428 y Fp(Some)19 b(of)h(GHC')l(s)e(e)o(xtended)j(repertoire)e(of)h
+(types,)f(notably)i Fi(Ptr)p Fp(,)e(f)o(all)g(into)2049
+3511 y(this)g(group)h(of)f(non-representable)i(types.)2049
+3643 y Ff(5.4)90 b(A)n(pplication:)29 b(test-data)22
+b(generation)2049 3760 y Fp(As)38 b(a)g(further)f(illustration)h(of)g
+(the)g(usefulness)h(of)f Fi(dataTypeOf)p Fp(,)43 b(we)2049
+3843 y(present)28 b(a)g(simple)f(generic)h(function)h(that)e
+(enumerates)i(the)e(data)h(struc-)2049 3926 y(tures)18
+b(of)h(an)o(y)g(user)f(de\002ned)h(type.)24 b(\(The)18
+b(utility)g(of)g(generic)h(programming)2049 4009 y(for)31
+b(test-data)h(generation)h(has)f(also)f(been)i(observ)o(ed)g(else)n
+(where)f([14)q(].\))2049 4092 y(Such)f(test-data)g(generation)h(is)f
+(useful)g(for)g(stress)g(testing,)j(dif)n(ferential)2049
+4175 y(testing,)28 b(beha)o(vioural)g(testing,)g(and)f(so)g(on.)47
+b(F)o(or)26 b(instance,)j(we)d(can)h(use)2049 4258 y(systematic)19
+b(test-data)g(generation)h(as)f(a)g(plug-in)g(for)g(QuickCheck)h([3)q
+(].)2049 4374 y(Suppose)28 b(we)f(start)g(with)g(the)g(follo)n(wing)h
+(data)f(types,)j(which)d(constitute)2049 4457 y(the)19
+b(abstract)g(syntax)h(for)f(a)f(small)h(language:)2083
+4567 y Fg(data)33 b(Prog)h(=)f(Prog)h(Dec)f(Stat)2083
+4641 y(data)g(Dec)68 b(=)33 b(Nodec)h(|)f(Ondec)h(Id)f(Type)h(|)f
+(Manydecs)g(Dec)h(Dec)2083 4716 y(data)f(Id)102 b(=)33
+b(A)h(|)g(B)2083 4791 y(data)f(Type)h(=)f(Int)h(|)g(Bool)2083
+4866 y(data)f(Stat)h(=)f(Noop)h(|)f(Assign)h(Id)f(Exp)h(|)f(Seq)h(Stat)
+f(Stat)2083 4940 y(data)g(Exp)68 b(=)33 b(Zero)h(|)f(Succ)h(Exp)2049
+5058 y Fp(W)-6 b(e)24 b(w)o(ant)g(to)g(de\002ne)g(a)g(generic)h
+(function)g(that)f(generates)g(all)g(terms)g(of)g(a)2049
+5141 y(gi)n(v)o(en)c(\002nite)e(depth.)24 b(F)o(or)18
+b(instance:)2083 5251 y Fg(>)34 b(genUpTo)f(3)g(::)h([Prog])2083
+5325 y([Prog)f(Nodec)g(Noop,)h(Prog)f(Nodec)g(\(Assign)g(A)h(Zero\),)
+2117 5400 y(Prog)f(Nodec)g(\(Assign)g(B)h(Zero\),)f(Prog)h(Nodec)f
+(\(Seq)g(Noop)p eop
+%%Page: 7 7
+7 6 bop -82 83 a Fg(Noop\),)33 b(Prog)g(\(Ondec)g(A)h(Int\))f(Noop,)h
+(Prog)f(\(Ondec)g(A)h(Int\))-82 158 y(\(Assign)f(A)g(Zero\),)h(Prog)f
+(\(Ondec)g(A)h(Int\))f(\(Assign)g(B)h(Zero\),)-82 232
+y(Prog)f(\(Ondec)g(A)h(Int\))f(\(Seq)h(Noop)f(Noop\),)g(...)h(])-150
+352 y Fp(Here)19 b(is)f(the)h(code)h(for)f Fi(genUpTo)p
+Fp(:)-82 463 y Fg(genUpTo)33 b(::)g(Data)h(a)f(=>)h(Int)g(->)f([a])-82
+538 y(genUpTo)g(0)g(=)h([])-82 613 y(genUpTo)f(d)g(=)h(result)-48
+687 y(where)-15 762 y(--)g(Recurse)f(per)h(possible)e(constructor)-15
+837 y(result)i(=)f(concat)g(\(map)h(recurse)f(cons\))-15
+948 y(--)h(Retrieve)f(constructors)f(of)i(the)f(requested)g(type)-15
+1023 y(cons)h(::)f([Constr])-15 1098 y(cons)h(=)g(dataTypeConstrs)e
+(\(dataTypeOf)g(\(head)h(result\)\))-15 1209 y(--)h(Find)f(all)h(terms)
+f(headed)g(by)h(a)g(specific)f(Constr)-15 1284 y(recurse)g(::)h(Data)f
+(a)h(=>)g(Constr)f(->)h([a])-15 1358 y(recurse)f(=)h(fromConstrM)f
+(\(genUpTo)g(\(d-1\)\))-150 1478 y Fp(The)23 b(non-tri)n(vial)g(case)g
+(\()p Fi(d)c Fe(>)g Fp(0\))k(be)o(gins)h(by)f(\002nding)h
+Fi(cons)p Fp(,)f(the)g(list)f(of)h(all)-150 1561 y(the)16
+b(constructors)g(of)g(the)f(result)h(type.)22 b(Then)16
+b(it)f(maps)h Fi(recurse)g Fp(o)o(v)o(er)g Fi(cons)-150
+1644 y Fp(to)27 b(generate,)i(for)e(each)g Fi(Constr)p
+Fp(,)i(the)e(list)f(of)h(all)f(terms)h(of)f(gi)n(v)o(en)i(depth)-150
+1727 y(with)21 b(that)h(constructor)h(at)f(the)f(root.)33
+b(In)21 b(turn,)i Fi(recurse)f Fp(w)o(orks)h(by)f(using)-150
+1810 y Fi(fromConstrM)f Fp(to)f(run)h Fi(genUpTo)g Fp(for)f(each)h
+(child.)27 b(Here)21 b(we)f(tak)o(e)h(adv)n(an-)-150
+1893 y(tage)28 b(of)h(the)f(f)o(act)g(that)g(Hask)o(ell')l(s)g(list)f
+(type)i(is)f(a)g(monad,)j(to)d(produce)i(a)-150 1976
+y(result)23 b(list)g(that)h(consists)g(of)f(all)h(combinations)h(of)e
+(the)h(lists)f(returned)h(by)-150 2059 y(the)19 b(recursi)n(v)o(e)h
+(calls.)-150 2175 y(The)j(reason)g(that)g(we)f(bind)i
+Fi(result)f Fp(in)g(the)f(where-clause)i(is)e(so)h(that)g(we)-150
+2258 y(can)d(mention)g(it)f(in)h(the)g(type-proxy)h(ar)o(gument)f(to)g
+Fi(dataTypeOf)p Fp(,)g(namely)-150 2341 y Fi(\(head)39
+b(result\))19 b Fp(\227)f(see)i(Section)e(4.3.)-150 2458
+y(Notice)24 b(that)g(we)g(ha)o(v)o(e)g(not)g(tak)o(en)h(account)g(of)f
+(the)g(possibility)g(of)g(primi-)-150 2541 y(ti)n(v)o(e)h(types)h(in)f
+(the)h(data)f(type)h(\227)f(indeed,)i Fi(dataTypeConstrs)g
+Fp(will)d(f)o(ail)-150 2624 y(if)h(gi)n(v)o(en)h(a)f(primiti)n(v)o(e)g
+Fi(DataType)p Fp(.)43 b(There)25 b(is)g(a)h(genuine)g(question)h(here:)
+-150 2707 y(what)20 b(v)n(alue)h(should)f(we)g(return)g(for)g(\(say\))g
+(an)g Fi(Int)g Fp(node?)28 b(One)20 b(v)o(ery)g(sim-)-150
+2790 y(ple)k(possibility)g(is)g(to)g(return)g(zero,)h(and)g(this)f(is)f
+(readily)i(accommodated)-150 2873 y(by)19 b(using)h Fi(dataRep)f
+Fp(instead)h(of)f Fi(dataTypeConstrs)p Fp(:)-15 2984
+y Fg(cons)34 b(=)g(case)f(dataTypeRep)f(ty)i(of)290 3059
+y(AlgRep)f(cons)h(->)f(cons)290 3133 y(IntRep)203 b(->)33
+b([mkIntConstr)g(ty)g(0])290 3208 y(FloatRep)135 b(->)33
+b([mkIntConstr)g(ty)g(0])290 3283 y(StringRep)101 b(->)33
+b([mkStringConstr)f(ty)i("foo"])19 3358 y(where)53 3432
+y(ty)g(=)g(dataTypeOf)e(\(head)h(result\))-150 3552 y
+Fp(W)-6 b(e)27 b(might)h(also)g(pass)g(around)h(a)f(random-number)i
+(generator)e(to)g(select)-150 3635 y(primiti)n(v)o(e)f(v)n(alues)h
+(from)f(a)g(\002nite)f(list)h(of)g(candidates.)49 b(W)-6
+b(e)26 b(can)i(also)f(re-)-150 3718 y(\002ne)22 b(the)g(illustrated)f
+(approach)j(to)d(accommodate)j(other)e(co)o(v)o(erage)h(crite-)-150
+3801 y(ria)i([15)q(].)42 b(W)-6 b(e)25 b(can)h(also)g(incorporate)h
+(predicates)f(into)f(term)h(generation)-150 3884 y(so)f(that)h(only)g
+(terms)f(are)g(b)o(uilt)f(that)i(meet)f(some)h(side)f(conditions)i(in)e
+(the)-150 3967 y(sense)e(of)f(attrib)o(ute)f(grammars)h([6)q(].)31
+b(T)-6 b(ype)23 b(re\003ection)f(mak)o(es)g(all)g(manner)-150
+4050 y(of)d(cle)n(v)o(er)g(test-data)g(generators)h(possible.)-150
+4254 y Fq(6)99 b(Generic)26 b(zippers)-150 4371 y Fp(In)i(our)g
+(earlier)g(paper)m(,)j(all)c(our)h(generic)h(functions)g(consumed)h(a)d
+Fn(single)-150 4454 y Fp(data)f(structure.)45 b(Some)26
+b(generic)h(functions,)i(such)e(as)f(equality)g(or)g(com-)-150
+4537 y(parison,)k(consume)e Fn(two)f Fp(data)g(structures)g(at)g(once.)
+49 b(In)27 b(this)f(section)i(we)-150 4620 y(discuss)19
+b(ho)n(w)h(to)e(program)i(such)g(zip-lik)o(e)f(functions.)24
+b(The)18 b(o)o(v)o(erall)h(idea)g(is)-150 4703 y(to)25
+b(de\002ne)h(such)g(functions)h(as)e(curried)h(higher)o(-order)g
+(generic)g(functions)-150 4786 y(that)19 b(consume)h(position)g(after)e
+(position.)-150 4922 y Ff(6.1)90 b(Curried)22 b(queries)-150
+5039 y Fp(Consider)d(\002rst)f(the)h(standard)h(functions)g
+Fi(map)f Fp(and)h Fi(zipWith)p Fp(:)-74 5136 y Fi(map)191
+b(::)153 b(\(b->c\))38 b(->)306 b([b])38 b(->)g([c])-74
+5219 y(zipWith)h(::)f(\(a->b->c\))h(->)g([a])f(->)h([b])f(->)g([c])-150
+5317 y Fp(By)k(analogy)-5 b(,)48 b(we)42 b(can)g(attempt)g(to)f
+(de\002ne)h Fi(gzipWithQ)h Fp(\227)e(a)h(tw)o(o-)-150
+5400 y(ar)o(gument)20 b(v)o(ersion)f(of)g Fi(gmapQ)g
+Fp(thus.)24 b(The)18 b(types)i(compare)g(as)f(follo)n(ws:)2117
+83 y Fg(gmapQ)168 b(::)34 b(Data)f(a)2455 158 y(=>)h(\(forall)f(b.)h
+(Data)f(b)h(=>)f(b)h(->)g(r\))2455 232 y(->)g(a)g(->)f([r])2117
+341 y(gzipWithQ)f(::)i(\(Data)f(a1,)h(Data)f(a2\))2455
+415 y(=>)h(\(forall)f(b1)h(b2.)f(\(Data)g(b1,)h(Data)f(b2\))2964
+490 y(=>)g(b1)h(->)f(b2)h(->)g(r\))2455 565 y(->)g(a1)g(->)f(a2)h(->)g
+([r])2049 681 y Fp(The)19 b(original)g(function,)g Fi(\(gmapQ)39
+b(f)f(t\))p Fp(,)18 b(tak)o(es)i(a)f(polymorphic)h(function)2049
+764 y Fi(f)29 b Fp(that)g(it)g(applies)g(to)g(each)h(immediate)f(child)
+h(of)f Fi(t)p Fp(,)i(and)f(returns)g(a)f(list)2049 847
+y(of)c(the)g(results.)42 b(The)25 b(ne)n(w)g(function,)i
+Fi(\(gzipWithQ)39 b(f)g(t1)f(t2\))25 b Fp(tak)o(es)h(a)2049
+930 y(polymorphic)31 b(function)g Fi(f)e Fp(that)h(it)f(applies)h(to)f
+Fn(corr)m(esponding)k(pair)o(s)d(of)2049 1013 y Fp(the)25
+b(immediate)g(children)g(of)g Fi(t1)f Fp(and)i Fi(t2)p
+Fp(,)f(again)g(returning)h(a)e(list)g(of)h(the)2049 1096
+y(results.)36 b(F)o(or)23 b(generality)-5 b(,)25 b(we)e(do)h(not)g
+(constrain)g Fi(a1)f Fp(and)h Fi(a2)g Fp(to)f(ha)o(v)o(e)h(the)2049
+1179 y(same)29 b(outermost)g(type)f(constructor)m(,)k(an)c(issue)h(to)f
+(which)h(we)f(return)h(in)2049 1262 y(Section)19 b(6.5.)2049
+1378 y(W)-6 b(e)23 b(can)g(gain)g(e)o(xtra)g(insight)g(into)g(these)h
+(types)f(by)h(using)g(some)f(type)h(ab-)2049 1462 y(bre)n(viations.)g
+(W)-6 b(e)18 b(de\002ne)i(the)f(type)g(synon)o(ym)i Fi(GenericQ)e
+Fp(as)g(follo)n(ws:)2125 1559 y Fi(type)39 b(GenericQ)g(r)f(=)g(forall)
+h(a.)f(Data)h(a)f(=>)g(a)g(->)h(r)2049 1657 y Fp(That)16
+b(is,)h(a)f(v)n(alue)h(of)g(type)g Fi(GenericQ)39 b(r)16
+b Fp(is)g(a)h(generic)g(query)h(function)f(that)2049
+1740 y(tak)o(es)g(a)g(v)n(alue)g(of)g(an)o(y)g(type)g(in)f(class)h
+Fi(Data)g Fp(and)g(returns)g(a)f(v)n(alue)i(of)e(type)h
+Fi(r)p Fp(.)2049 1823 y(Hask)o(ell)k(98)g(does)g(not)g(support)g(type)g
+(synon)o(yms)h(that)f(contain)g Fi(forall)p Fp(')l(s,)2049
+1906 y(b)o(ut)f(GHC)g(does)h(as)f(part)g(of)h(the)f(higher)o(-rank)h
+(types)g(e)o(xtension.)28 b(Such)21 b(e)o(x-)2049 1989
+y(tended)g(type)g(synon)o(yms)h(are)e(entirely)g(optional:)27
+b(the)o(y)21 b(mak)o(e)g(types)f(more)2049 2072 y(perspicuous,)g(b)o
+(ut)f(play)g(no)h(fundamental)g(role.)2049 2188 y(No)n(w)f(we)g(can)g
+(write)f(the)h(type)h(of)f Fi(gmapQ)g Fp(as)g(follo)n(ws:)2125
+2286 y Fi(gmapQ)39 b(::)f(GenericQ)h(r)f(->)h(GenericQ)g([r])2049
+2383 y Fp(W)-6 b(e)23 b(ha)o(v)o(e)g(tak)o(en)h(adv)n(antage)h(of)e
+(the)g(type-isomorphism)h Fk(8)p Fn(a)p Fe(:)p Fj(s)3749
+2396 y Fm(1)3801 2383 y Fk(!)19 b Fj(s)3940 2396 y Fm(2)3992
+2383 y Fk(\021)2049 2466 y Fj(s)2094 2479 y Fm(1)2144
+2466 y Fk(!)d(8)p Fn(a)p Fe(:)p Fj(s)2380 2479 y Fm(2)2432
+2466 y Fp(\(where)j Fn(a)e Fk(62)f Fj(s)2823 2479 y Fm(1)2856
+2466 y Fp(\))j(to)g(re)n(write)f Fi(gmapQ)p Fp(')l(s)h(type)h(as)e
+(follo)n(ws:)2125 2564 y Fi(gmapQ)39 b(::)f(\(forall)h(b.)f(Data)h(b)f
+(=>)g(b)h(->)f(r\))2354 2647 y(->)g(\(forall)h(a.)f(Data)h(a)f(=>)g(a)h
+(->)f([r]\))2049 2744 y Fp(Applying)29 b Fi(GenericQ)p
+Fp(,)g(we)f(obtain)h Fi(GenericQ)39 b(r)f(->)g(GenericQ)h([r])p
+Fp(.)2049 2827 y(So)19 b Fi(gmapQ)g Fp(thereby)h(stands)f(re)n(v)o
+(ealed)h(as)f(a)g Fn(g)o(eneric-query)i(tr)o(ansformer)p
+Fp(.)2049 2943 y(The)e(type)g(of)g Fi(gzipWithQ)h Fp(is)e(e)n(v)o(en)i
+(more)f(interesting:)2125 3041 y Fi(gzipWithQ)39 b(::)g(GenericQ)g
+(\(GenericQ)g(r\))2506 3124 y(->)g(GenericQ)g(\(GenericQ)g([r]\))2049
+3222 y Fp(The)14 b(ar)o(gument)i(to)e Fi(gzipWithQ)h
+Fp(is)f(a)h(generic)g(query)g(that)g(returns)g(a)f(generic)2049
+3305 y(query)-5 b(.)23 b(This)16 b(is)f(ordinary)i(currying:)23
+b(when)17 b(the)f(function)g(is)g(applied)h(to)f(the)2049
+3388 y(\002rst)g(data)h(structure,)g(it)f(returns)g(a)h(function)h
+(that)e(should)i(be)f(applied)g(to)g(the)2049 3471 y(second)26
+b(data)f(structure.)41 b(Then)25 b Fi(gzipWithQ)g Fp(is)g(a)f
+(transformer)h(for)g(such)2049 3554 y(curried)19 b(queries.)24
+b(Its)18 b(implementation)i(will)e(be)h(gi)n(v)o(en)h(in)f(Section)g
+(6.3.)2049 3683 y Ff(6.2)90 b(Generic)22 b(comparison)2049
+3800 y Fp(Gi)n(v)o(en)d Fi(gzipWithQ)p Fp(,)h(it)e(is)g(easy)i(to)f
+(de\002ne)g(a)g(generic)g(equality)h(function:)2125 3897
+y Fi(geq')39 b(::)f(GenericQ)h(\(GenericQ)g(Bool\))2125
+3980 y(geq')g(x)f(y)g(=)76 b(toConstr)39 b(x)g(==)f(toConstr)h(y)2468
+4063 y(&&)f(and)h(\(gzipWithQ)g(geq')g(x)f(y\))2049 4161
+y Fp(That)19 b(is,)h Fi(geq')38 b(x)g(y)20 b Fp(checks)h(that)f
+Fi(x)f Fp(and)i Fi(y)e Fp(are)h(b)o(uilt)f(with)g(the)h(same)g(con-)
+2049 4244 y(structor)i(and,)h(if)e(so,)i(zips)e(together)i(the)f
+(children)g(of)g Fi(x)g Fp(and)g Fi(y)g Fp(with)g Fi(geq')2049
+4327 y Fp(to)c(gi)n(v)o(e)h(a)f(list)g(of)g(Booleans,)h(and)g(tak)o(es)
+g(the)g(conjunction)h(of)e(these)h(results)2049 4410
+y(with)f Fi(and)39 b(::)f([Bool])h(->)f(Bool)p Fp(.)23
+b(That)c(is)f(the)h(entire)g(code)g(for)g(generic)2049
+4493 y(equality)-5 b(.)42 b(Generic)25 b(comparison)i(\(returning)e
+Fi(LT)p Fp(,)g Fi(EQ)p Fp(,)g(or)g Fi(GT)p Fp(\))f(is)h(equally)2049
+4576 y(easy)19 b(to)g(de\002ne.)2049 4692 y(W)-6 b(e)19
+b(ha)o(v)o(e)g(called)h(the)f(function)h Fi(geq')p Fp(,)f(rather)g
+(than)h Fi(geq)p Fp(,)f(because)i(it)d(has)i(a)2049 4775
+y(type)h(that)f(is)h(more)g(polymorphic)h(than)f(we)f(really)h(w)o
+(ant.)28 b(If)20 b(we)h(spell)g(out)2049 4858 y(the)e
+Fi(GenericQ)h Fp(synon)o(yms)g(we)f(obtain:)2125 4956
+y Fi(geq')39 b(::)f(\(Data)h(a1,)f(Data)h(a2\))f(=>)g(a1)h(->)f(a2)g
+(->)h(Bool)2049 5053 y Fp(But)24 b(we)g(do)h(not)f(e)o(xpect)h(to)f
+(tak)o(e)h(equality)f(between)h(v)n(alues)g(of)g(dif)n(ferent)2049
+5136 y(types,)16 b Fi(a1)g Fp(and)g Fi(a2)p Fp(,)g(e)n(v)o(en)g(if)f
+(both)h(do)g(lie)f(in)g(class)h Fi(Data)p Fp(!)22 b(The)16
+b(real)f(function)2049 5219 y(we)k(w)o(ant)g(is)g(this:)2125
+5317 y Fi(geq)39 b(::)f(Data)g(a)h(=>)f(a)g(->)h(a)f(->)g(Bool)2125
+5400 y(geq)h(=)f(geq')p eop
+%%Page: 8 8
+8 7 bop -150 83 a Fp(Why)18 b(can')o(t)g(we)g(gi)n(v)o(e)g(this)g
+(signature)h(to)f(the)g(original)h(de\002nition)f(of)g
+Fi(geq')p Fp(?)-150 166 y(Because)36 b(if)f(we)h(did,)k(the)35
+b(call)h Fi(\(gzipWithQ)j(geq')f(x)g(y\))e Fp(w)o(ould)g(be)-150
+249 y(ill-typed,)27 b(because)f Fi(gzipWithQ)h Fp(requires)f(a)f
+(function)h(that)f(is)h(indepen-)-150 332 y(dently)19
+b(polymorphic)h(in)f(its)f(tw)o(o)g(ar)o(guments.)24
+b(That,)18 b(of)h(course,)g(just)f(be)o(gs)-150 415 y(the)23
+b(question)g(of)g(whether)g Fi(gzipWithQ)h Fp(could)f(be)g(less)g
+(polymorphic,)i(to)-150 498 y(which)k(we)f(return)g(in)g(Section)g
+(6.5.)51 b(First,)29 b(ho)n(we)n(v)o(er)m(,)j(we)c(describe)h(the)-150
+581 y(implementation)20 b(of)f Fi(gzipWithQ)p Fp(.)-150
+722 y Ff(6.3)90 b(Implementing)22 b Fd(gzipWithQ)-150
+839 y Fp(Ho)n(w)f(can)g(we)g(implement)g Fi(gzipWithQ)p
+Fp(?)h(At)f(\002rst)f(it)g(seems)h(dif)n(\002cult,)g(be-)-150
+922 y(cause)30 b(we)g(must)f(simultaneously)i(tra)o(v)o(erse)e(tw)o(o)h
+(unkno)n(wn)h(data)f(struc-)-150 1005 y(tures,)i(b)o(ut)e(the)f
+Fi(gmap)h Fp(combinators)h(are)f(parametric)g(in)g(just)f(one)i(type.)
+-150 1088 y(The)d(solution)g(lies)f(in)h(the)g(type)g(of)g
+Fi(gzipWithQ)p Fp(,)g(ho)n(we)n(v)o(er:)42 b Fn(we)28
+b(seek)g(a)-150 1171 y(g)o(eneric)i(query)g(that)f(r)m(eturns)h(a)g(g)o
+(eneric)g(query)p Fp(.)54 b(So)29 b(we)g(can)h(e)n(v)n(aluate)-150
+1254 y Fi(\(gzipWithQ)39 b(f)f(t1)h(t2\))19 b Fp(in)g(tw)o(o)g(steps,)f
+(thus:)-74 1376 y Fi(gzipWithQ)39 b(f)f(t1)h(t2)114 b(--)39
+b(NB:)f(not)h(yet)f(correct!)2 1459 y(=)h(gApplyQ)f(\(gmapQ)h(f)f(t1\))
+h(t2)-150 1582 y Fo(Step)18 b(1:)42 b Fp(use)18 b(the)g(ordinary)h
+Fi(gmapQ)g Fp(to)f(apply)h Fi(f)f Fp(to)g(all)f(the)h(children)h(of)f
+Fi(t1)p Fp(,)16 1665 y(yielding)i(a)f(list)f(of)g(generic)i(queries.)
+-150 1773 y Fo(Step)e(2:)42 b Fp(use)21 b(an)h(operation)h
+Fi(gApplyQ)f Fp(to)f(apply)i(the)e(queries)h(in)g(the)g(pro-)16
+1856 y(duced)e(list)e(to)h(the)g(corresponding)i(children)f(of)f
+Fi(t2)p Fp(.)-150 1978 y(Each)24 b(of)f(these)h(steps)g(requires)g(a)f
+(little)f(w)o(ork.)38 b(First,)23 b(in)g(step)h(1,)h(what)e(is)-150
+2061 y(the)j(type)g(of)g(the)f(list)g Fi(\(gmapQ)39 b(f)f(t1\))p
+Fp(?)44 b(It)25 b(should)i(be)f(a)g(list)e(of)i(generic)-150
+2144 y(queries,)21 b(each)h(of)e(which)h(is)f(a)h Fn(polymorphic)h
+Fp(function.)29 b(But)20 b(GHC')l(s)g(sup-)-150 2227
+y(port)29 b(for)f(higher)o(-rank)i(type)f(still)f(maintains)h
+Fn(pr)m(edicativity)p Fp(.)53 b(What)28 b(this)-150 2310
+y(means)18 b(is)g(that)f(while)h(we)f(can)h(pass)h(a)e(polymorphic)j
+(function)e(as)g(an)g(ar)o(gu-)-150 2393 y(ment,)24 b(we)f(cannot)h
+(mak)o(e)g(a)f(list)f(of)h(polymorphic)i(functions.)36
+b(Since)23 b(that)-150 2476 y(really)18 b(is)g(what)g(we)h(w)o(ant)f
+(to)g(do)h(here,)g(we)f(can)h(achie)n(v)o(e)g(the)f(desired)h(result)
+-150 2559 y(by)g(wrapping)h(the)f(queries)h(in)f(a)f(data)i(type,)f
+(thus:)-74 2657 y Fi(newtype)39 b(GQ)f(r)h(=)f(GQ)g(\(GenericQ)h(r\))
+-74 2779 y(gzipWithQ)g(f)f(t1)h(t2)2 2862 y(=)g(gApplyQ)f(\(gmapQ)h
+(\(\\x)g(->)f(GQ)g(\(f)h(x\)\))f(t1\))g(t2)-150 2984
+y Fp(No)n(w)26 b(the)h(call)f(to)g Fi(gmapQ)g Fp(has)h(the)f(result)g
+(type)h Fi([GQ)38 b(r])p Fp(,)28 b(which)e(is)g(\002ne.)-150
+3067 y(The)21 b(use)g(of)f(the)h(constructor)h Fi(GQ)e
+Fp(serv)o(es)i(as)e(a)h(hint)g(to)f(the)h(type)g(inference)-150
+3150 y(engine)i(to)e(perform)h(generalisation)h(at)f(this)f(point;)i
+(there)f(is)f(no)i(run-time)-150 3233 y(cost)c(to)g(its)f(use.)-150
+3350 y(Step)e(2)g(is)g(a)g(little)f(harder)l(.)23 b(A)16
+b(brutal)g(approach)i(w)o(ould)f(be)f(to)g(add)h Fi(gApplyQ)-150
+3433 y Fp(directly)25 b(to)g(the)h(class)f Fi(Data)p
+Fp(.)42 b(As)25 b(usual,)i(the)f(instances)g(w)o(ould)g(be)f(v)o(ery)
+-150 3516 y(simple,)19 b(as)g(we)f(illustrate)h(for)f(lists:)-74
+3613 y Fi(class)39 b(Typeable)g(a)f(=>)g(Data)h(a)f(where)2
+3696 y(...)2 3779 y(gApplyQ)h(::)g([GQ)f(r])g(->)h(a)f(->)g([r])-74
+3902 y(instance)h(Typeable)g(a)f(=>)h(Data)f([a])h(where)2
+3985 y(...)2 4068 y(gApplyQ)g([GQ)g(q1,)f(GQ)g(q2])h(\(x:xs\))g(=)f
+([q1)g(x,)h(q2)f(xs])2 4151 y(gApplyQ)h([])496 b([])191
+b(=)38 b([])-150 4273 y Fp(But)29 b(we)g(can')o(t)g(go)h
+Fn(on)g Fp(adding)g(ne)n(w)g(functions)g(to)f Fi(Data)p
+Fp(,)j(and)e(this)f(one)-150 4356 y(seems)g(v)o(ery)g(speci\002c)g(to)f
+(queries,)j(so)e(we)g(might)f(anticipate)h(that)g(there)-150
+4439 y(will)18 b(be)h(others)g(yet)g(to)g(come.)-150
+4555 y(F)o(ortunately)-5 b(,)25 b Fi(gApplyQ)g Fp(can)g(be)f(de\002ned)
+h(in)f(terms)g(of)g(the)g(generic)h(fold-)-150 4638 y(ing)19
+b(operation)h Fi(gfoldl)g Fp(from)f(our)h(original)f(paper)m(,)h(as)f
+(we)g(no)n(w)g(sho)n(w)-5 b(.)25 b(T)-6 b(o)-150 4721
+y(implement)20 b Fi(gApplyQ)p Fp(,)g(we)f(w)o(ant)h(to)f(perform)h(a)g
+(fold)g(on)g(immediate)f(sub-)-150 4804 y(terms)f(while)h(using)g(an)g
+Fn(accumulator)i Fp(of)e(type)g Fi(\([GQ)39 b(r],)f([r]\))p
+Fp(.)23 b(Again,)-150 4887 y(for)17 b(lists,)f(the)h(combination)i(of)e
+(such)h(accumulation)g(and)g(folding)f(or)g(map-)-150
+4970 y(ping)27 b(is)f(a)g(common)i(idiom)f(\(cf.)f Fi(mapAccumL)h
+Fp(in)f(module)h Fi(Data.List)p Fp(\).)-150 5053 y(F)o(or)14
+b(each)h(child)g(we)f Fn(consume)i Fp(an)f(element)g(from)g(the)f(list)
+g(of)g(queries)i(\(com-)-150 5136 y(ponent)26 b Fi([GQ)38
+b(r])p Fp(\),)26 b(while)e Fn(pr)m(oducing)j Fp(an)e(element)g(of)g
+(the)f(list)g(of)h(results)-150 5219 y(\(component)c
+Fi([r])p Fp(\).)i(So)18 b(we)h(w)o(ant)g(a)g(combining)h(function)g
+Fi(k)f Fp(lik)o(e)g(this:)-74 5317 y Fi(k)38 b(::)h(Data)f(c)g(=>)h
+(\([GQ)f(r],)h([r]\))f(->)h(c)f(->)g(\([GQ)h(r],)f([r]\))-74
+5400 y(k)g(\(GQ)h(q)f(:)g(qs,)h(rs\))f(child)h(=)f(\(qs,)h(q)f(child)g
+(:)h(rs\))2049 83 y Fp(Here)27 b Fi(c)h Fp(is)f(the)g(type)h(of)g(the)f
+(child.)49 b(The)27 b(function)i Fi(k)e Fp(simply)h(tak)o(es)g(the)2049
+166 y(accumulator)m(,)g(and)e(a)g(child,)h(and)f(produces)h(a)e(ne)n(w)
+h(accumulator)l(.)44 b(\(The)2049 249 y(results)27 b(accumulate)h(in)f
+(re)n(v)o(erse)h(order)m(,)h(b)o(ut)e(we)h(can)f(\002x)g(that)g(up)h
+(at)f(the)2049 332 y(end)j(using)h Fi(reverse)p Fp(,)h(or)e(we)g(use)g
+(the)g(normal)g(higher)o(-order)g(trick)g(for)2049 415
+y(accumulation.\))e(W)-6 b(e)19 b(can)i(perform)f(this)g(fold)g(using)h
+Fi(gfoldl)p Fp(,)g(or)f(rather)g(a)2049 498 y(tri)n(vial)e(instance)i
+(thereof)f(\227)g Fi(gfoldlQ)p Fp(:)2125 596 y Fi(gApplyQ)39
+b(::)f(Data)h(a)f(=>)g([GQ)h(r])f(->)h(a)f(->)g([r])2125
+679 y(gApplyQ)h(qs)f(t)h(=)f(reverse)h(\(snd)f(\(gfoldlQ)h(k)f(z)h
+(t\)\))2201 762 y(where)2278 845 y(k)f(\(GQ)g(q)g(:)h(qs,)f(rs\))h
+(child)f(=)g(\(qs,)h(q)f(child)h(:)f(rs\))2278 928 y(z)g(=)g(\(qs,)h
+([]\))2049 1025 y Fp(The)19 b(folding)g(function,)h Fi(gfoldlQ)f
+Fp(has)h(this)e(type)3363 998 y Fm(4)3397 1025 y Fp(:)2125
+1123 y Fi(gfoldlQ)39 b(::)f(\(r)h(->)f(GenericQ)h(r\))f(->)h(r)f(->)g
+(GenericQ)h(r)2049 1220 y Fp(The)19 b(de\002nition)g(of)g
+Fi(gfoldlQ)g Fp(emplo)o(ys)h(a)f(type)g(constructor)h
+Fi(R)f Fp(to)f(mediate)2049 1303 y(between)e(the)f(highly)h(parametric)
+g(type)f(of)g Fi(gfoldl)h Fp(and)g(the)f(more)h(speci\002c)2049
+1386 y(type)j(of)g Fi(gfoldlQ)p Fp(:)2125 1484 y Fi(newtype)39
+b(R)f(r)g(x)h(=)f(R)g({)g(unR)h(::)f(r)g(})2125 1567
+y(gfoldlQ)h(k)f(z)g(t)h(=)f(unR)g(\(gfoldl)h(k')g(z')f(t\))2163
+1650 y(where)2201 1733 y(z')h(_)f(=)g(R)g(z)h(--)f(replacement)h(of)g
+(constructor)2201 1816 y(k')g(\(R)f(r\))g(c)h(=)f(R)g(\(k)g(r)h(c\))f
+(--)g(fold)h(step)f(for)h(child)f(c)2049 1944 y Ff(6.4)90
+b(Generic)22 b(zipped)f(transf)n(ormations)2049 2061
+y Fp(W)-6 b(e)16 b(ha)o(v)o(e)h(focused)g(our)g(attention)g(on)g
+(generic)g(zipped)g Fn(queries)p Fp(,)h(b)o(ut)e(all)g(the)2049
+2144 y(same)j(ideas)h(w)o(ork)f(for)g(generic)g(zipped)h
+Fn(tr)o(ansformations)p Fp(,)g(both)g(monadic)2049 2227
+y(and)27 b(non-monadic.)48 b(F)o(or)26 b(e)o(xample,)j(we)e(can)g
+(proceed)h(for)e(the)h(latter)f(as)2049 2310 y(follo)n(ws.)36
+b(W)-6 b(e)22 b(introduce)i(a)f(type)h(synon)o(ym,)h
+Fi(GenericT)p Fp(,)e(to)g(encapsulate)2049 2393 y(the)c(idea)g(of)g(a)g
+(generic)h(transformer:)2125 2490 y Fi(type)39 b(GenericT)g(=)f(forall)
+h(a.)f(Data)h(a)f(=>)g(a)g(->)h(a)2049 2588 y Fp(Then)31
+b Fi(gmapT)p Fp(,)g(from)f(our)h(earlier)g(paper)m(,)j(appears)d(as)g
+(a)g(generic)g(trans-)2049 2671 y(former)37 b(transformer;)45
+b(its)36 b(natural)h(generalisation,)42 b Fi(gzipWithT)p
+Fp(,)37 b(is)f(a)2049 2754 y(curried-transformer)20 b(transformer:)2125
+2851 y Fi(gmapT)191 b(::)39 b(GenericT)g(->)f(GenericT)2125
+2934 y(gzipWithT)h(::)g(GenericQ)g(GenericT)g(->)f(GenericQ)h(GenericT)
+2049 3032 y Fp(The)25 b(type)h Fi(GenericQ)39 b(GenericT)26
+b Fp(is)f(a)h(curried)g(tw)o(o-ar)o(gument)g(generic)2049
+3115 y(transformation:)j(it)20 b(tak)o(es)i(a)f(data)h(structure)f(and)
+h(returns)g(a)f(function)h(that)2049 3198 y(tak)o(es)f(a)f(data)h
+(structure)f(and)h(returns)g(a)f(data)h(structure.)27
+b(W)-6 b(e)20 b(lea)o(v)o(e)g(its)g(im-)2049 3281 y(plementation)i(as)f
+(an)g(e)o(x)o(ercise)g(for)g(the)g(reader)m(,)g(along)h(with)f(similar)
+f(code)2049 3364 y(for)h Fi(gzipWithM)p Fp(.)h(Programmers)g(\002nd)g
+(these)g(operations)g(in)f(the)h(generics)2049 3447 y(library)d([17])g
+(that)g(comes)g(with)g(GHC.)2049 3574 y Ff(6.5)90 b(Mis-matched)23
+b(types)e(or)h(constructors)2049 3692 y Fp(At)37 b(the)h(end)g(of)g
+(Section)f(6.2,)42 b(we)c(raised)f(the)h(question)h(of)e(whether)2049
+3775 y Fi(gzipWithQ)20 b Fp(could)f(not)h(ha)o(v)o(e)f(the)g
+(less-polymorphic)h(type:)2125 3872 y Fi(gzipWithQ')39
+b(::)g(\(Data)f(a\))2544 3955 y(=>)h(\(forall)g(b.)f(\(Data)h(b\))f(=>)
+g(b)g(->)h(b)f(->)g(r\))2544 4038 y(->)h(a)f(->)g(a)g(->)h([r])2049
+4136 y Fp(Then)21 b(we)g(could)h(de\002ne)g Fi(geq)f
+Fp(directly)g(in)g(terms)g(of)g Fi(gzipWithQ')p Fp(,)h(rather)2049
+4219 y(than)f(detouring)g(via)f Fi(geq')p Fp(.)28 b(One)20
+b(dif)n(\002culty)g(is)g(that)g Fi(gzipWithQ')h Fp(is)f(no)n(w)2049
+4302 y(not)h(polymorphic)h Fn(enough)g Fp(for)e(some)h(purposes:)27
+b(for)20 b(e)o(xample,)h(it)f(w)o(ould)2049 4385 y(not)f(allo)n(w)f(us)
+h(to)f(zip)g(together)h(a)g(list)e(of)i(booleans)h(with)e(a)g(list)f
+(of)i(inte)o(gers.)2049 4468 y(But)e(be)o(yond)h(that,)f(an)h
+(implementation)g(of)f Fi(gzipWithQ')h Fp(is)e(problematic.)2049
+4551 y(Let)i(us)h(try)g(to)g(use)g(the)g(same)g(de\002nition)h(as)e
+(for)h Fi(gzipWithQ)p Fp(:)2125 4648 y Fi(gzipWithQ')39
+b(f)g(t1)f(t2)153 b(--)38 b(Not)g(right)h(yet!)2201 4731
+y(=)g(gApplyQ)f(\(gmapQ)h(\(\\x)g(->)f(GQ)g(\(f)h(x\)\))f(t1\))g(t2)
+2049 4829 y Fp(The)23 b(trouble)g(is)f(that)g Fi(gApplyQ)h
+Fp(requires)g(a)g(list)f(of)g Fn(polymorphic)i Fp(queries)2049
+4912 y(as)29 b(its)f(ar)o(gument,)j(and)e(for)g(good)h(reason:)43
+b(there)29 b(is)f(no)h(w)o(ay)g(to)g(ensure)2049 4995
+y(statically)14 b(that)g(each)h(query)h(in)e(the)h(list)e(gi)n(v)o(en)j
+(to)e Fi(gApplyQ)h Fp(is)f(applied)h(to)f(an)2049 5078
+y(ar)o(gument)21 b(that)f(has)h(the)g(same)g(type)f(as)h(the)f(child)h
+(from)g(which)f(the)h(query)2049 5161 y(w)o(as)g(b)o(uilt.)29
+b(Alas,)21 b(in)g Fi(gzipWithQ')h Fp(the)f(query)h Fi(\(f)38
+b(x\))21 b Fp(is)g(monomorphic,)p 2049 5229 801 4 v 2150
+5290 a Fm(4)2183 5317 y Fp(Ex)o(ercise)16 b(for)g(the)f(reader:)22
+b(de\002ne)16 b Fi(gmapQ)g Fp(using)g Fi(gfoldlQ)p Fp(.)g(Hint:)21
+b(use)2049 5400 y(the)e(same)g(technique)h(as)f(you)h(use)f(to)g
+(de\002ne)g Fi(map)g Fp(in)g(terms)g(of)g Fi(foldl)p
+Fp(.)p eop
+%%Page: 9 9
+9 8 bop -150 83 a Fp(because)25 b Fi(f)p Fp(')l(s)e(tw)o(o)h(ar)o
+(guments)g(ha)o(v)o(e)g(the)g(same)g(type.)37 b(Ho)n(we)n(v)o(er)m(,)26
+b(we)d(can)-150 166 y(turn)e(the)g(monomorphic)i(query)e
+Fi(\(f)39 b(x\))20 b Fp(into)h(a)g(polymorphic)h(one,)g(albeit)-150
+249 y(inele)o(gantly)-5 b(,)29 b(by)e(using)g(a)g(dynamic)h(type)f
+(test:)38 b(we)27 b(simply)g(replace)g(the)-150 332 y(call)19
+b Fi(\(f)38 b(x\))19 b Fp(by)g(the)g(follo)n(wing)h(e)o(xpression:)2
+430 y Fi(\(error)39 b("gzipWithQ')g(failure")g(`extQ`)g(f)f(x\))-150
+527 y Fp(The)29 b(function)h Fi(extQ)g Fp(\(described)g(in)f(our)h
+(earlier)f(paper)m(,)j(and)e(re)n(vie)n(wed)-150 610
+y(here)e(in)f(Section)g(7.1\))h(o)o(v)o(er)o(-rides)f(a)h(polymorphic)h
+(query)f(\(that)f(al)o(w)o(ays)-150 693 y(f)o(ails\))18
+b(with)h(the)g(monomorphic)i(query)f Fi(\(f)38 b(x\))p
+Fp(.)-150 809 y(Returning)33 b(to)e(the)h(operation)h
+Fi(gzipWithQ)p Fp(,)f(we)g(can)h(easily)e(specialise)-150
+892 y Fi(gzipWithQ)26 b Fp(at)f(more)g(speci\002c)g(types,)i(just)e(as)
+g(we)g(specialised)h Fi(geq')f Fp(to)-150 976 y Fi(geq)p
+Fp(.)e(F)o(or)c(e)o(xample,)g(here)g(is)g(ho)n(w)g(to)g(specialise)g
+(it)f(to)h(list)f(ar)o(guments:)-82 1074 y Fg(gzipWithQL)32
+b(::)i(\(Data)f(a1,)h(Data)f(a2\))19 1148 y(=>)h(\(forall)f(b1,b2.)g
+(\(Data)g(b1,)h(Data)f(b2\))h(=>)f(b1)h(->)g(b2)f(->)h(r\))19
+1223 y(->)g([a1])f(->)h([a2])f(->)h([r])-82 1298 y(gzipWithQL)e(=)i
+(gzipWithQ)-150 1404 y Fp(A)20 b(related)g(question)i(is)d(this:)26
+b(what)20 b(does)h Fi(gzipWithQ)g Fp(do)g(when)g(the)f(con-)-150
+1487 y(structors)h(of)g(the)f(tw)o(o)h(structures)g(do)h(not)f(match?)
+29 b(Most)21 b(of)g(the)g(time)f(this)-150 1570 y(question)i(does)g
+(not)g(arise.)30 b(F)o(or)21 b(instance,)i(in)e(the)g(generic)h
+(equality)g(func-)-150 1653 y(tion)17 b(of)h(Section)f(6.2)h(we)f
+(ensured)i(that)e(the)g(structures)h(had)g(the)g(same)f(con-)-150
+1736 y(structor)25 b(before)g(zipping)h(them)e(together)l(.)41
+b(But)25 b(the)g Fi(gzipWithQ)g Fp(imple-)-150 1819 y(mentation)d(of)g
+(Section)f(6.3)h(is)f(perfectly)h(willing)f(to)h(zip)f(together)i(dif)n
+(fer)o(-)-150 1902 y(ent)18 b(constructors:)24 b(it)18
+b(gi)n(v)o(es)g(a)g(pattern-match)h(f)o(ailure)f(if)g(the)g(second)i
+(ar)o(gu-)-150 1985 y(ment)k(has)f(more)h(children)g(than)g(the)f
+(\002rst,)g(and)h(ignores)g(e)o(xcess)g(children)-150
+2068 y(of)18 b(the)g(second)h(ar)o(gument.)k(W)-6 b(e)18
+b(could)g(also)g(de\002ne)h Fi(gzipWithQ)f Fp(such)h(that)-150
+2151 y(it)f(gi)n(v)o(es)h(a)f(pattern-match)i(f)o(ailure)e(if)g(the)h
+(tw)o(o)f(constructors)i(dif)n(fer)l(.)i(Either)-150
+2234 y(w)o(ay)-5 b(,)19 b(it)f(is)h(no)g(big)h(deal.)-150
+2417 y Fq(7)99 b(Generic)26 b(function)g(extension)-150
+2534 y Fp(One)33 b(of)f(the)g(strengths)h(of)g(the)f
+Fn(Scr)o(ap)i(your)f(boilerplate)g(appr)m(oac)o(h)h Fp(to)-150
+2617 y(generic)20 b(programming,)h(is)e(that)g(it)g(is)g(v)o(ery)h
+(easy)g(to)g(e)o(xtend,)g(or)f(o)o(v)o(er)o(-ride,)-150
+2700 y(the)h(beha)o(viour)g(of)g(a)g(generic)g(function)h(at)e
+(particular)h(types.)26 b(T)-6 b(o)19 b(this)g(end,)-150
+2783 y(we)26 b(emplo)o(y)h(nominal)f(type-safe)h(cast,)g(as)e(opposed)j
+(to)e(more)g(structural)-150 2866 y(notions)16 b(in)g(other)f
+(approaches.)24 b(F)o(or)15 b(e)o(xample,)i(recall)e(the)g(function)h
+Fi(gshow)-150 2949 y Fp(from)j(Section)g(3:)-74 3047
+y Fi(gshow)39 b(::)f(Data)h(a)f(=>)g(a)g(->)h(String)-150
+3144 y Fp(When)26 b Fi(gshow)g Fp(is)g(applied)g(to)g(a)g(v)n(alue)g
+(of)g(type)g Fi(String)g Fp(we)g(w)o(ould)h(lik)o(e)-150
+3227 y(to)g(o)o(v)o(er)o(-ride)h(its)f(def)o(ault)h(beha)o(viour)l(.)50
+b(F)o(or)26 b(e)o(xample,)31 b Fi(\(gshow)38 b("foo"\))-150
+3310 y Fp(should)58 b(return)f(the)g(string)g Fi("\\"foo\\"")h
+Fp(rather)f(than)h(the)f(string)-150 3393 y Fi("\(:)38
+b('f')h(\(:)f('o')h(\(:)f('o')g([]\)\)\)")p Fp(,)18 b(which)g(is)g
+(what)g Fi(gshow)g Fp(will)e(gi)n(v)o(e)-150 3476 y(by)j(def)o(ault,)h
+(since)f(a)g Fi(String)g Fp(is)f(just)h(a)g(list)f(of)h(characters.)
+-150 3592 y(The)i(k)o(e)o(y)h(idea)g(is)e(to)h(pro)o(vide)i(a)e
+(type-safe)g Fi(cast)h Fp(operation,)g(whose)g(real-)-150
+3676 y(isation)f(formed)h(a)f(k)o(e)o(y)h(part)f(of)g(our)g(earlier)g
+(paper;)h(we)f(re)n(vie)n(w)h(it)e(in)h(Sec-)-150 3759
+y(tion)26 b(7.1.)45 b(Ho)n(we)n(v)o(er)m(,)29 b(further)d(e)o
+(xperience)i(with)d(generic)i(programming)-150 3842 y(re)n(v)o(eals)19
+b(tw)o(o)g(distinct)g(shortcomings,)h(which)f(we)g(tackle)g(in)g(this)g
+(section:)-63 3948 y Fk(\017)42 b Fp(The)27 b(type)h(of)g(type-safe)g
+Fi(cast)f Fp(is)g(not)h(general)g(enough)h(for)e(some)16
+4031 y(situations.)38 b(W)-6 b(e)24 b(sho)n(w)g(why)g(it)g(should)h(be)
+f(generalised,)i(and)e(ho)n(w)-5 b(,)16 4114 y(in)19
+b(Section)g(7.2.)-63 4222 y Fk(\017)42 b Fp(T)-6 b(ype-safe)23
+b Fi(cast)g Fp(w)o(orks)g(on)f Fn(types)h Fp(b)o(ut)f(not)h(on)g
+Fn(type)f(constructor)o(s)p Fp(.)16 4305 y(This)d(limitation)f(is)h
+(important)h(as)f(we)g(sho)n(w)g(in)g(Section)g(7.3,)g(where)16
+4388 y(we)g(also)g(describe)h(ho)n(w)f(the)g(restriction)g(can)g(be)g
+(lifted.)-150 4494 y(W)-6 b(e)29 b(use)g(the)h(term)f(generic)h
+(function)g(\223e)o(xtension\224)g(for)f(the)h(accommo-)-150
+4577 y(dation)24 b(of)g(type-speci\002c)g(cases.)38 b(W)-6
+b(e)24 b(do)g(not)g(use)g(the)g(term)f(\223specialisa-)-150
+4660 y(tion\224)29 b(to)g(a)o(v)o(oid)f(an)o(y)i(confusion)g(with)e
+(compile-time)h(specialisation)h(of)-150 4743 y(generic)h(functions)g
+(in)g(other)g(approaches.)59 b(Our)31 b(approach)h(uses)f(\002x)o(ed)
+-150 4826 y(code)c(and)f(run-time)g(type)h(tests.)44
+b(As)25 b(a)h(separate)h(matter)m(,)g(ho)n(we)n(v)o(er)m(,)h(our)-150
+4909 y(dynamic)h(code)f(can,)i(if)c(desired,)k(be)e(specialised)g(lik)o
+(e)g(an)o(y)g(other)f(type-)-150 4992 y(class-o)o(v)o(erloaded)21
+b(function,)e(to)g(produce)h(type-test-free)f(residual)g(code.)-150
+5117 y Ff(7.1)90 b(Monomor)o(phic)21 b(function)i(extension)-150
+5234 y Fp(In)c(our)g(earlier)f(paper)h([16)q(],)f(we)g(described)i(a)f
+(function)g Fi(extQ)g Fp(that)g(can)g(e)o(x-)-150 5317
+y(tend)f(\(or)m(,)f(o)o(v)o(er)o(-ride\))g(a)g(fully-generic)h(query)g
+(with)f(a)g(type-speci\002c)h(query)-5 b(.)-150 5400
+y(This)19 b(allo)n(ws)f(us)i(to)e(re\002ne)h Fi(gshow)g
+Fp(as)g(follo)n(ws:)2117 83 y Fg(gshow)33 b(::)h(Data)f(a)h(=>)f(a)h
+(->)g(String)2117 158 y(gshow)f(=)h(gshow_help)e(`extQ`)h(showString)
+2117 264 y(gshow_help)f(::)i(Data)f(a)h(=>)g(a)f(->)h(String)2117
+338 y(gshow_help)e(t)2218 413 y(=)136 b("\(")2286 488
+y(++)34 b(showConstr)e(\(toConstr)h(t\))2286 562 y(++)h(concat)f
+(\(intersperse)f(")i(")g(\(gmapQ)f(gshow)g(t\)\))2286
+637 y(++)68 b("\)")2117 743 y(showString)32 b(::)i(String)f(->)h
+(String)2117 818 y(showString)e(s)i(=)g("\\"")f(++)h(concat)f(\(map)g
+(escape)g(s\))h(++)g("\\"")2557 892 y(where)2625 967
+y(escape)f('\\n')g(=)h("\\\\n")2625 1042 y(...etc...)2625
+1117 y(escape)f(other_char)g(=)g([other_char])2049 1231
+y Fp(Here,)k(the)e(type-speci\002c)f Fi(showString)h
+Fp(o)o(v)o(er)o(-rides)f(the)g(fully-generic)2049 1314
+y Fi(gshow_help)d Fp(to)f(mak)o(e)h(the)f(combined)i(function)f
+Fi(gshow)p Fp(.)57 b(Notice)30 b(the)2049 1397 y(mutual)d(recursion)g
+(between)g Fi(gshow)g Fp(and)g Fi(gshow_help)p Fp(.)47
+b(The)26 b(function)2049 1480 y Fi(extQ)19 b Fp(is)g(de\002ned)g(in)g
+(the)g(generics)h(library)f(as)g(follo)n(ws:)2117 1586
+y Fg(extQ)33 b(::)h(\(Typeable)e(a,)i(Typeable)f(b\))2286
+1660 y(=>)h(\(a)f(->)h(r\))g(->)f(\(b)h(->)f(r\))h(->)g(\(a)f(->)h(r\))
+2117 1735 y(extQ)f(fn)h(spec_fn)f(arg)2184 1810 y(=)h(case)g(cast)f
+(arg)g(of)2320 1885 y(Just)g(arg')h(->)f(spec_fn)g(arg')2320
+1959 y(Nothing)101 b(->)33 b(fn)203 b(arg)2049 2073 y
+Fp(The)36 b(function)h Fi(\(gshow_help)i(`extQ`)g(showString\))e
+Fp(beha)o(v)o(es)g(lik)o(e)2049 2156 y(the)15 b(monomorphic)j
+Fi(showString)e Fp(if)f(gi)n(v)o(en)h(a)f Fi(String)p
+Fp(,)h(and)g(lik)o(e)g(the)f(poly-)2049 2240 y(morphic)21
+b(function)g Fi(gshow_help)g Fp(otherwise.)27 b(T)-6
+b(o)20 b(this)g(end,)h Fi(extQ)f Fp(uses)h(a)2049 2323
+y(type-safe)d Fi(cast)g Fp(operator)m(,)g(which)g(is)f(re)o(garded)h
+(as)f(a)h(primiti)n(v)o(e)f(of)h(the)f(fol-)2049 2406
+y(lo)n(wing)i(type:)2125 2503 y Fi(cast)39 b(::)f(\(Typeable)h(a,)f
+(Typeable)h(b\))g(=>)f(a)g(->)h(Maybe)f(b)2049 2601 y
+Fp(If)24 b(the)g(cast)g(from)h Fi(a)f Fp(to)g Fi(b)g
+Fp(succeeds,)i(one)f(obtains)g(a)f(datum)h(of)f(the)h(form)2049
+2684 y Fi(Just)39 b(...)p Fp(,)28 b(and)f Fi(Nothing)g
+Fp(otherwise.)46 b(The)26 b(constraints)h(on)g(the)g(ar)o(gu-)2049
+2767 y(ment)18 b(and)g(result)g(type)g(of)g Fi(cast)g
+Fp(highlight)g(that)g Fi(cast)g Fp(is)f(not)h(a)g(parametri-)2049
+2850 y(cally)j(polymorphic)h(function.)29 b(W)-6 b(e)20
+b(rather)g(require)h(the)g(types)g Fi(a)f Fp(and)h Fi(b)g
+Fp(to)2049 2933 y(be)e(instances)h(of)f(the)g(class)g
+Fi(Typeable)p Fp(,)g(a)g(superclass)g(of)g Fi(Data)p
+Fp(:)3759 2906 y Fm(5)2125 3030 y Fi(class)39 b(Typeable)g(a)f(where)
+2201 3113 y(typeOf)h(::)f(a)h(->)f(TypeRep)2049 3211
+y Fp(Gi)n(v)o(en)30 b(a)g(typeable)h(v)n(alue)g Fi(v)p
+Fp(,)h(the)f(e)o(xpression)g Fi(\(typeOf)39 b(v\))30
+b Fp(computes)2049 3294 y(the)19 b(type)h(representation)g(\()p
+Fi(TypeRep)p Fp(\))g(of)f Fi(v)p Fp(.)24 b(Lik)o(e)19
+b Fi(dataTypeOf)p Fp(,)h Fi(typeOf)2049 3377 y Fp(ne)n(v)o(er)27
+b(inspects)g(its)f(ar)o(gument.)46 b(T)-6 b(ype)27 b(representations)g
+(admit)f(equality)-5 b(,)2049 3460 y(which)22 b(is)g(required)g(to)g
+(coincide)h(with)f(nominal)g(type)h(equi)n(v)n(alence.)34
+b(One)2049 3543 y(speci\002c)20 b(implementation)g(of)f(type-safe)i
+Fi(cast)e Fp(is)g(then)h(to)g(tri)n(vially)f(guard)2049
+3626 y(an)g(unsafe)h(coercion)g(by)f(type)h(equi)n(v)n(alence.)25
+b(This)18 b(and)i(other)f(approaches)2049 3709 y(to)k(casting)g(are)g
+(discussed)h(at)e(length)i(in)f([16].)35 b(In)23 b(what)f(follo)n(ws,)i
+(we)f(are)2049 3792 y(merely)c(interested)g(in)g(generalising)h(the)f
+Fn(type)g Fp(of)g Fi(cast)p Fp(.)2049 3917 y Ff(7.2)90
+b(Generalising)22 b Fd(cast)2049 4034 y Fp(The)h(scheme)g(that)g(we)g
+(used)g(for)g(e)o(xtending)h(generic)g Fn(queries)f Fp(is)g(speci\002c)
+2049 4117 y(to)c(queries.)k(It)c(cannot)h(be)f(reused)h(as)e(is)h(for)g
+(generic)g Fn(tr)o(ansformations)p Fp(:)2117 4223 y Fg(extT)33
+b(::)h(\(Typeable)e(a,)i(Typeable)f(b\))2286 4297 y(=>)h(\(a)f(->)h
+(a\))g(->)f(\(b)h(->)f(b\))h(->)g(\(a)f(->)h(a\))2117
+4372 y(extT)f(fn)h(spec_fn)f(arg)2184 4447 y(=)h(case)g(cast)f(arg)g
+(of)102 b(--)33 b(WRONG)2320 4521 y(Just)g(arg')h(->)f(spec_fn)g(arg')
+2320 4596 y(Nothing)101 b(->)33 b(fn)203 b(arg)2049 4710
+y Fp(The)20 b(trouble)g(is)g(that)g(the)g(result)g(of)g
+Fi(spec_fn)39 b(arg')20 b Fp(has)g(a)g(dif)n(ferent)g(type)2049
+4793 y(than)25 b(the)f(call)g Fi(fn)38 b(arg)p Fp(.)i(Hence,)26
+b Fi(extT)e Fp(must)h(be)f(de\002ned)h(in)f(a)h(dif)n(ferent)2049
+4876 y(style)d(than)h Fi(extQ)p Fp(.)f(One)h(option)g(is)f(to)g(cast)g
+(the)h Fn(function)g Fi(spec_fn)g Fp(rather)2049 4959
+y(than)c(the)g Fn(ar)m(gument)j Fi(arg)p Fp(:)p 2049
+5063 801 4 v 2150 5124 a Fm(5)2183 5151 y Fp(W)-6 b(e)20
+b(use)g(tw)o(o)g(separate)g(classes)g Fi(Data)g Fp(and)g
+Fi(Typeable)g Fp(to)g(encourage)2049 5234 y(well-bounded)h
+(polymorphism.)j(That)19 b(is,)f(the)h(class)g Fi(Typeable)h
+Fp(supports)2049 5317 y(nominal)f(type)h(representations,)f(just)g
+(enough)h(to)f(do)g(cast)g(and)g(dynamics.)2049 5400
+y(The)g(class)g Fi(Data)g Fp(is)f(about)i(structure)f(of)g(terms)g(and)
+g(data)h(types.)p eop
+%%Page: 10 10
+10 9 bop -82 83 a Fg(extT)33 b(fn)h(spec_fn)f(arg)-15
+158 y(=)h(case)g(cast)f(spec_fn)g(of)101 b(--)34 b(RIGHT)121
+232 y(Just)f(spec_fn')g(->)h(spec_fn')f(arg)121 307 y(Nothing)236
+b(->)34 b(fn)237 b(arg)-150 419 y Fp(This)19 b(time,)h(the)g
+Fi(cast)g Fp(compares)h(the)f(type)g(of)g Fi(spec_fn)g
+Fp(with)g(that)f(of)h Fi(fn)p Fp(,)-150 502 y(and)j(uses)g(the)f
+(former)h(when)g(the)g(type)f(matches.)35 b(The)22 b(only)h(infelicity)
+f(is)-150 585 y(that)f(we)f(thereby)i(compare)g(the)e(representations)i
+(of)f(the)g(types)g Fi(a->a)g Fp(and)-150 668 y Fi(b->b)p
+Fp(,)e(when)h(all)e(we)h Fn(r)m(eally)g Fp(w)o(ant)h(to)e(do)i(is)f
+(compare)h(the)f(representations)-150 751 y(of)e(the)g(types)h
+Fi(a)f Fp(and)h Fi(b)p Fp(.)k(This)17 b(infelicity)g(becomes)h(more)g
+(serious)f(when)h(we)-150 834 y(mo)o(v)o(e)h(to)g Fn(monadic)h
+Fp(transforms:)-82 937 y Fg(extM)33 b(::)h(\()f(???)h(\))g(=>)f(\(a)h
+(->)g(m)f(a\))h(->)g(\(b)f(->)h(m)g(b\))f(->)h(\(a)f(->)h(m)g(a\))-82
+1012 y(extM)f(fn)h(spec_fn)f(arg)-15 1086 y(=)h(case)g(cast)f(spec_fn)g
+(of)121 1161 y(Just)g(spec_fn')g(->)h(spec_fn')f(arg)121
+1236 y(Nothing)236 b(->)34 b(fn)237 b(arg)-150 1347 y
+Fp(No)n(w)-5 b(,)33 b(we)d(need)h(to)f(construct)h(the)f
+(representation)i(of)e Fi(a)38 b(->)g(m)h(a)p Fp(,)32
+b(and)-150 1430 y(hence)26 b Fi(m)38 b(a)25 b Fp(must)h(be)f
+Fi(Typeable)h Fp(too!)42 b(So)25 b(the)g Fi(\(...???...\))h
+Fp(must)f(be)-150 1513 y(\002lled)18 b(in)h(thus:)-82
+1617 y Fg(extM)33 b(::)h(\(Typeable)e(a,)i(Typeable)f(b,)223
+1691 y(Typeable)f(\(m)i(a\),)g(Typeable)e(\(m)i(b\)\))87
+1766 y(=>)g(\(a)f(->)h(m)g(a\))f(->)h(\(b)g(->)f(m)h(b\))g(->)f(\(a)h
+(->)f(m)h(a\))-150 1877 y Fp(Notice)39 b(the)g Fi(Typeable)h
+Fp(constraints)g(on)g Fi(\(m)e(a\))h Fp(and)h Fi(\(m)e(b\))p
+Fp(,)44 b(which)-150 1961 y(should)20 b(not)f(be)h(required.)j(The)c
+(type)h(of)f Fi(cast)g Fp(is)g(too)g(speci\002c.)k(The)c(prim-)-150
+2044 y(iti)n(v)o(e)g(that)f(we)h Fn(r)m(eally)g Fp(w)o(ant)h(is)e
+Fi(gcast)h Fp(\227)g(generalised)h Fi(cast)p Fp(:)-82
+2147 y Fg(gcast)33 b(::)h(\(Typeable)e(a,)i(Typeable)f(b\))g(=>)h(c)g
+(a)g(->)f(Maybe)g(\(c)h(b\))-150 2258 y Fp(Here)16 b
+Fi(c)f Fp(is)h(an)g(arbitrary)g(type)g(constructor)l(.)23
+b(By)16 b(replacing)g Fi(cast)g Fp(by)g Fi(gcast)-150
+2341 y Fp(in)i Fi(extT)h Fp(and)g Fi(extM)p Fp(,)f(and)i(instantiating)
+e Fi(c)h Fp(to)f Fj(L)p Fn(a)p Fe(:)p Fn(a)p Fi(->)q
+Fn(a)p Fp(,)g(and)h Fj(L)p Fn(a)p Fe(:)p Fn(a)e Fi(->)38
+b(m)17 b Fn(a)-150 2424 y Fp(respecti)n(v)o(ely)-5 b(,)20
+b(we)e(can)i(achie)n(v)o(e)g(the)f(desired)g(ef)n(fect.)-150
+2540 y(But)d(w)o(ait!)22 b(Hask)o(ell)17 b(does)g(not)g(support)g
+(higher)o(-order)h(uni\002cation,)f(so)f(ho)n(w)-150
+2624 y(can)21 b(we)f(instantiate)g Fi(c)h Fp(to)f(these)h(type-le)n(v)o
+(el)g(functions?)28 b(W)-6 b(e)20 b(resort)g(to)h(the)-150
+2707 y(standard)28 b(technique,)i(which)e(uses)g(a)f
+Fi(newtype)h Fp(to)f(e)o(xplain)h(to)f(the)g(type)-150
+2790 y(engine)20 b(which)f(instantiation)g(is)g(required.)24
+b(Here)19 b(is)f Fi(extM)p Fp(:)-82 2893 y Fg(extM)33
+b(::)h(\(Typeable)e(a,)i(Typeable)f(b\))87 2967 y(=>)h(\(a)f(->)h(m)g
+(a\))f(->)h(\(b)g(->)f(m)h(b\))g(->)f(\(a)h(->)f(m)h(a\))-82
+3042 y(extM)f(fn)h(spec_fn)f(arg)-15 3117 y(=)h(case)g(gcast)f(\(M)g
+(spec_fn\))g(of)121 3192 y(Just)g(\(M)h(spec_fn'\))f(->)g(spec_fn')g
+(arg)121 3266 y(Nothing)372 b(->)33 b(fn)237 b(arg)-82
+3370 y(newtype)33 b(M)g(m)h(a)g(=)g(M)f(\(a)h(->)g(m)f(a\))-150
+3481 y Fp(Here,)g Fi(\(M)39 b(spec_fn\))31 b Fp(has)g(type)g
+Fi(\(M)38 b(m)h(a\))p Fp(,)33 b(and)e(that)g(\002ts)f(the)h(type)g(of)
+-150 3564 y Fi(gcast)c Fp(by)g(instantiating)h Fi(c)e
+Fp(to)h Fi(M)38 b(m)p Fp(.)47 b(W)-6 b(e)26 b(can)i(re)n(write)e
+Fi(extQ)h Fp(and)h Fi(extT)-150 3647 y Fp(to)19 b(use)g
+Fi(gcast)p Fp(,)g(in)g(e)o(xactly)g(the)g(same)g(w)o(ay:)-82
+3750 y Fg(extQ)33 b(fn)h(spec_fn)f(arg)-15 3825 y(=)h(case)g(gcast)f
+(\(Q)g(spec_fn\))g(of)121 3900 y(Just)g(\(Q)h(spec_fn'\))f(->)g
+(spec_fn')g(arg)121 3974 y(Nothing)372 b(->)33 b(fn)237
+b(arg)-82 4078 y(newtype)33 b(Q)g(r)h(a)g(=)g(Q)f(\(a)h(->)g(r\))-82
+4181 y(extT)f(fn)h(spec_fn)f(arg)-15 4255 y(=)h(case)g(gcast)f(\(T)g
+(spec_fn\))g(of)121 4330 y(Just)g(\(T)h(spec_fn'\))f(->)g(spec_fn')g
+(arg)121 4405 y(Nothing)372 b(->)33 b(fn)237 b(arg)-82
+4508 y(newtype)33 b(T)g(a)h(=)g(T)g(\(a)f(->)h(a\))-150
+4620 y Fp(As)18 b(with)g Fi(cast)h Fp(before,)f Fi(gcast)h
+Fp(is)f(best)g(re)o(garded)h(as)f(a)h(b)o(uilt-in)e(primiti)n(v)o(e,)
+-150 4703 y(b)o(ut)i(in)h(f)o(act)g Fi(gcast)g Fp(replaces)g
+Fi(cast)p Fp(.)25 b(Our)20 b(implementation)h(of)e Fi(cast)p
+Fp(,)h(dis-)-150 4786 y(cussed)27 b(at)f(length)h(in)f([16)q(],)i(can)e
+(be)h(adopted)h(directly)e(for)g Fi(gcast)p Fp(.)46 b(The)-150
+4869 y(only)22 b(dif)n(ference)f(is)g(that)f Fi(gcast)i
+Fp(ne)o(glects)f(the)g(type)g(constructor)h Fi(c)f Fp(in)g(the)-150
+4952 y(test)d(for)h(type)h(equi)n(v)n(alence)g([17)q(].)-150
+5068 y(This)c(generalisation,)i(from)e Fi(cast)h Fp(to)f
+Fi(gcast)p Fp(,)h(is)g(not)f(a)h(ne)n(w)g(idea.)22 b(W)-6
+b(eirich)-150 5151 y([22)q(])19 b(uses)i(the)f(same)g(generalisation,)h
+(from)f Fi(cast)g Fp(to)g Fi(cast')h Fp(in)f(her)g(case,)-150
+5234 y(albeit)j(using)i(structural)f(rather)f(than)h(nominal)h(type)f
+(equality)-5 b(.)38 b(W)-6 b(e)23 b(used)-150 5317 y(a)30
+b(v)o(ery)h(similar)e(pattern)h(in)g(our)h(earlier)f(paper)m(,)j(when)e
+(we)f(generalised)-150 5400 y Fi(gmapQ)p Fp(,)19 b Fi(gmapT)g
+Fp(and)h Fi(gmapM)f Fp(to)g(produce)h(the)f(function)h
+Fi(gfoldl)f Fp([16)q(].)2049 83 y Ff(7.3)90 b(P)n(olymor)o(phic)22
+b(function)g(extension)2049 200 y Fp(The)41 b(function)i
+Fi(extQ)e Fp(allo)n(ws)g(us)h(to)f(e)o(xtend)i(a)e(generic)h(function)g
+(at)2049 283 y(a)35 b(particular)g Fn(monomorphic)i Fp(type,)i(b)o(ut)c
+(not)g(at)g(a)g Fn(polymorphic)i Fp(type.)2049 366 y(F)o(or)e(e)o
+(xample,)40 b(as)35 b(it)g(stands)h Fi(gshow)g Fp(will)e(print)h(lists)
+g(in)g(pre\002x)h(form)2049 449 y Fi("\(:)i(1)h(\(:)f(2)g(:)g([]\)\)")p
+Fp(.)50 b(Ho)n(w)27 b(could)h(we)g(print)f(lists)g(in)g(dist\002x)g
+(nota-)2049 532 y(tion,)19 b(thus)g Fi("[1,2]")p Fp(?)2049
+648 y(Our)26 b(ra)o(w)g(material)f(must)i(be)f(a)g Fn(list-speci\002c)p
+Fp(,)i(b)o(ut)d(still)g Fn(element-g)o(eneric)2049 731
+y Fp(function)20 b(that)e(prints)h(lists)f(in)h(dist\002x)g(notation:)
+2117 837 y Fg(gshowList)32 b(::)i(Data)f(b)h(=>)g([b])f(->)h(String)
+2117 912 y(gshowList)e(xs)2184 986 y(=)i("[")g(++)f(concat)g
+(\(intersperse)g(",")g(\(map)h(gshow)f(xs\)\))g(++)h("]")2049
+1100 y Fp(No)n(w)20 b(we)g(need)g(to)g(e)o(xtend)g Fi(gshow_help)h
+Fp(with)e Fi(gshowList)i Fp(\227)e(b)o(ut)h Fi(extQ)2049
+1183 y Fp(has)26 b(the)g(wrong)h(type.)44 b(Instead,)28
+b(we)e(need)h(a)f(higher)o(-kinded)h(v)o(ersion)g(of)2049
+1266 y Fi(extQ)p Fp(,)19 b(which)g(we)g(call)f Fi(ext1Q)p
+Fp(:)2117 1372 y Fg(ext1Q)33 b(::)h(\(Typeable)e(a,)i(Typeable1)f(t\))
+2320 1447 y(=>)h(\(a)f(->)h(r\))2320 1522 y(->)g(\(forall)f(b.)g(Data)h
+(b)f(=>)h(t)g(b)f(->)h(r\))2320 1596 y(->)g(\(a)f(->)h(r\))2117
+1702 y(gshow)f(::)h(Data)f(a)h(=>)f(a)h(->)g(String)2117
+1777 y(gshow)f(=)h(gshow_help)e(`ext1Q`)h(gshowList)2760
+1851 y(`extQ`)67 b(showString)2049 1965 y Fp(Here,)24
+b Fi(ext1Q)g Fp(is)f(quanti\002ed)h(o)o(v)o(er)f(a)g(type)h
+Fn(constructor)i Fi(t)e Fp(of)f(kind)h Fi(*->*)p Fp(,)2049
+2048 y(and)31 b(hence)f(we)g(need)h(a)f(ne)n(w)g(type)g(class)g
+Fi(Typeable1)p Fp(:)46 b(Hask)o(ell)30 b(sadly)2049 2131
+y(lacks)d(kind)h(polymorphism!)49 b(\(This)27 b(w)o(ould)h(require)f(a)
+g(non-tri)n(vial)h(lan-)2049 2214 y(guage)20 b(e)o(xtension.\))k(W)-6
+b(e)19 b(discuss)g Fi(Typeable1)h Fp(in)f(Section)f(7.4.)2049
+2331 y(T)-6 b(o)15 b(de\002ne)h Fi(ext1Q)f Fp(we)g(can)h(follo)n(w)f(e)
+o(xactly)g(the)h(same)f(pattern)h(as)f(for)g Fi(extQ)p
+Fp(,)2049 2414 y(abo)o(v)o(e,)20 b(b)o(ut)e(using)i(a)f(dif)n(ferent)g
+Fi(cast)g Fp(operator:)2117 2519 y Fg(ext1Q)33 b(fn)h(spec_fn)f(arg)
+2184 2594 y(=)h(case)g(dataCast1)e(\(Q)i(spec_fn\))f(of)2320
+2669 y(Just)g(\(Q)h(spec_fn'\))f(->)g(spec_fn')g(arg)2320
+2743 y(Nothing)372 b(->)33 b(fn)237 b(arg)2117 2818 y(newtype)33
+b(Q)g(r)h(a)g(=)g(Q)f(\(a)h(->)g(r\))2049 2932 y Fp(Here,)18
+b(we)f(need)i(\(another\))f(ne)n(w)g Fi(cast)g Fp(operator)m(,)g
+Fi(dataCast1)p Fp(.)24 b(Its)17 b(type)h(is)2049 3015
+y(practically)h(forced)h(by)f(the)g(de\002nition)g(of)g
+Fi(ext1Q)p Fp(:)2125 3113 y Fi(dataCast1)39 b(::)g(\(Typeable1)g(s,)f
+(Data)h(a\))2506 3196 y(=>)g(\(forall)f(b.)h(Data)f(b)h(=>)f(c)g(\(s)g
+(b\)\))2506 3279 y(->)h(Maybe)f(\(c)h(a\))2049 3376 y
+Fp(It)24 b(is)g(absolutely)i(necessary)f(to)g(ha)o(v)o(e)f(the)h
+Fi(Data)g Fp(constraint)g(in)f(the)h(ar)o(gu-)2049 3459
+y(ment)19 b(to)g Fi(dataCast1)p Fp(.)24 b(F)o(or)18 b(e)o(xample,)h
+(this)g(will)f(not)h(w)o(ork)h(at)e(all:)2125 3557 y
+Fi(bogusDataCast1)40 b(::)e(\(Typeable1)h(s,)g(Typeable)g(a\))2697
+3640 y(=>)f(\(forall)h(b.)f(c)h(\(s)f(b\)\))2697 3723
+y(->)g(Maybe)h(\(c)f(a\))2049 3820 y Fp(It)20 b(will)f(not)i(w)o(ork)g
+(because)h(the)e(ar)o(gument)i(is)e(required)h(to)f(be)h(completely)
+2049 3903 y(polymorphic)c(in)f Fi(b)p Fp(,)g(and)h(our)f(desired)g(ar)o
+(guments,)h(such)g(as)e Fi(showList)i Fp(are)2049 3986
+y(not;)i(the)o(y)f(need)i(the)e Fi(Data)h Fp(constraint.)k(That)c(is)f
+(why)g(the)h(\223)p Fi(Data)p Fp(\224)g(appears)2049
+4069 y(in)g(the)g(name)g Fi(dataCast1)p Fp(.)2049 4186
+y(Ho)n(w)-5 b(,)27 b(then)f(are)f(we)g(to)g(implement)h
+Fi(dataCast1)p Fp(?)44 b(W)-6 b(e)25 b(split)f(the)i(imple-)2049
+4269 y(mentation)20 b(into)f(tw)o(o)g(parts.)k(The)c(\002rst)f(part)h
+(performs)g(the)g(type)h(test)e(\(Sec-)2049 4352 y(tion)i(7.4\),)f
+(while)g(the)h(second)g(instantiates)g(the)g(ar)o(gument)g(to)f
+Fi(dataCast1)2049 4435 y Fp(\(Section)g(7.5\).)2049 4559
+y Ff(7.4)90 b(Generalising)22 b Fd(cast)g Ff(again)2049
+4676 y Fp(First,)15 b(the)h(type)h(test.)22 b(W)-6 b(e)15
+b(need)i(a)g(primiti)n(v)o(e)f Fi(cast)g Fp(operator)m(,)h
+Fi(gcast1)p Fp(,)g(that)2049 4759 y(matches)k(the)g Fn(type)g
+(constructor)i Fp(of)e(the)f(ar)o(gument,)i(rather)e(than)h(the)g
+Fn(type)p Fp(.)2049 4842 y(Here)e(is)f(its)h(type)g(along)h(with)e
+(that)h(of)g Fi(gcast)g Fp(for)g(comparison:)2117 4948
+y Fg(gcast1)33 b(::)g(\(Typeable1)g(s,)h(Typeable1)e(t\))68
+b(--)34 b(New)2354 5023 y(=>)f(c)h(\(s)g(a\))f(->)h(Maybe)f(\(c)h(\(t)g
+(a\)\))2117 5128 y(gcast)f(::)h(\(Typeable)e(a,)i(Typeable)f(b\))169
+b(--)34 b(For)f(comparison)2320 5203 y(=>)h(c)f(a)h(->)g(Maybe)f(\(c)h
+(b\))2049 5317 y Fp(The)27 b(role)g(of)g Fi(c)g Fp(is)f(unchanged.)50
+b(The)27 b(dif)n(ference)h(is)e(that)h Fi(gcast1)g Fp(com-)2049
+5400 y(pares)33 b(the)f(type)g(constructors)i Fi(s)e
+Fp(and)g Fi(t)p Fp(,)j(instead)e(of)f(the)g(types)h Fi(a)f
+Fp(and)p eop
+%%Page: 11 11
+11 10 bop -150 83 a Fi(b)p Fp(.)44 b(As)26 b(with)f(our)i(pre)n(vious)g
+(generalisation,)h(from)e Fi(cast)g Fp(to)g Fi(gcast)p
+Fp(,)i(the)-150 166 y Fi(Typeable)17 b Fp(constraints)g(concern)h(only)
+f(the)g(dif)n(ferences)g(between)g(the)g(tw)o(o)-150
+249 y(types)h(whose)g(common)h(shape)g(is)e Fi(\(c)38
+b(\()9 b Fk(\017)48 b Fi(a\)\))p Fp(.)23 b(The)17 b(implementation)i
+(of)-150 332 y Fi(gcast1)g Fp(follo)n(ws)g(the)g(same)h(tri)n(vial)e
+(scheme)i(as)e(before)i([16)q(,)e(17)q(].)-150 448 y(The)i(ne)n(w)h
+(class)g Fi(Typeable1)g Fp(is)f(parameterised)h(o)o(v)o(er)g(type)g
+(constructors,)-150 531 y(and)f(allo)n(ws)e(us)i(to)e(e)o(xtract)h(a)g
+(representation)h(of)f(the)g(type)g(constructor:)-82
+642 y Fg(class)33 b(Typeable1)g(s)g(where)-15 716 y(typeOf1)g(::)h(s)g
+(a)g(->)f(TypeRep)-82 827 y(instance)g(Typeable1)f([])i(where)-15
+902 y(typeOf1)f(_)h(=)g(mkTyConApp)f(\(mkTyCon)f("Prelude.List"\))g([])
+-82 1012 y(instance)h(Typeable1)f(Maybe)i(where)-15 1087
+y(typeOf1)f(_)h(=)g(mkTyConApp)f(\(mkTyCon)f("Prelude.Maybe"\))g([])
+-150 1206 y Fp(The)15 b(operation)g Fi(mkTyCon)g Fp(constructs)h
+(type-constructor)g(representations.)-150 1289 y(The)39
+b(operation)g Fi(mkTyConApp)h Fp(turns)f(the)g(latter)f(into)h
+(potentially)g(in-)-150 1372 y(complete)24 b(type)h(representations)f
+(subject)h(to)e(further)h(type)g(applications.)-150 1455
+y(There)18 b(is)f(a)h(single)g Fi(Typeable)h Fp(instance)f(for)g(all)f
+(types)i(with)e(an)h(outermost)-150 1538 y(type)h(constructors)h(of)f
+(kind)h Fi(*->*)p Fp(:)-82 1648 y Fg(instance)33 b(\(Typeable1)f(s,)i
+(Typeable)f(a\))121 1723 y(=>)h(Typeable)e(\(s)i(a\))g(where)-15
+1798 y(typeOf)g(x)f(=)h(typeOf1)f(x)h(`mkAppTy`)f(typeOf)g(\(undefined)
+f(::)i(a\))-150 1916 y Fp(\(Notice)26 b(the)g(use)h(of)f(a)g(scoped)h
+(type)g(v)n(ariable)g(here.)45 b(Also,)27 b(generic)g(in-)-150
+1999 y(stances)f(are)f(not)h(Hask)o(ell)g(98)g(compliant.)43
+b(One)25 b(could)i(instead)e(use)h(one)-150 2082 y(instance)20
+b(per)f(type)g(constructor)h(of)f(kind)g Fi(*->*)p Fp(.\))24
+b(The)19 b(function)g Fi(mkAppTy)-150 2165 y Fp(applies)24
+b(a)f(type-constructor)h(representation)g(to)f(an)g(ar)o(gument-type)i
+(rep-)-150 2248 y(resentation.)39 b(In)24 b(the)g(absence)h(of)f(kind)g
+(polymorphism,)j(we)d(sadly)g(need)-150 2331 y(a)k(distinct)f
+Fi(Typeable)h Fp(class)g(for)g(each)g(kind)g(of)g(type)g(constructor)l
+(.)50 b(F)o(or)-150 2414 y(e)o(xample,)19 b(for)g(binary)h(type)f
+(constructors)h(we)f(ha)o(v)o(e:)-82 2525 y Fg(class)33
+b(Typeable2)g(s)g(where)-15 2600 y(typeOf2)g(::)h(s)g(a)g(b)f(->)h
+(TypeRep)-82 2710 y(instance)f(\(Typeable2)f(s,)i(Typeable)f(a\))121
+2785 y(=>)h(Typeable1)e(\(s)i(a\))g(where)-15 2859 y(typeOf1)f(x)h(=)g
+(typeOf2)f(x)h(`mkAppTy`)e(typeOf)i(\(undefined)e(::)i(a\))-150
+2978 y Fp(One)23 b(might)g(w)o(orry)h(about)g(the)f(proliferation)g(of)
+g Fi(Typeable)h Fp(classes,)g(b)o(ut)-150 3061 y(in)e(practice)g(this)g
+(is)f(not)h(a)g(problem.)33 b(First,)21 b(we)h(are)g(primarily)f
+(interested)-150 3144 y(in)d(type)g(constructors)i(whose)e(ar)o
+(guments)h(are)f(themselv)o(es)h(of)f(kind)h Fi(*)p Fp(,)f(be-)-150
+3227 y(cause)k(the)e Fi(Data)h Fp(class)g(only)h(mak)o(es)f(sense)h
+(for)e Fn(types)p Fp(.)29 b(Second,)22 b(the)f(arity)-150
+3310 y(of)e(type)g(constructors)h(is)f(seldom)g(lar)o(ge.)-150
+3444 y Ff(7.5)90 b(Implementing)22 b Fd(dataCast1)-150
+3561 y Fp(Our)d(goal)g(is)g(to)g(implement)g Fi(dataCast1)h
+Fp(using)f Fi(gcast1)p Fp(:)-82 3671 y Fg(dataCast1)32
+b(::)i(\(Typeable1)f(s,)g(Data)h(a\))256 3746 y(=>)g(\(forall)f(b.)h
+(Data)f(b)h(=>)f(c)h(\(s)g(b\)\))256 3821 y(->)g(Maybe)f(\(c)h(a\))-82
+3931 y(gcast1)f(::)g(\(Typeable1)g(s,)h(Typeable1)e(t\))155
+4006 y(=>)h(c)h(\(s)g(a\))f(->)h(Maybe)f(\(c)h(\(t)g(a\)\))-150
+4125 y Fp(There)26 b(appear)h(to)f(be)h(tw)o(o)f(dif)n(\002culties.)45
+b(First,)26 b Fi(dataCast1)h Fp(must)f(w)o(ork)-150 4208
+y(o)o(v)o(er)35 b Fn(any)g Fp(type)g Fi(\(c)j(a\))p Fp(,)g(whereas)d
+Fi(gcast1)f Fp(is)g(restricted)h(to)f(types)h(of)-150
+4291 y(form)24 b Fi(\(c)38 b(\(t)g(a\)\))p Fp(.)g(Second,)25
+b Fi(dataCast1)g Fp(is)e(gi)n(v)o(en)i(a)e(polymorphic)j(ar)o(-)-150
+4374 y(gument)d(which)g(it)e(must)h(instantiate)g(by)h(applying)g(it)f
+(to)g(a)g(dictionary)h(for)-150 4457 y Fi(Data)39 b(a)p
+Fp(.)22 b(Both)16 b(these)h(dif)n(\002culties)f(can,)h(indeed)h(must,)f
+(be)f(met)h(by)g(making)-150 4540 y Fi(dataCast1)j Fp(into)f(a)f
+(member)i(of)f(the)g Fi(Data)g Fp(class)g(itself:)-82
+4650 y Fg(class)33 b(Typeable)g(a)h(=>)f(Data)h(a)f(where)-15
+4725 y(...)-15 4800 y(dataCast1)g(::)h(Typeable1)f(s)324
+4874 y(=>)h(\(forall)f(a.)g(Data)h(a)g(=>)f(c)h(\(s)g(b\)\))324
+4949 y(->)g(Maybe)f(\(c)h(a\))-150 5068 y Fp(No)n(w)41
+b(in)g(each)g(instance)g(declaration)h(we)e(ha)o(v)o(e)h(a)o(v)n
+(ailable)g(precisely)-150 5151 y(the)35 b(necessary)h
+Fi(Data)f Fp(dictionary)g(to)g(instantiate)f(the)h(ar)o(gument.)72
+b(All)-150 5234 y Fi(dataCast1)26 b Fp(has)g(to)g(do)g(is)f(to)h
+(instantiate)f Fi(f)p Fp(,)i(and)g(pass)f(the)f(instantiated)-150
+5317 y(v)o(ersion)c(on)g(to)g Fi(gcast1)g Fp(to)g(perform)g(the)f(type)
+h(test,)g(yielding)g(the)g(follo)n(w-)-150 5400 y(ing,)e(mysteriously)h
+(simple)f(implementation:)2117 83 y Fg(instance)33 b(Data)g(a)h(=>)f
+(Data)h([a])f(where)2184 158 y(...)2184 232 y(dataCast1)g(f)h(=)g
+(gcast1)f(f)2049 348 y Fp(The)15 b(instances)h(of)f Fi(dataCast1)g
+Fp(for)g(type)h(constructors)f(of)g(kind)h(other)f(than)2049
+431 y Fi(*->*)i Fp(returns)h Fi(Nothing)p Fp(,)g(because)g(the)g(type)f
+(is)g(not)h(of)f(the)g(required)h(form.)2117 537 y Fg(instance)33
+b(Data)g(Int)g(where)2184 612 y(...)2184 687 y(dataCast1)g(f)h(=)g
+(Nothing)2049 802 y Fp(Just)20 b(as)f(we)h(need)g(a)f(f)o(amily)h(of)g
+Fi(Typeable)g Fp(classes,)g(so)f(we)h(need)g(a)g(f)o(amily)2049
+885 y(of)f Fi(dataCast)g Fp(operators)h(with)f(an)g(anno)o(ying)i(b)o
+(ut)e(una)o(v)o(oidable)h(limit.)2049 1011 y Ff(7.6)90
+b(Generic)22 b(function)g(extension)f(\227)j(summary)2049
+1128 y Fp(Although)k(this)f(section)g(has)g(been)h(long)f(and)h(rather)
+f(abstract,)h(the)f(con-)2049 1211 y(crete)h(results)g(are)g(simple)h
+(to)f(use.)51 b(W)-6 b(e)28 b(ha)o(v)o(e)g(been)h(able)g(to)f
+(generalise)2049 1294 y Fi(extQ)p Fp(,)23 b Fi(extT)p
+Fp(,)g Fi(extM)h Fp(\(and)g(an)o(y)g(other)f(v)n(ariants)h(you)g(care)g
+(to)f(think)g(of\))h(so)2049 1377 y(that)f(the)o(y)h(handle)g
+Fn(polymorphic)g Fp(as)g(well)e(as)h(monomorphic)j(cases.)36
+b(The)2049 1460 y(ne)n(w)18 b(operators)h(are)e(easy)i(to)e(use)h(\227)
+f(see)h(the)g(de\002nition)g(of)g Fi(gshow)g Fp(in)f(Sec-)2049
+1543 y(tion)i(7.3)f(\227)g(and)h(are)g(b)o(uilt)f(on)h(an)f
+(interesting)h(and)g(independently-useful)2049 1626 y(generalisation)d
+(of)e(the)h Fi(Typeable)g Fp(class.)22 b(All)14 b(the)g(instances)i
+(for)e Fi(Data)h Fp(and)2049 1709 y Fi(Typeable)27 b
+Fp(are)f(generated)i(automatically)f(by)g(the)f(compiler)m(,)j(and)e
+(need)2049 1792 y(ne)n(v)o(er)20 b(be)f(seen)g(by)h(the)f(user)l(.)2049
+1979 y Fq(8)99 b(Related)26 b(w)o(ork)2049 2096 y Fp(The)33
+b(position)h(of)f(the)g Fn(Scr)o(ap)h(your)g(boilerplate)g
+Fp(approach)h(within)e(the)2049 2179 y(generic)j(programming)g(\002eld)
+f(w)o(as)g(described)h(in)e(the)h(original)g(paper)l(.)2049
+2262 y(Hence,)24 b(we)e(will)g(focus)h(on)g(related)g(w)o(ork)g(re)o
+(garding)g(the)g(ne)n(w)g(contrib)o(u-)2049 2345 y(tions)18
+b(of)g(the)g(present)g(paper:)23 b(type)c(re\003ection)e(\(Section)h
+(5\),)g(zipping)g(com-)2049 2428 y(binators)h(\(Section)g(6\),)g(and)g
+(generic)h(function)g(e)o(xtension)g(\(Section)e(7\).)2049
+2544 y(Our)23 b(type)g(re\003ection)g(is)f(a)h(form)f(of)h
+(introspection,)i(i.e.,)d(the)h(structure)g(of)2049 2627
+y(types)d(can)g(be)g(observ)o(ed,)h(including)f(names)g(of)g
+(constructors,)g(\002elds,)f(and)2049 2710 y(types.)32
+b(In)21 b(addition,)i(terms)e(can)h(be)g(constructed.)33
+b(This)21 b(is)g(similar)g(to)h(the)2049 2793 y(re\003ection)c(API)g
+(of)h(a)f(language)i(lik)o(e)f(Ja)o(v)n(a,)f(where)h(attrib)o(utes)f
+(and)h(method)2049 2876 y(signatures)29 b(can)f(be)h(observ)o(ed,)i
+(and)e(objects)f(can)h(be)f(constructed)i(from)2049 2959
+y(class)d(names.)47 b(The)27 b(sum-of-products)h(approach)h(to)e
+(generic)g(program-)2049 3042 y(ming)e(abstracts)g(from)f(e)n(v)o
+(erything)i(e)o(xcept)g(type)f(structure.)40 b(In)25
+b(the)f(pure)2049 3125 y(sum-of-products)30 b(setup,)h(one)e(cannot)h
+(de\002ne)f(generic)g(read)g(and)g(sho)n(w)2049 3208
+y(functions.)44 b(There)26 b(are)f(non-tri)n(vial)h(re\002nements,)i
+(which)e(enrich)g(induc-)2049 3291 y(tion)h(on)g(type)g(structure)f
+(with)h(cases)g(for)f(constructor)i(applications)f(and)2049
+3374 y(labelled)i(components)i([7)q(,)d(4)q(,)g(8)q(].)53
+b(In)29 b(our)g(approach,)k(re\003ecti)n(v)o(e)c(infor)o(-)2049
+3457 y(mation)23 b(tra)o(v)o(els)f(silently)h(with)f(the)h
+Fi(Data)g Fp(dictionaries)g(that)g(go)g(with)f(an)o(y)2049
+3540 y(data)j(v)n(alue.)41 b(This)25 b(is)f(consistent)i(with)e(the)h
+(aspiration)g(of)g(our)g(approach)2049 3623 y(to)f(de\002ne)h(generic)f
+(functions)h(without)g(reference)g(to)f(a)g(uni)n(v)o(ersal)h(repre-)
+2049 3706 y(sentation,)20 b(and)h(without)f(compile-time)g
+(specialisation.)27 b(Altenkirch)20 b(and)2049 3789 y(McBride')l(s)e
+(generic)g(programming)h(with)e(dependent)i(types)f([1)q(])f(suggests)
+2049 3872 y(that)k(re\003ecti)n(v)o(e)f(data)h(can)g(also)g(be)g
+(represented)h(as)f(types,)g(which)g(is)f(more)2049 3955
+y(typeful)f(than)h(our)f(approach.)2049 4072 y(Zipping)30
+b(is)f(a)h(well-kno)n(wn)g(generic)h(operation)f([12)q(,)f(4,)g(13)q
+(].)55 b(Our)30 b(de-)2049 4155 y(v)o(elopment)h(sho)n(ws)g(that)e
+(zippers)i(can)f(be)g(de\002ned)h(generically)f(as)g(cur)o(-)2049
+4238 y(ried)h(folds,)j(while)d(taking)h(adv)n(antage)h(of)e(higher)o
+(-order)h(generic)g(func-)2049 4321 y(tions.)f(De\002ning)22
+b(zippers)g(by)h(pattern)e(matching)i(on)f(tw)o(o)g(parameters)g(in-)
+2049 4404 y(stead,)h(w)o(ould)g(require)f(a)g(non-tri)n(vial)g
+(language)i(e)o(xtension.)33 b(In)22 b(the)h(sum-)2049
+4487 y(of-product)h(approach,)i(zippers)e(perform)g(polymorphic)h
+(pattern)f(match-)2049 4570 y(ing)29 b(on)g(the)g(tw)o(o)f(incoming)i
+(data)f(structures)g(simultaneously)-5 b(.)54 b(T)-6
+b(o)28 b(this)2049 4653 y(end,)19 b(the)g(generic)h(function)g(is)e
+(dri)n(v)o(en)i(by)f(the)g(type)g(structure)h(of)f(a)f
+Fn(shar)m(ed)2049 4736 y Fp(type)e(constructor)m(,)g(which)f(implies)g
+(dependently)i(polymorphic)g(ar)o(gument)2049 4819 y(types)h([12,)f
+(4].)23 b(Altenkirch)17 b(and)h(McBride')l(s)f(generic)h(programming)h
+(with)2049 4902 y(dependent)27 b(types)e([1])g(indicates)g(that)g(ar)o
+(gument)g(type)h(dependencies)h(as)2049 4985 y(in)32
+b(zipping)i(can)f(be)g(captured)h(accordingly)g(with)e(dependent)i
+(types)f(if)2049 5068 y(this)27 b(is)h(intended.)50 b(Their)27
+b(approach)j(also)e(emplo)o(ys)g(a)g(highly)g(paramet-)2049
+5151 y(ric)22 b(fold)h(operator)g(that)f(is)g(readily)h(general)g(for)f
+(multi-parameter)h(tra)o(v)o(er)o(-)2049 5234 y(sal.)32
+b(The)22 b(pattern)h(calculus)f(\(formerly)g(called)h(constructor)g
+(calculus\))f(by)2049 5317 y(Barry)15 b(Jay)g([13)q(],)g(de\002nes)h
+(zipping-lik)o(e)g(operations)g(by)g(simultaneous)g(pat-)2049
+5400 y(tern)f(matching)g(on)g(tw)o(o)g(arbitrary)f Fn(constructor)i
+(applications)p Fp(.)23 b(Lik)o(e)15 b(in)f(our)p eop
+%%Page: 12 12
+12 11 bop -150 83 a Fp(zippers,)19 b(the)g(ar)o(gument)h(types)f(are)g
+(independently)i(polymorphic.)-150 199 y(Customisation)g(of)f(generic)h
+(functions)g(for)f(speci\002c)g(types)h(is)f(an)g(ob)o(vious)-150
+282 y(desideratum.)40 b(In)24 b(Generic)h(Hask)o(ell,)g(generic)g
+(function)g(de\002nitions)f(can)-150 365 y(in)m(v)o(olv)o(e)f(some)f
+(sort)g(of)h(ad-hoc)g(or)f(def)o(ault)h(cases)g([7,)f(5,)g(4,)g(19)q
+(].)32 b(Our)23 b(ap-)-150 448 y(proach)c(narro)n(ws)g(do)n(wn)g
+(generic)f(function)h(e)o(xtension)g(to)f(the)g(v)o(ery)h(simple)-150
+531 y(construct)j(of)f(a)f(nominal)i(type)f(cast)g([16)q(].)29
+b(Ho)n(we)n(v)o(er)m(,)22 b(our)f(original)g(paper)-150
+614 y(f)o(acilitated)15 b(generic)h(function)g(e)o(xtension)h(with)e
+(only)h(monomorphic)h(cases)-150 697 y(as)k(a)g(heritage)g(of)g(our)g
+(focus)g(on)g(term)g(tra)o(v)o(ersal.)28 b(The)21 b(ne)n(w)g(de)n(v)o
+(elopment)-150 780 y(of)h(Section)g(7)g(generalised)h(from)g
+(monomorphic)h(to)e(polymorphic)h(cases)-150 863 y(in)h(generic)h
+(function)g(e)o(xtension.)40 b(This)24 b(generality)h(of)f(generic)h
+(function)-150 946 y(e)o(xtension)g(is)e(also)h(accommodated)i(by)f
+(Generic)f(Hask)o(ell,)h(b)o(ut)e(rather)h(at)-150 1029
+y(a)g(static)f(le)n(v)o(el)h(relying)g(on)g(a)g(dedicated)h(top-le)n(v)
+o(el)f(declaration)g(form)g(for)-150 1112 y(generic)h(functions.)39
+b(By)24 b(contrast,)h(our)f(generic)h(function)g(e)o(xtension)g(f)o(a-)
+-150 1196 y(cilitates)18 b Fn(higher)o(-or)m(der)k Fp(generic)e
+(functions.)-150 1312 y(In)37 b(a)f(v)o(ery)i(recent)f(paper)g([8],)k
+(Hinze)c(captures)g(essential)g(idioms)g(of)-150 1395
+y(Generic)25 b(Hask)o(ell)h(in)e(a)h(Hask)o(ell)h(98-based)g(model,)h
+(which)e(requires)h(ab-)-150 1478 y(solutely)j(no)h(e)o(xtensions.)55
+b(Ne)n(v)o(ertheless,)32 b(the)d(approach)h(is)f(quite)g(gen-)-150
+1561 y(eral.)c(F)o(or)19 b(instance,)h(it)f(allo)n(ws)h(one)g(to)g
+(de\002ne)g(generic)g(functions)g(that)g(are)-150 1644
+y(inde)o(x)o(ed)27 b(by)g(type)f(constructors.)45 b(This)26
+b(w)o(ork)g(shares)h(our)f(aspiration)h(of)-150 1727
+y(lightweightness)18 b(as)f(opposed)i(to)e(the)g(substantial)g
+(language)i(e)o(xtension)f(of)-150 1810 y(Generic)26
+b(Hask)o(ell)g([7,)f(5,)g(4)q(,)g(19)q(].)42 b(Hinze')l(s)26
+b(lightweight)g(approach)h(does)-150 1893 y(not)c(support)h(some)f
+(aspects)h(of)f(our)g(system.)35 b(Notably)-5 b(,)24
+b(Hinze')l(s)f(generic)-150 1976 y(functions)h(are)f(not)h(higher)o
+(-order;)i(and)e(generic)g(functions)g(operate)g(on)g(a)-150
+2059 y(representation)k(type.)46 b(Furthermore,)28 b(the)f(approach)h
+(e)o(xhibits)e(a)h(limita-)-150 2142 y(tion)i(related)g(to)f(generic)i
+(function)f(e)o(xtension:)44 b(the)29 b Fn(class)g Fp(for)g(generics)
+-150 2225 y(w)o(ould)18 b(need)f(to)g(be)g(adapted)h(for)e(each)i(ne)n
+(w)f(type)g(or)g(type)g(constructor)h(that)-150 2308
+y(requires)h(a)g(speci\002c)g(case.)-150 2491 y Fq(9)99
+b(Conclusion)-150 2608 y Fp(W)-6 b(e)19 b(ha)o(v)o(e)g(completed)i(the)
+e Fn(Scr)o(ap)i(your)f(boilerplate)g Fp(approach)h(to)e(generic)-150
+2691 y(programming)h(in)f(Hask)o(ell,)g(which)g(combines)i(the)d(follo)
+n(wing)i(attrib)o(utes:)-150 2816 y Fo(Lightweight:)40
+b Fp(the)18 b(approach)g(requires)g(tw)o(o)f(independently-useful)j
+(lan-)16 2899 y(guage)25 b(e)o(xtensions)g(to)f(Hask)o(ell)h(98)f
+(\(higher)o(-rank)h(types)g(and)f(type-)16 2982 y(safe)29
+b(cast\),)i(after)d(which)h(e)n(v)o(erything)h(can)f(be)g(implemented)h
+(as)f(a)16 3065 y(library)-5 b(.)33 b(A)22 b(third)g(e)o(xtension,)i(e)
+o(xtending)g(the)e Fi(deriving)h Fp(clause)g(to)16 3148
+y(handle)f Fi(Data)g Fp(and)f Fi(Typeable)h Fp(is)f(more)h(speci\002c)f
+(to)g(our)g(approach,)16 3231 y(b)o(ut)e(this)f(code-generation)j
+(feature)e(is)g(v)o(ery)g(non-in)m(v)n(asi)n(v)o(e.)-150
+3339 y Fo(General:)42 b Fp(the)36 b(approach)i(handles)f(re)o(gular)g
+(data)g(types,)k(nested)c(data)16 3422 y(types,)21 b(mutually-recursi)n
+(v)o(e)g(data)f(types,)h(type)f(constructor)h(param-)16
+3505 y(eterised)k(in)f(additional)h(types;)i(and)e(it)f(handles)i
+(single)e(and)h(multi-)16 3588 y(parameter)19 b(term)g(tra)o(v)o
+(ersal,)f(as)h(well)f(as)h(term)g(b)o(uilding.)-150 3696
+y Fo(V)-7 b(ersatile:)41 b Fp(the)34 b(approach)h(supports)g(higher)o
+(-order)g(generic)f(program-)16 3779 y(ming,)g(reusable)d
+(de\002nitions)g(of)g(tra)o(v)o(ersal)f(strate)o(gies,)k(and)d(o)o(v)o
+(er)o(-)16 3862 y(riding)g(of)g(generic)g(functions)g(at)g(speci\002ed)
+g(types.)58 b(There)31 b(is)f(no)16 3945 y(closed)20
+b(w)o(orld)f(assumption)h(re)o(garding)f(user)o(-de\002ned)h(data)f
+(types.)-150 4053 y Fo(Dir)o(ect:)41 b Fp(generic)f(functions)g(are)f
+(directly)g(de\002ned)h(on)g(Hask)o(ell)g(data)16 4136
+y(types)18 b(without)g(detouring)i(to)d(a)h(uniform)h(representation)g
+(type)f(such)16 4219 y(as)29 b(sums-of-products.)55 b(Also,)31
+b(Hask)o(ell')l(s)e(nominal)h(type)g(equi)n(v)n(a-)16
+4302 y(lence)19 b(is)g(f)o(aithfully)g(supported,)h(as)e(opposed)j(to)e
+(more)g(structurally-)16 4385 y(de\002ned)h(generic)f(functions.)-150
+4493 y Fo(W)-5 b(ell)18 b(integrated)h(and)f(supported:)40
+b Fp(e)n(v)o(erything)18 b(we)e(describe)h(is)f(imple-)16
+4576 y(mented)k(in)f(GHC)f(and)h(supported)i(by)e(a)g(Hask)o(ell)g
+(generics)h(library)-5 b(.)-150 4719 y Fn(Ac)o(knowledg)o(ements.)31
+b Fp(W)-6 b(e)21 b(gratefully)g(ackno)n(wledge)i(v)o(ery)f(helpful)f
+(com-)-150 4802 y(ments)k(and)g(suggestions)h(by)e(four)h(anon)o(ymous)
+i(ICFP)c(2004)i(referees)g(as)-150 4885 y(well)18 b(as)h(by)h(Olaf)e
+(Chitil,)g(Andres)h(L)6 b(\250)-31 b(oh,)19 b(and)h(Simon)e(Marlo)n(w)
+-5 b(.)-150 5068 y Fq(10)99 b(Refer)n(ences)-117 5176
+y Fb([1])42 b(T)-5 b(.)20 b(Altenkirch)k(and)d(C.)g(McBride.)38
+b(Generic)23 b(programming)f(within)g(depen-)2 5251 y(dently)17
+b(typed)g(programming.)22 b(In)16 b Fa(Generic)h(Pr)m(o)o(gr)o(amming)p
+Fb(,)f(2003.)21 b(Proceed-)2 5325 y(ings)f(of)f(the)h(IFIP)f(TC2)g(W)-5
+b(orking)20 b(Conference)i(on)d(Generic)i(Programming,)2
+5400 y(Schloss)d(Dagstuhl,)g(July)f(2002.)2082 83 y([2])42
+b(F)-5 b(.)15 b(Atanasso)n(w)l(,)h(D.)f(Clark)o(e,)i(and)g(J.)d
+(Jeuring.)22 b(UUXML:)15 b(A)h(T)-5 b(ype-Preserving)2201
+158 y(XML)16 b(Schema-Hask)o(ell)k(Data)e(Binding.)25
+b(In)16 b(B.)h(Jayaraman,)h(editor)m(,)g Fa(Pr)o(acti-)2201
+232 y(cal)i(Aspects)f(of)g(Declar)o(ative)j(Langua)o(g)o(es:)k(6th)19
+b(International)j(Symposium,)2201 307 y(P)-6 b(ADL)13
+b(2004,)i(Dallas,)g(TX,)d(USA,)h(J)n(une)i(18-19,)g(2004.)f(Pr)m
+(oceedings)p Fb(,)i(v)o(olume)2201 382 y(3057)i(of)f
+Fa(LNCS)p Fb(,)f(pages)i(71\22685.)g(Springer)o(-V)-7
+b(erlag,)19 b(May)e(2004.)2082 482 y([3])42 b(K.)20 b(Claessen)i(and)e
+(J.)g(Hughes.)34 b(QuickCheck:)d(a)20 b(lightweight)k(tool)d(for)f
+(ran-)2201 556 y(dom)d(testing)i(of)e(Hask)o(ell)h(programs.)25
+b(In)17 b(ICFP00)g([11],)g(pages)h(268\226279.)2082 656
+y([4])42 b(D.)16 b(Clark)o(e,)j(J.)d(Jeuring,)h(and)h(A.)e(L)6
+b(\250)-28 b(oh.)23 b(The)17 b(Generic)h(Hask)o(ell)h(User')l(s)e
+(Guide,)2201 731 y(2002.)25 b(V)-7 b(ersion)17 b(1.23)g(\227)g(Beryl)h
+(release.)2082 830 y([5])42 b(D.)20 b(Clark)o(e)k(and)d(A.)g(L)6
+b(\250)-28 b(oh.)37 b(Generic)22 b(Hask)o(ell,)i(Speci\002cally.)41
+b(In)21 b(J.)f(Gibbons)2201 905 y(and)f(J.)d(Jeuring,)j(editors,)g
+Fa(Pr)m(oc.)f(of)g(the)g(IFIP)f(TC2)h(W)-6 b(orking)19
+b(Confer)n(ence)i(on)2201 980 y(Generic)e(Pr)m(o)o(gr)o(amming)p
+Fb(.)e(Kluwer)h(Academic)h(Publishers,)f(2003.)2082 1079
+y([6])42 b(J.)16 b(Harm)h(and)g(R.)g(L)t(\250)-26 b(ammel.)23
+b(T)-5 b(w)o(o-dimensional)19 b(Approximation)h(Co)o(v)o(erage.)2201
+1154 y Fa(Informatica)p Fb(,)f(24\(3\):355\226369,)g(2000.)2082
+1254 y([7])42 b(R.)16 b(Hinze.)23 b(A)16 b(generic)i(programming)f(e)o
+(xtension)i(for)d(Hask)o(ell.)24 b(In)16 b Fa(Pr)m(oc.)f(3r)n(d)2201
+1328 y(Hask)o(ell)23 b(W)-6 b(orkshop,)23 b(P)-5 b(aris,)20
+b(F)l(r)o(ance)p Fb(,)j(1999.)37 b(T)-5 b(echnical)24
+b(report)e(of)f(Uni)n(v)o(er)o(-)2201 1403 y(siteit)e(Utrecht,)f
+(UU-CS-1999-28.)2082 1503 y([8])42 b(R.)17 b(Hinze.)25
+b(Generics)18 b(for)f(the)h(masses.)24 b(In)17 b(these)h(proceedings,)h
+(2004.)2082 1602 y([9])42 b(R.)21 b(Hughes.)39 b(A)21
+b(no)o(v)o(el)i(representation)i(of)d(lists)g(and)g(its)g(application)j
+(to)d(the)2201 1677 y(function)d(re)n(v)o(erse.)26 b
+Fa(Information)19 b(Pr)m(ocessing)e(Letter)o(s)p Fb(,)i(22,)d(1986.)
+2049 1777 y([10])42 b(G.)31 b(Hutton)h(and)h(E.)d(Meijer)l(.)72
+b(Functional)35 b(pearl:)51 b(Monadic)34 b(parsing)e(in)2201
+1851 y(Hask)o(ell.)63 b Fa(J)n(ournal)30 b(of)f(Functional)i(Pr)m(o)o
+(gr)o(amming)p Fb(,)h(8\(4\):437\226444,)h(July)2201
+1926 y(1998.)2049 2026 y([11])42 b Fa(A)n(CM)30 b(SIGPLAN)f
+(International)j(Confer)n(ence)g(on)e(Functional)i(Pr)m(o)o(gr)o(am-)
+2201 2100 y(ming)18 b(\(ICFP'00\))p Fb(,)e(Montreal,)j(Sept.)e(2000.)g
+(A)m(CM.)2049 2200 y([12])42 b(P)-7 b(.)17 b(Jansson)i(and)f(J.)f
+(Jeuring.)29 b(PolyLib\227A)20 b(library)f(of)f(polytypic)j(functions.)
+2201 2275 y(In)15 b(R.)f(Backhouse)i(and)f(T)-5 b(.)14
+b(Sheard,)h(editors,)h Fa(Pr)m(oc.)e(of)h(W)-6 b(orkshop)16
+b(on)e(Generic)2201 2350 y(Pr)m(o)o(gr)o(amming)o(,)h(WGP'98,)f(Mar)o
+(str)o(and,)h(Sweden)p Fb(.)f(Dept.)g(of)g(Comp.)f(Science,)2201
+2424 y(Chalmers)18 b(Uni)n(v)l(.)f(of)g(T)-5 b(echn.)18
+b(and)f(G)6 b(\250)-28 b(otebor)o(g)19 b(Uni)n(v)l(.,)d(June)i(1998.)
+2049 2524 y([13])42 b(C.)20 b(B.)g(Jay)l(.)36 b(The)20
+b(pattern)j(calculus.)37 b Fg(http://www-)t(staff.it.uts.edu.)2201
+2599 y(au/\230cbj/Publications/pattern_calculus.ps)p
+Fb(,)21 b(2003.)48 b(\(accepted)2201 2673 y(for)17 b(publication)k(by)c
+(A)m(CM)g(T)o(OPLAS.\).)2049 2773 y([14])42 b(P)-7 b(.)24
+b(W)-6 b(.)23 b(M.)h(K)n(oopman,)j(A.)c(Alimarine,)29
+b(J.)23 b(T)n(retmans,)k(and)e(M.)f(J.)g(Plasmei-)2201
+2848 y(jer)l(.)61 b(Gast:)44 b(Generic)30 b(Automated)g(Softw)o(are)g
+(T)-5 b(esting.)60 b(In)29 b(R.)e(Pena)i(and)2201 2922
+y(T)-5 b(.)24 b(Arts,)j(editors,)i Fa(Implementation)g(of)c(Functional)
+j(Langua)o(g)o(es,)h(14th)d(In-)2201 2997 y(ternational)j(W)-6
+b(orkshop,)29 b(IFL)c(2002,)k(Madrid,)f(Spain,)h(September)f(16-18,)
+2201 3072 y(2002,)17 b(Re)o(vised)g(Selected)j(P)-5 b(aper)o(s)p
+Fb(,)16 b(v)o(olume)h(2670)g(of)f Fa(LNCS)p Fb(,)h(pages)g(84\226100.)
+2201 3147 y(Springer)o(-V)-7 b(erlag,)19 b(2003.)2049
+3246 y([15])42 b(R.)23 b(L)t(\250)-26 b(ammel)23 b(and)h(J.)e(Harm.)43
+b(T)-5 b(est)23 b(case)h(characterisation)29 b(by)23
+b(re)o(gular)i(path)2201 3321 y(e)o(xpressions.)42 b(In)22
+b(E.)f(Brinksma)i(and)g(J.)e(T)n(retmans,)i(editors,)h
+Fa(Pr)m(oc.)e(F)-7 b(ormal)2201 3396 y(Appr)m(oac)o(hes)22
+b(to)f(T)-6 b(esting)22 b(of)f(Softwar)n(e)i(\(F)-8 b(A)n(TES'01\))p
+Fb(,)20 b(Notes)i(Series)f(NS-01-)2201 3470 y(4,)c(pages)g(109\226124.)
+h(BRICS,)f(Aug.)g(2001.)2049 3570 y([16])42 b(R.)25 b(L)t(\250)-26
+b(ammel)26 b(and)g(S.)f(Pe)o(yton)h(Jones.)52 b(Scrap)27
+b(your)f(boilerplate:)42 b(a)26 b(practi-)2201 3645 y(cal)18
+b(design)h(pattern)g(for)e(generic)j(programming.)26
+b Fa(A)n(CM)17 b(SIGPLAN)f(Notices)p Fb(,)2201 3719 y
+(38\(3\):26\22637,)23 b(Mar)l(.)d(2003.)34 b(Proceedings)23
+b(of)d(the)g(A)m(CM)h(SIGPLAN)e(W)-5 b(ork-)2201 3794
+y(shop)16 b(on)f(T)-5 b(ypes)16 b(in)g(Language)h(Design)f(and)g
+(Implementation)j(\(TLDI)14 b(2003\).)2049 3894 y([17])42
+b(The)35 b(\223)p Fa(Scr)o(ap)h(your)f(boilerplate)p
+Fb(\224)j(web)d(site:)58 b(e)o(xamples,)40 b(bro)n(wsable)d(li-)2201
+3968 y(brary)l(,)g(papers,)g(background,)i(2003\2262004.)76
+b Fg(http://www.cs.vu.nl/)2201 4043 y(boilerplate/)p
+Fb(.)2049 4143 y([18])42 b(D.)19 b(Lele)n(wer)j(and)f(D.)e(Hirschber)o
+(g.)35 b(Data)22 b(compression.)35 b Fa(A)n(CM)20 b(Computing)2201
+4218 y(Surve)n(ys)p Fb(,)e(19\(3\):261\226296,)h(Sept.)e(1987.)2049
+4317 y([19])42 b(A.)15 b(L)6 b(\250)-28 b(oh,)15 b(D.)g(Clark)o(e,)j
+(and)e(J.)f(Jeuring.)23 b(Dependenc)o(y-style)d(Generic)d(Hask)o(ell.)
+2201 4392 y(In)j(C.)g(Norris)h(and)f(J.)g(J.)f(B.)h(Fenwick,)i
+(editors,)g Fa(Pr)m(oceedings)f(of)g(the)g(Eighth)2201
+4467 y(A)n(CM)30 b(SIGPLAN)f(International)j(Confer)n(ence)g(on)e
+(Functional)i(Pr)m(o)o(gr)o(am-)2201 4541 y(ming)15 b(\(ICFP-03\))p
+Fb(,)g(v)o(olume)h(38,)f(9)f(of)h Fa(A)n(CM)g(SIGPLAN)f(Notices)p
+Fb(,)i(pages)g(141\226)2201 4616 y(152,)h(Ne)n(w)g(Y)-7
+b(ork,)17 b(Aug.)33 b(25\22629)18 b(2003.)f(A)m(CM)g(Press.)2049
+4716 y([20])42 b(S.)20 b(Pe)o(yton)i(Jones)f(and)g(M.)f(Shields.)37
+b(Practical)24 b(type)d(inference)j(for)d(higher)o(-)2201
+4790 y(rank)d(types.)25 b(Unpublished)19 b(manuscript,)f(2004.)2049
+4890 y([21])42 b(M.)25 b(W)-5 b(allace)27 b(and)f(C.)f(Runciman.)53
+b(Hask)o(ell)27 b(and)f(XML:)g(Generic)h(combi-)2201
+4965 y(nators)j(or)g(type-based)h(translation.)67 b(In)29
+b Fa(A)n(CM)g(SIGPLAN)f(International)2201 5039 y(Confer)n(ence)23
+b(on)e(Functional)h(Pr)m(o)o(gr)o(amming)g(\(ICFP'99\))p
+Fb(,)f(pages)g(148\226159,)2201 5114 y(P)o(aris,)c(Sept.)h(1999.)f(A)m
+(CM.)2049 5214 y([22])42 b(S.)16 b(W)-5 b(eirich.)25
+b(T)-5 b(ype-safe)18 b(cast.)25 b(In)17 b(ICFP00)g([11)q(],)f(pages)i
+(58\22667.)2049 5313 y([23])42 b(I.)16 b(W)m(itten,)h(R.)f(Neal,)h(and)
+g(J.)e(Cleary)l(.)24 b(Arithmetic)18 b(coding)g(for)e(data)i(compres-)
+2201 5388 y(sion.)24 b Fa(CA)n(CM)p Fb(,)17 b(30\(6\):520\226540,)i
+(June)e(1987.)p eop
+%%Trailer
+end
+userdict /end-hook known{end-hook}if
+%%EOF
